@@ -5127,4 +5127,10 @@ h2.eco_img_head {
 .tp-tabs{
 	display:none !important;
 }
+
+@media (max-width: 500px) {
+	.facebookContainer{
+		display: none;
+	}
+}
 /*---------------Media Css End---------------*/

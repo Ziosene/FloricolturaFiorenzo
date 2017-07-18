@@ -30,7 +30,7 @@
                         <a style="color:#FFFFFF;" href="mailto:info@floricolturafiorenzo.it"> info@floricolturafiorenzo.it</a>
                     </div>
                 </div>
-                <div class="eco_social_icon">
+                <div class="eco_social_icon facebookContainer">
                     <ul>
                         <a href="https://www.facebook.com/floricolturafiorenzo.it/" title="Facebook">
                             <li><i class="fa fa-facebook"></i></li>
