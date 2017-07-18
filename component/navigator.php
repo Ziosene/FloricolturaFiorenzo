@@ -36,7 +36,7 @@
 <!--Head Section End-->
 <!--Menu Start-->
 <div class="eco_header">
-    <div class="container" style="margin-left:19%">
+    <div class="container containerCenter">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_lr">
                 <nav class="navbar navbar-inverse" role="navigation">
@@ -51,7 +51,6 @@
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
                                     <li><a href="blog.html">Default Servizio</a></li>
-
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
@@ -101,7 +100,10 @@
                 <li class="eco_bigmenu"><a href="portfolio.html">Galleria</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
-                        <li><a href="blog.html">Default gslleria</a></li>
+                        <?php if(isset($cats)) {
+                            foreach ($cats as $cat) { ?>
+                                <li><a href="gallery.php"><?php echo $cat->getLabel();?></a></li>
+                            <?php }} ?>
                     </ul>
                     <!--./sub-menu end-->
                 </li>
@@ -190,7 +192,7 @@
                          data-paddingbottom="[0,0,0,0]"
                          data-paddingleft="[0,0,0,0]"
 
-                         style="z-index: 8; white-space: nowrap;text-transform:left;">   Floricoltura <br/>Fiorenzo</div>
+                         style="z-index: 8; white-space: nowrap;text-transform:left;"><h1>Floricoltura <br> Fiorenzo</h1><br></div>
 
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3"

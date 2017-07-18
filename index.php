@@ -99,6 +99,7 @@
                 <div class="eco_small_heading text-uppercase">La raccolta dei nostri migliori</div>
                 <h2 class="eco_heading text-uppercase">Prodotti</h2>
                 <div class="eco_border padder_bottom_50"></div>
+				<!-- DESKTOPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP - INIZIO -->
                 <div class="eco_uneven_slider">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<!-- Indicators -->
@@ -188,8 +189,10 @@
 						</div>
 					</div>
 				</div>
+				<!-- DESKTOPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP - FINE -->
+				<!-- MOBILEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE - INIZIO -->
 				<div class="row">
-					<div class="eco_tabs_slide_section"> 
+					<div class="eco_tabs_slide_section">
 						<div id="eco_uneven" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
 							<a class="left carousel-control" href="#eco_uneven" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a>
@@ -200,7 +203,7 @@
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<a href="#"> <img src="http://placehold.it/337x257" alt="" class="img-responsive"> </a>
+												<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
 											</div>
 										</div>
 									</div>
@@ -234,7 +237,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
 												<a href="#"> <img src="http://placehold.it/337x257" alt="" class="img-responsive"> </a>
@@ -247,6 +250,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- MOBILEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE - FINE -->
             </div>
         </div>
     </div>

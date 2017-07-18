@@ -34,13 +34,13 @@
                     <h6 class="eco_footer_title"> Orari</h6>
                     <div class="eco_footer_content">
                         <ul>
-                            <li><b>Lunedì:</b> 09:00 - 18:00</li>
-                            <li><b>Martedì:</b> 09:00 - 18:00</li>
-                            <li><b>Mercoledì:</b> 09:00 - 18:00</li>
-                            <li><b>Giovedì:</b> 09:00 - 18:00</li>
-                            <li><b>Venerdì:</b> 09:00 - 18:00</li>
-                            <li><b>Sabato:</b> 09:00 - 18:00</li>
-                            <li><b>Domenica:</b> 09:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Lunedì:</b></span> 09:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Martedì:</b></span> 09:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Mercoledì:</b></span> 09:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Giovedì:</b></span> 09:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Venerdì:</b></span> 09:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Sabato:</b></span> 09:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Domenica:</b></span> 09:00 - 18:00</li>
                         </ul>
                     </div>
                     <!--Footer Categories Start-->

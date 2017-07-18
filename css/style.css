@@ -5117,6 +5117,11 @@ h2.eco_img_head {
 }
 }
 
+@media (min-width: 900px) {
+	.containerCenter{
+		margin-left: 19%;
+	}
+}
 
 .tp-tabs{
 	display:none !important;
