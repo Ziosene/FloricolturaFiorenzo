@@ -152,7 +152,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
+											<a href="#"> <img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive"> </a>
 										</div>
 									</div>
 								</div>
@@ -213,78 +213,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="item">
-								<div class="eco_one_third eco_show_overlay garden_gallery">
-									<div class="eco_port_recentimage eco_margin_bottom">
-										<div class="eco_port_overdefult">
-											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Preparing The Soil">
-													<h5>Preparing the Soil</h5>
-												</a>
-											</div>
-										</div>
-										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
-										</div>
-									</div>
-								</div>
-								<div class="eco_one_third_mid eco_show_overlay garden_gallery">
-									<div class="eco_port_recentimage eco_margin_bottom">
-										<div class="eco_port_overdefult">
-											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Green Vegitables">
-													<h5>green vegitables</h5>
-												</a>
-											</div>
-										</div>
-										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x585" alt="" class="img-responsive"> </a>
-										</div>
-									</div>
-								</div>
-								<div class="eco_one_third_right eco_show_overlay garden_gallery">
-									<div class="eco_port_recentimage eco_margin_bottom">
-										<div class="eco_port_overdefult">
-											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Weeding">
-													<h5>Weeding</h5>
-												</a>
-											</div>
-										</div>
-										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
-										</div>
-									</div>
-								</div>
-								<div class="eco_one_third_btm eco_show_overlay garden_gallery">
-									<div class="eco_port_recentimage eco_margin_bottom">
-										<div class="eco_port_overdefult">
-											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Toxic Pesticides">
-													<h5>Toxic Pesticides</h5>
-												</a>
-											</div>
-										</div>
-										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
-										</div>
-									</div>
-								</div>
-								<div class="eco_one_third_btm_right eco_show_overlay garden_gallery">
-									<div class="eco_port_recentimage eco_margin_bottom">
-										<div class="eco_port_overdefult">
-											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Harvesting">
-													<h5>Harvesting</h5>
-												</a>
-											</div>
-										</div>
-										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
-										</div>
-									</div>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</div>

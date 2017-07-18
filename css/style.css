@@ -5116,4 +5116,9 @@ h2.eco_img_head {
     top: -10%;
 }
 }
+
+
+.tp-tabs{
+	display:none !important;
+}
 /*---------------Media Css End---------------*/

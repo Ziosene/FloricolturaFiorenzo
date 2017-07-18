@@ -1,3 +1,10 @@
+<?php
+    require_once('class/DBManager.php');
+    require_once('class/dao/CategoryDAO.php');
+    $db= new DBManager();
+    $catDAO = new CategoryDAO($db->getConnection());
+    $cats = $catDAO->retrieveCategorys();
+?>
 <!--preloader start-->
 <div id="preloader">
     <div id="status"><img src="images/loading.gif" id="preloader_image" alt="loader">
@@ -27,7 +34,7 @@
 <!--Head Section End-->
 <!--Menu Start-->
 <div class="eco_header">
-    <div class="container">
+    <div class="container" style="margin-left:19%">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_lr">
                 <nav class="navbar navbar-inverse" role="navigation">
@@ -41,8 +48,7 @@
                             <li class="eco_pos_rel"><a href="blog.html">Servizi</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
-                                    <li><a href="blog.html">Default Servizio</a>
-                                    </li>
+                                    <li><a href="blog.html">Default Servizio</a></li>
 
                                 </ul>
                                 <!--./sub-menu end-->
@@ -50,7 +56,10 @@
                             <li class="eco_bigmenu"><a href="portfolio.html">Galleria</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
-                                    <li><a href="blog.html">Default gslleria</a></li>
+                                    <?php if(isset($cats)) {
+                                        foreach ($cats as $cat) { ?>
+                                        <li><a href="gallery.php"><?php echo $cat->getLabel();?></a></li>
+                                    <?php }} ?>
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
