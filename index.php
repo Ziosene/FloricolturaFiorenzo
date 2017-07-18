@@ -28,7 +28,7 @@
         <div class="container">
             <div class="eco_main_heading">
                 <h1 class="text-center"><span>I NOSTRI </span> <strong><span class="eco_color">SERVIZI</span></strong> </h1>
-                <div class="eco_small_text text-center">Vi proponiamo i nostri servizi</div>
+                <div class="eco_small_text text-center">Vi proponiamo i seguenti servizi</div>
             </div>
         </div>
     </div>
@@ -45,11 +45,11 @@
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the left over 1s">
 							<div class="eco_service_icon">
-								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-people-5"></i> </a>
+								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-nature-1"></i> </a>
 							</div>
 							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Garden Care </h5>
-								<div class="eco_service_data">Vestibulum ante ipsum primis in fauc ibus orci luctus et ultrices posuere cubilia Curae.</div>
+								<h5 class="text-uppercase"> Giardini e Terrazzi </h5>
+								<div class="eco_service_data">Realizzazione, manutenzione e cura di giardini e terrazzi.</div>
 							</div>
 						</div>
 					</div>
@@ -59,8 +59,8 @@
 								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-plant-on-a-hand"></i></a>
 							</div>
 							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Excellent Services </h5>
-								<div class="eco_service_data">Vestibulum ante ipsum primis in fauc ibus orci luctus et ultrices posuere cubilia Curae.</div>
+								<h5 class="text-uppercase"> Eventi </h5>
+								<div class="eco_service_data">Organizzazione e allestimento eventi, quali matrimoni, battesimi, ...</div>
 							</div>
 						</div>
 					</div>
@@ -70,19 +70,19 @@
 								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-nature-2"></i> </a>
 							</div>
 							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Landscape Design </h5>
-								<div class="eco_service_data">Vestibulum ante ipsum primis in fauc ibus orci luctus et ultrices posuere cubilia Curae.</div>
+								<h5 class="text-uppercase"> Vivaio </h5>
+								<div class="eco_service_data">Vendita diretta al pubblico di piante prodotte nelle nostre serre</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the right over 1s">
 							<div class="eco_service_icon">
-								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-people-8"></i> </a>
+								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-water"></i> </a>
 							</div>
 							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Rubbish Removal </h5>
-								<div class="eco_service_data">Vestibulum ante ipsum primis in fauc ibus orci luctus et ultrices posuere cubilia Curae.</div>
+								<h5 class="text-uppercase"> Irrigazione </h5>
+								<div class="eco_service_data">Installazione e manutenzione degli impianti di irrigazione</div>
 							</div>
 						</div>
 					</div>
@@ -96,8 +96,8 @@
     <div class="eco_recycle">
         <div class="container">
             <div class="eco_wraper text-center">
-                <div class="eco_small_heading text-uppercase">La raccolta dei nostri migliori prodotti</div>
-                <h2 class="eco_heading text-uppercase">Galleria</h2>
+                <div class="eco_small_heading text-uppercase">La raccolta dei nostri migliori</div>
+                <h2 class="eco_heading text-uppercase">Prodotti</h2>
                 <div class="eco_border padder_bottom_50"></div>
                 <div class="eco_uneven_slider">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -255,7 +255,7 @@
     <div class="garden_contact text-center">
         <div class="container">
             <div class="eco_main_heading padder_bottom_30">
-                <h1 class="text-center text-uppercase">START Gardening NOW</h1>
+                <h1 class="text-center text-uppercase">vieni a trovarci</h1>
                 <div class="eco_small_text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo interdum.</div>
                 <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="">
                 </a>
