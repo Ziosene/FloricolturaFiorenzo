@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="it">
-<!--<![endif]-->
+<!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +13,7 @@
     <link rel="stylesheet" id="theme-change" type="text/css" href="#">
     <!--color changing css file end-->
     <!-- favicon link -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon-ecorecycling.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
     <!-- favicon link End -->
 </head>
 <!-- Header End -->
@@ -36,39 +33,12 @@
         </div>
     </div>
     <!--Home Heading End-->
-    <!--Home Section End-->
-    <!--Services Section Start-->
-	<div class="eco_achievement">
-        <div class="container">
-            <div class="eco_wraper text-center garden_ach">
-				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="eco_ach">
-							<div class="eco_ach_image">
-								<a href="" class="eco_opacity"><img src="http://placehold.it/265x202" class="img-responsive" alt="">
-								</a>
-							</div>
-							<div class="garden_ach_content">
-								<h3><a href="">Lawn Renovation</a></h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo inter. Quisque tempor, justo sit amet.</p>
-							</div>
-						</div>
-					</div>
 
-				</div>
-            </div>
-        </div>
-    </div>
-    <!--Services Section End-->
     <!--Achievement Section Start-->
     <div class="eco_service_wraper">
         <div class="container">
 			<div class="eco_wraper text-center">
-                <div class="eco_small_heading text-uppercase">Lorem ipsum is a dummy text it will use for subtitle here </div>
-                <h2 class="eco_heading text-uppercase">I Nostri servizi</h2>
-                <div class="eco_border padder_bottom_50">
-                    <div class="eco_border_line"></div>
-                </div>
+                <!-- spacer -->
             </div>
 			<div class="row">
 				<div class="garden_featurediv text-center">
@@ -116,11 +86,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="eco_service_btn">
-							<a href="" class="eco_btn text-center">VIEW ALL</a> 
-						</div>
-					</div>
+
 				</div>
 			</div>
         </div>
@@ -130,8 +96,8 @@
     <div class="eco_recycle">
         <div class="container">
             <div class="eco_wraper text-center">
-                <div class="eco_small_heading text-uppercase">Lorem ipsum dolor sit amet Quis, consectetur adipisicing elit.</div>
-                <h2 class="eco_heading text-uppercase">La Nostra Galleria</h2>
+                <div class="eco_small_heading text-uppercase">La raccolta dei nostri migliori prodotti</div>
+                <h2 class="eco_heading text-uppercase">Galleria</h2>
                 <div class="eco_border padder_bottom_50"></div>
                 <div class="eco_uneven_slider">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -146,27 +112,24 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Flower Plants">
-													<h5>flower plants</h5>
-												</a>
+												<h5>flower plants</h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<a href="#"> <img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive"> </a>
+											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
 								</div>
-								<div class="eco_one_third_mid eco_show_overlay garden_gallery">
+								<div class="eco_one_third eco_show_overlay garden_gallery">
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Bone Size Plants">
 													<h5>bone size plants</h5>
-												</a>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x585" alt="" class="img-responsive"> </a>
+											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+
 										</div>
 									</div>
 								</div>
@@ -174,13 +137,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Plant Transplantation">
 													<h5>plant transplantation</h5>
-												</a>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
+											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
 								</div>
@@ -188,13 +149,23 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Garden Cleaning">
 													<h5>garden cleaning</h5>
-												</a>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
+											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+										</div>
+									</div>
+								</div>
+								<div style="left:383px;" class="eco_one_third_btm eco_show_overlay garden_gallery">
+									<div class="eco_port_recentimage eco_margin_bottom">
+										<div class="eco_port_overdefult">
+											<div class="eco_port_recentdescription">
+													<h5>garden cleaning</h5>
+											</div>
+										</div>
+										<div class="eco_port_image">
+											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
 								</div>
@@ -208,7 +179,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<a href="#"> <img src="http://placehold.it/383x292" alt="" class="img-responsive"> </a>
+											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
 								</div>
