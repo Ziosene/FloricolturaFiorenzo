@@ -34,41 +34,19 @@
     </div>
     <!--Breadcrumb End-->
     <!--Inner Container Start-->
-    <!--eco_mapdiv strat-->
-    <div class="eco_mapdiv">
-        <div id="bigth_googleMap" style="width:100%;height:400px;"></div>
-    </div>
-    <!--eco_mapdiv end-->
     <!--eco_contactForm Start-->
     <div class="eco_inner_page_container">
         <div class="container">
             <div class="eco_contact_page padder_top_50 padder_bottom_50">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="eco_contact_form">
-                            <div class="form-group">
-                                <label>Your Name (required)</label>
-                                <input type="text" id="uname" name="name" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Your Email (required)</label>
-                                <input type="text" id="umail" name="email" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Your Subject</label>
-                                <input type="text" id="subj" name="subject" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Your Message</label>
-                                <textarea class="form-control tr_textarea" id="msg" rows="5"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="button" name="btn" value="send" id="em_submit" class="btn btn-primary">
-                                <p id="err"></p>
-                            </div>
+                        <!--eco_mapdiv strat-->
+                        <div class="eco_mapdiv">
+                            <div id="bigth_googleMap" style="width:100%;height:450px;"></div>
                         </div>
+                        <!--eco_mapdiv end-->
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
                         <div class="eco_contact_info">
                             <ul>
                                 <li><i class="fa fa-home"> </i>FLORICOLTURA FIORENZO
@@ -125,15 +103,16 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?key=&amp;sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
+            type="text/javascript"></script>
     <script>
         $(document).ready(function() {
-            var myCenter = new google.maps.LatLng("45.5201502", "9.3044117");
+            var myCenter = new google.maps.LatLng("45.520154", "9.306600");
 
             function initialize() {
                 var mapProp = {
                     center: myCenter,
-                    zoom: 12,
+                    zoom: 15,
                     scrollwheel: true,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
