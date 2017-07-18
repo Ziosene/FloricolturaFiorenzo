@@ -56,9 +56,9 @@ $count = $fotogalleryDAO->numFotogallery();
 
                 <div class="row">
                     <div class="col-lg-8" >
-                        <p>In questa sezione &#232; possibile configurare i fotogallery da mostrare</p>
+                        <p>In questa sezione &#232; possibile configurare le foto da visualizzare nel sito web</p>
                     </div>
-                    <div class="col-lg-2" >
+                    <div class="col-lg-4" >
                             <button href="#" data-toggle="modal" data-target="#newCat" style="float:right" class="btn btn-primary" type="button"><i class="fa fa-plus"></i> Aggiungi</button>
                      </div>
                 </div>

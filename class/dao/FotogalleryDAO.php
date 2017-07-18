@@ -24,7 +24,24 @@ class FotogalleryDAO
 
     function retrieveFotogallery(){
 
-        $result = mysqli_query($this->conn,"SELECT t.id,c.nome,t.nome,t.descrizione,t.filename, FROM fotogallery t left join categorie c on c.id = t.categoryId");
+        $result = mysqli_query($this->conn,"SELECT t.id,c.nome,t.nome,t.descrizione,t.filename FROM fotogallery t left join categorie c on c.id = t.categoryId");
+        if(mysqli_num_rows($result) > 0) {
+            for($i = 0; $i < mysqli_num_rows($result); $i++) {
+                $row = mysqli_fetch_array($result);
+                $fotogallerys[$i] = new Fotogallery();
+                $fotogallerys[$i]->setId($row[0]);
+                $fotogallerys[$i]->setCategoryName($row[1]);
+                $fotogallerys[$i]->setNome($row[2]);
+                $fotogallerys[$i]->setDesc($row[3]);
+                $fotogallerys[$i]->setFilename($row[4]);
+            }
+        }
+        return $fotogallerys;
+    }
+
+    function retrieveFotogalleryShowroom(){
+
+        $result = mysqli_query($this->conn,"SELECT t.id,c.nome,t.nome,t.descrizione,t.filename FROM fotogallery t left join categorie c on c.id = t.categoryId ORDER by t.id LIMIT 20");
         if(mysqli_num_rows($result) > 0) {
             for($i = 0; $i < mysqli_num_rows($result); $i++) {
                 $row = mysqli_fetch_array($result);

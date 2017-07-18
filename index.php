@@ -93,6 +93,15 @@
     </div>
     <!--Achievement Section End-->
     <!--Recycling1 Section Start-->
+
+	<?php
+		require_once('class/dao/FotogalleryDAO.php');
+		require_once('class/domain/Fotogallery.php');
+		$fotogalleryDAO = new FotogalleryDAO($db->getConnection());
+		$gallery = $fotogalleryDAO->retrieveFotogalleryShowroom();
+		if(isset($gallery)){
+	?>
+
     <div class="eco_recycle">
         <div class="container">
             <div class="eco_wraper text-center">
@@ -108,84 +117,86 @@
 						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a>
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
-							<div class="item active">
+							<?php for ($i = 0; $i < count($gallery) && $i + 6 <= count($gallery); ) {?>
+							<div class="item <?php echo $i==0 ? "active" : ""?>">
 								<div class="eco_one_third eco_show_overlay garden_gallery">
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<h5>flower plants</h5>
+												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
 										</div>
 									</div>
 								</div>
+								<?php $i++; ?>
 								<div class="eco_one_third eco_show_overlay garden_gallery">
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-													<h5>bone size plants</h5>
+												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
 
 										</div>
 									</div>
-								</div>
+								</div><?php $i++; ?>
 								<div class="eco_one_third_right eco_show_overlay garden_gallery">
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-													<h5>plant transplantation</h5>
+												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
 										</div>
 									</div>
-								</div>
+								</div><?php $i++; ?>
 								<div class="eco_one_third_btm eco_show_overlay garden_gallery">
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-													<h5>garden cleaning</h5>
+												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
 										</div>
 									</div>
-								</div>
+								</div><?php $i++; ?>
 								<div style="left:383px;" class="eco_one_third_btm eco_show_overlay garden_gallery">
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-													<h5>garden cleaning</h5>
+												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
 										</div>
 									</div>
-								</div>
+								</div><?php $i++; ?>
 								<div class="eco_one_third_btm_right eco_show_overlay garden_gallery">
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
 												<a href="portfolio-singlevideo.html" title="Plants Cutting">
-													<h5>Plants cutting</h5>
+													<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 												</a>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
 										</div>
 									</div>
-								</div>
+								</div><?php $i++; ?>
 							</div>
-
+							<?php } ?>
 						</div>
 					</div>
 				</div>
@@ -199,52 +210,34 @@
 							<a class="right carousel-control" href="#eco_uneven" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a>
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
-								<div class="item active">
+								<?php for ($i = 0; $i < count($gallery) && $i + 3 <= count($gallery); ) {?>
+								<div class="item <?php echo $i==0 ? "active" : ""?>">
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<img style="width:100%; height:292px;" src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg" alt="" class="img-responsive">
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<?php $i++; ?>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<a href="#"> <img src="http://placehold.it/337x257" alt="" class="img-responsive"> </a>
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<?php $i++; ?>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<a href="#"> <img src="http://placehold.it/337x257" alt="" class="img-responsive"> </a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-										<div class="eco_port_recentimage eco_margin_bottom">
-											<div class="eco_port_image">
-												<a href="#"> <img src="http://placehold.it/337x257" alt="" class="img-responsive"> </a>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-										<div class="eco_port_recentimage eco_margin_bottom">
-											<div class="eco_port_image">
-												<a href="#"> <img src="http://placehold.it/337x257" alt="" class="img-responsive"> </a>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-										<div class="eco_port_recentimage eco_margin_bottom">
-											<div class="eco_port_image">
-												<a href="#"> <img src="http://placehold.it/337x257" alt="" class="img-responsive"> </a>
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<?php $i++; ?>
 											</div>
 										</div>
 									</div>
 								</div>
+								<?php } ?>
 							</div>
 							<!-- Controls -->
 						</div>
@@ -254,6 +247,8 @@
             </div>
         </div>
     </div>
+	<?php } ?>
+
     <!--Recycling1 Section End-->
     <!--Recycling1 Img Section Start-->
     <div class="garden_contact text-center">
