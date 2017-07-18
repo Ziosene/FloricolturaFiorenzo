@@ -27,7 +27,7 @@
         <div class="container">
             <div class="eco_page_topbar">
                 <div class="eco_page_title">
-                    <h4 class="text-uppercase">maps</h4>
+                    <h4 class="text-uppercase">dove trovarci</h4>
                 </div>
             </div>
         </div>
