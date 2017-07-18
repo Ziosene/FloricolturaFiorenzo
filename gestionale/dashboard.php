@@ -9,18 +9,15 @@
         <!-- Navigation -->
         <?php
             include "component/navigator.php";
-            require_once("../class/dao/ClientiDAO.php");
-            require_once("../class/dao/TattooDAO.php");
+            require_once("../class/dao/FotogalleryDAO.php");
             require_once("../class/dao/CategoryDAO.php");
             require_once("../class/dao/StatisticDAO.php");
 
-            $clientiDAO = new ClientiDAO($db->getConnection());
-            $tattooDAO = new TattooDAO($db->getConnection());
+            $fotogalleryDAO = new FotogalleryDAO($db->getConnection());
             $catDAO = new CategoryDAO($db->getConnection());
             $stat = new StatisticDAO($db->getConnection());
 
-            $numClienti = $clientiDAO->numClienti();
-            $numTattoo = $tattooDAO->numTattoo();
+            $numFotogallery = $fotogalleryDAO->numFotogallery();
             $numCat = $catDAO->numCategory();
             $view = $stat->visualizzazioni();
         ?>
@@ -58,8 +55,8 @@
                                     <i class="fa fa-tasks fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge"><?php echo $numTattoo; ?></div>
-                                    <div>Tattoo</div>
+                                    <div class="huge"><?php echo $numFotogallery; ?></div>
+                                    <div>Fotogallery</div>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +70,8 @@
                                     <i class="fa fa-shopping-cart fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge"><?php echo $numClienti; ?></div>
-                                    <div>Clienti registrati</div>
+                                    <div class="huge">0</div>
+                                    <div>Servizi</div>
                                 </div>
                             </div>
                         </div>
