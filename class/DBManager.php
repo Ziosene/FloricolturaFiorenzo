@@ -10,9 +10,9 @@
  */
 class DBManager
 {
-    private $user       = "";
-    private $password   = "";
-    private $database   = "";
+    private $user       = "Sql530120";
+    private $password   = "39b80652";
+    private $database   = "Sql530120_1";
 
     public $conn;
 
@@ -21,7 +21,7 @@ class DBManager
      * */
     function getConnection(){
         if( !$this->conn){
-            $this->conn = mysqli_connect(NULL, $this->user, $this->password,  $this->database) or exit("Connection Error");
+            $this->conn = mysqli_connect("62.149.150.149", $this->user, $this->password,  $this->database) or exit("Connection Error");
         }
 
         return $this->conn;

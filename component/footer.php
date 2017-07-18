@@ -23,7 +23,7 @@
                             <p><b>Telefono:</b> <a style="color:#69af07;" href="tel:+39333 681 9062">333 681 9062</a>
                                 <br>
                             </p>
-                            <p><b>Email:</b> <a style="color:#69af07;" href="mailto:info@ecogardening.com"> info@ecogardening.com</a></p>
+                            <p><b>Email:</b> <a style="color:#69af07;" href="mailto:info@floricolturafiorenzo.it"> info@floricolturafiorenzo.it</a></p>
                         </div>
                     </div>
                 </div>
@@ -35,12 +35,12 @@
                     <div class="eco_footer_content">
                         <ul>
                             <li><b>Lunedì:</b> 09:00 - 18:00</li>
-                            <li><b>Lunedì:</b> 09:00 - 18:00</li>
-                            <li><b>Lunedì:</b> 09:00 - 18:00</li>
-                            <li><b>Lunedì:</b> 09:00 - 18:00</li>
-                            <li><b>Lunedì:</b> 09:00 - 18:00</li>
-                            <li><b>Lunedì:</b> 09:00 - 18:00</li>
-                            <li><b>Lunedì:</b> 09:00 - 18:00</li>
+                            <li><b>Martedì:</b> 09:00 - 18:00</li>
+                            <li><b>Mercoledì:</b> 09:00 - 18:00</li>
+                            <li><b>Giovedì:</b> 09:00 - 18:00</li>
+                            <li><b>Venerdì:</b> 09:00 - 18:00</li>
+                            <li><b>Sabato:</b> 09:00 - 18:00</li>
+                            <li><b>Domenica:</b> 09:00 - 18:00</li>
                         </ul>
                     </div>
                     <!--Footer Categories Start-->

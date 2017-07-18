@@ -8,7 +8,6 @@
 
 require_once(dirname(__FILE__)."/../../../class/DBManager.php");
 require_once(dirname(__FILE__)."/../../../class/dao/CategoryDAO.php");
-require_once(dirname(__FILE__)."/../../../class/domain/Category.php");
 
 $id=$_POST['idDel'];
 
