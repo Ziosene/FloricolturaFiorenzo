@@ -24,7 +24,9 @@
             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12  pull-right">
                 <div class="eco_social_icon">
                     <ul>
-                        <li><a href="https://www.facebook.com/floricolturafiorenzo.it/" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/floricolturafiorenzo.it/" title="Facebook">
+                            <li><i class="fa fa-facebook"></i></li>
+                        </a>
                     </ul>
                 </div>
             </div>
