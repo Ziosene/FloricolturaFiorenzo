@@ -34,7 +34,7 @@
                 <ul>    <!-- SLIDE  -->
                     <li data-index="rs-2978" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Gardening" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+                        <img src="../images/fioreviola.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
@@ -367,7 +367,7 @@
                 <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="">
                 </a>
             </div>
-            <div class="eco_contact_btn"><a href="#" class="eco_transition text-uppercase">contattaci</a>
+            <div class="eco_contact_btn"><a href="contattaci.php" class="eco_transition text-uppercase">contattaci</a>
             </div>
         </div>
     </div>
