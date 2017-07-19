@@ -22,10 +22,10 @@
 <!-- Body Start -->
 <body>
 <!--    NAVIGATOR START-->
-<?php
-$page = "servizi";
-include "component/navigator.php";
-?>
+    <?php
+        $page = "servizi";
+        include "component/navigator.php";
+    ?>
 <!--    NAVIGATOR END-->
 
     <!--START REVOLUTION SLIDER-->

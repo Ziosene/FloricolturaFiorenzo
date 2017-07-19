@@ -76,7 +76,7 @@
                                 <!--./sub-menu end-->
                             </li>
                             <li class="eco_pos_rel"><a href="chisiamo.php" class="<?php echo $page == "chisiamo" ? "active" : "";?>">CHI SIAMO</a></li>
-                            <li class="eco_pos_rel"><a href="dovesiamo.php" class?="<?php echo $page == "dovesiamo" ? "active" : "";?>">DOVE SIAMO</a></li>
+                            <li class="eco_pos_rel"><a href="dovesiamo.php" class="<?php echo $page == "dovesiamo" ? "active" : "";?>">DOVE SIAMO</a></li>
                             <li class="eco_pos_rel"><a href="contattami.php" class="<?php echo $page == "contattami" ? "active" : "";?>">CONTATTAMI</a></li>
                         </ul>
                     </div>

@@ -21,7 +21,10 @@
 <!-- Body Start -->
 
 <body>
-    <?php include "component/navigator.php"; ?>
+    <?php
+        $page = "dovesiamo";
+        include "component/navigator.php";
+    ?>
     <!--Breadcrumb Start-->
     <div class="eco_bread">
         <div class="container">
@@ -75,10 +78,7 @@
     </div>
     <!--go to top End-->
     <!--Footer Section Start-->
-    <?php
-        $page = "dovesiamo";
-        include "component/footer.php";
-    ?>
+    <?php include "component/footer.php"; ?>
     <!--Footer Section End-->
     <!--Script Start-->
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
