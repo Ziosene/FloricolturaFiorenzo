@@ -55,14 +55,14 @@
                     <div id="main-nav" class="collapse navbar-collapse padding_left">
                         <ul class="nav navbar-nav my_menu">
                             <li class="eco_pos_rel"><a href="index.php" class="active">HOME</a></li>
-                            <li class="eco_pos_rel"><a href="blog.html">Servizi</a>
+                            <li class="eco_pos_rel"><a href="servizi.php">Servizi</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
-                                    <li><a href="blog.html">Default Servizio</a></li>
+                                    <li><a href="#">Default Servizio</a></li>
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
-                            <li class="eco_bigmenu"><a href="portfolio.html">Galleria</a>
+                            <li class="eco_bigmenu"><a href="#">Galleria</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
                                     <?php if(isset($cats)) {
@@ -74,7 +74,7 @@
                             </li>
                             <li class="eco_pos_rel"><a href="#">CHI SIAMO</a></li>
                             <li class="eco_pos_rel"><a href="dovesiamo.php">DOVE SIAMO</a></li>
-                            <li class="eco_pos_rel"><a href="#">CONTATTAMI</a></li>
+                            <li class="eco_pos_rel"><a href="contattami.php">CONTATTAMI</a></li>
                         </ul>
                     </div>
                     <!--navbar-collapse-->
@@ -96,16 +96,16 @@
         <div class="menu-fixedmenu home">
             <ul id="menu-home-page" class="menu my_menu">
                 <li class="eco_pos_rel"><a href="index.php" class="active">HOME</a></li>
-                <li class="eco_pos_rel"><a href="blog.html">Servizi</a>
+                <li class="eco_pos_rel"><a href="servizi.php">Servizi</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
-                        <li><a href="blog.html">Default Servizio</a>
+                        <li><a href="#">Default Servizio</a>
                         </li>
 
                     </ul>
                     <!--./sub-menu end-->
                 </li>
-                <li class="eco_bigmenu"><a href="portfolio.html">Galleria</a>
+                <li class="eco_bigmenu"><a href="#">Galleria</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
                         <?php if(isset($cats)) {
@@ -117,7 +117,7 @@
                 </li>
                 <li class="eco_pos_rel"><a href="#">CHI SIAMO</a></li>
                 <li class="eco_pos_rel"><a href="dovesiamo.php">DOVE SIAMO</a></li>
-                <li class="eco_pos_rel"><a href="#">CONTATTAMI</a></li>
+                <li class="eco_pos_rel"><a href="contattami.php">CONTATTAMI</a></li>
             </ul>
         </div>
     </div>
