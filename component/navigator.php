@@ -72,7 +72,7 @@
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
-                            <li class="eco_pos_rel"><a href="#">CHI SIAMO</a></li>
+                            <li class="eco_pos_rel"><a href="chisiamo.php">CHI SIAMO</a></li>
                             <li class="eco_pos_rel"><a href="dovesiamo.php">DOVE SIAMO</a></li>
                             <li class="eco_pos_rel"><a href="contattami.php">CONTATTAMI</a></li>
                         </ul>
@@ -115,7 +115,7 @@
                     </ul>
                     <!--./sub-menu end-->
                 </li>
-                <li class="eco_pos_rel"><a href="#">CHI SIAMO</a></li>
+                <li class="eco_pos_rel"><a href="chisiamo.php">CHI SIAMO</a></li>
                 <li class="eco_pos_rel"><a href="dovesiamo.php">DOVE SIAMO</a></li>
                 <li class="eco_pos_rel"><a href="contattami.php">CONTATTAMI</a></li>
             </ul>

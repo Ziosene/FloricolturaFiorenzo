@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floricoltura Fiorenzo</title>
+    <title>Contattami :: Floricoltura Fiorenzo</title>
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
@@ -38,30 +38,32 @@
     <div class="eco_inner_page_container">
         <div class="container">
             <div class="eco_contact_page padder_top_50 padder_bottom_50">
-                <div class="row">
-                        <div class="eco_contact_form">
-                            <div class="form-group">
-                                <label>Nome Cognome</label>
-                                <input type="text" id="uname" name="name" class="form-control">
+                <form action="#">
+                    <div class="row">
+                            <div class="eco_contact_form">
+                                <div class="form-group">
+                                    <label>Nome Cognome</label>
+                                    <input required type="text" id="uname" name="name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input required type="email" id="umail" name="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Oggetto</label>
+                                    <input required type="text" id="subj" name="subject" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Messaggio</label>
+                                    <textarea required class="form-control tr_textarea" id="msg" rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="btn" value="send" id="em_submit" class="btn btn-primary">
+                                    <p id="err"></p>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label>Email</label>
-                                <input type="text" id="umail" name="email" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Oggetto</label>
-                                <input type="text" id="subj" name="subject" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Messaggio</label>
-                                <textarea class="form-control tr_textarea" id="msg" rows="5"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="button" name="btn" value="send" id="em_submit" class="btn btn-primary">
-                                <p id="err"></p>
-                            </div>
-                        </div>
-                </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
