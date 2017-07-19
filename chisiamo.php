@@ -21,7 +21,10 @@
 
 <body>
 
-    <?php include "component/navigator.php"; ?>
+    <?php
+        $page = "chisiamo";
+        include "component/navigator.php";
+    ?>
     <!--Home Section Start-->
     <!--Home Slider Start-->
     <div class="garden_mainslider">

@@ -21,7 +21,10 @@
 
 <body>
 
-<?php include "component/navigator.php"; ?>
+    <?php
+        $page = "contattami";
+        include "component/navigator.php";
+    ?>
     <!--Breadcrumb Start-->
     <div class="eco_bread">
         <div class="container">

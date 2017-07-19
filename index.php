@@ -21,7 +21,10 @@
 
 <body>
 
-	<?php include "component/navigator.php"; ?>
+	<?php
+        $page = "home";
+        include "component/navigator.php";
+    ?>
 
     <!--Home Slider Start-->
     <div class="garden_mainslider">

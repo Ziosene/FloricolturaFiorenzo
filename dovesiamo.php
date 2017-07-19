@@ -75,7 +75,10 @@
     </div>
     <!--go to top End-->
     <!--Footer Section Start-->
-    <?php include "component/footer.php"; ?>
+    <?php
+        $page = "dovesiamo";
+        include "component/footer.php";
+    ?>
     <!--Footer Section End-->
     <!--Script Start-->
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>

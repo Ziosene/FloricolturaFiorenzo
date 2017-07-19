@@ -20,7 +20,10 @@
 <!-- Body Start -->
 
 <body>
-    <?php include "component/navigator.php"; ?>
+    <?php
+        $page = "galleria";
+        include "component/navigator.php";
+    ?>
     <!--Breadcrumb Start-->
     <div class="eco_bread">
         <div class="container">

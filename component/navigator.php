@@ -54,11 +54,14 @@
                     <!--navbar-header-->
                     <div id="main-nav" class="collapse navbar-collapse padding_left">
                         <ul class="nav navbar-nav my_menu">
-                            <li class="eco_pos_rel"><a href="index.php" class="active">HOME</a></li>
-                            <li class="eco_pos_rel"><a href="servizi.php">Servizi</a>
+                            <li class="eco_pos_rel"><a href="index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
+                            <li class="eco_pos_rel"><a href="servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
-                                    <li><a href="#">Default Servizio</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser1">Servizio1</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser2">Servizio2</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser3">Servizio3</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser4">Servizio4</a></li>
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
@@ -67,14 +70,14 @@
                                 <ul class="sub-menu">
                                     <?php if(isset($cats)) {
                                         foreach ($cats as $cat) { ?>
-                                        <li><a href="gallery.php"><?php echo $cat->getLabel();?></a></li>
+                                        <li><a href="gallery.php" class="<?php echo $page == "galleria" ? "active" : "";?>"><?php echo $cat->getLabel();?></a></li>
                                     <?php }} ?>
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
-                            <li class="eco_pos_rel"><a href="chisiamo.php">CHI SIAMO</a></li>
-                            <li class="eco_pos_rel"><a href="dovesiamo.php">DOVE SIAMO</a></li>
-                            <li class="eco_pos_rel"><a href="contattami.php">CONTATTAMI</a></li>
+                            <li class="eco_pos_rel"><a href="chisiamo.php" class="<?php echo $page == "chisiamo" ? "active" : "";?>">CHI SIAMO</a></li>
+                            <li class="eco_pos_rel"><a href="dovesiamo.php" class?="<?php echo $page == "dovesiamo" ? "active" : "";?>">DOVE SIAMO</a></li>
+                            <li class="eco_pos_rel"><a href="contattami.php" class="<?php echo $page == "contattami" ? "active" : "";?>">CONTATTAMI</a></li>
                         </ul>
                     </div>
                     <!--navbar-collapse-->
@@ -95,11 +98,14 @@
         </div>
         <div class="menu-fixedmenu home">
             <ul id="menu-home-page" class="menu my_menu">
-                <li class="eco_pos_rel"><a href="index.php" class="active">HOME</a></li>
-                <li class="eco_pos_rel"><a href="servizi.php">Servizi</a>
+                <li class="eco_pos_rel"><a href="index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
+                <li class="eco_pos_rel"><a href="servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
-                        <li><a href="#">Default Servizio</a>
+                        <li><a class="scroll" href="servizi.php#ser1">Servizio1</a></li>
+                        <li><a class="scroll" href="servizi.php#ser2">Servizio2</a></li>
+                        <li><a class="scroll" href="servizi.php#ser3">Servizio3</a></li>
+                        <li><a class="scroll" href="servizi.php#ser4">Servizio4</a></li>
                         </li>
 
                     </ul>
@@ -110,14 +116,14 @@
                     <ul class="sub-menu">
                         <?php if(isset($cats)) {
                             foreach ($cats as $cat) { ?>
-                                <li><a href="gallery.php"><?php echo $cat->getLabel();?></a></li>
+                                <li><a href="gallery.php" class="<?php echo $page == "galleria" ? "active" : "";?>"><?php echo $cat->getLabel();?></a></li>
                             <?php }} ?>
                     </ul>
                     <!--./sub-menu end-->
                 </li>
-                <li class="eco_pos_rel"><a href="chisiamo.php">CHI SIAMO</a></li>
-                <li class="eco_pos_rel"><a href="dovesiamo.php">DOVE SIAMO</a></li>
-                <li class="eco_pos_rel"><a href="contattami.php">CONTATTAMI</a></li>
+                <li class="eco_pos_rel"><a href="chisiamo.php" class="<?php echo $page == "chisiamo" ? "active" : "";?>">CHI SIAMO</a></li>
+                <li class="eco_pos_rel"><a href="dovesiamo.php" class="<?php echo $page == "dovesiamo" ? "active" : "";?>">DOVE SIAMO</a></li>
+                <li class="eco_pos_rel"><a href="contattami.php" class="<?php echo $page == "contattami" ? "active" : "";?>">CONTATTAMI</a></li>
             </ul>
         </div>
     </div>

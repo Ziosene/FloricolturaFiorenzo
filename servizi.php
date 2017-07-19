@@ -22,7 +22,10 @@
 <!-- Body Start -->
 <body>
 <!--    NAVIGATOR START-->
-<?php include "component/navigator.php"; ?>
+<?php
+$page = "servizi";
+include "component/navigator.php";
+?>
 <!--    NAVIGATOR END-->
 
     <!--START REVOLUTION SLIDER-->
@@ -206,9 +209,11 @@
         </div>
         <!--container end-->
     </div>
+
     <!--eco_cenetr_wrapper end-->
     <div class="eco_service_wraper">
         <div class="container-fluid">
+            <a id="ser1"></a>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="row">
@@ -236,6 +241,7 @@
     <!--eco_service_wraper end-->
 
         <div class="container-fluid">
+            <a id="ser2"></a>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="eco_full_text">
@@ -275,6 +281,7 @@
 
         <div class="eco_service_wraper">
             <div class="container-fluid">
+                <a id="ser3"></a>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="row">
@@ -302,6 +309,7 @@
             <!--eco_service_wraper end-->
 
             <div class="container-fluid">
+                <a id="ser4"></a>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="eco_full_text">
