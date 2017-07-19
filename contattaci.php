@@ -2,11 +2,10 @@
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dove Siamo :: Floricoltura Fiorenzo</title>
+    <title>Contattami :: Floricoltura Fiorenzo</title>
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
@@ -21,8 +20,9 @@
 <!-- Body Start -->
 
 <body>
+
     <?php
-        $page = "dovesiamo";
+        $page = "contattami";
         include "component/navigator.php";
     ?>
     <!--Breadcrumb Start-->
@@ -30,7 +30,7 @@
         <div class="container">
             <div class="eco_page_topbar">
                 <div class="eco_page_title">
-                    <h4 class="text-uppercase">dove trovarci</h4>
+                    <h4 class="text-uppercase">scrivici per qualsiasi informazione</h4>
                 </div>
             </div>
         </div>
@@ -41,29 +41,32 @@
     <div class="eco_inner_page_container">
         <div class="container">
             <div class="eco_contact_page padder_top_50 padder_bottom_50">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <!--eco_mapdiv strat-->
-                        <div class="eco_mapdiv">
-                            <div id="bigth_googleMap" style="width:100%;height:450px;"></div>
-                        </div>
-                        <!--eco_mapdiv end-->
+                <form action="#">
+                    <div class="row">
+                            <div class="eco_contact_form">
+                                <div class="form-group">
+                                    <label>Nome Cognome</label>
+                                    <input required type="text" id="uname" name="name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input required type="email" id="umail" name="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Oggetto</label>
+                                    <input required type="text" id="subj" name="subject" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Messaggio</label>
+                                    <textarea required class="form-control tr_textarea" id="msg" rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="btn" value="send" id="em_submit" class="btn btn-primary">
+                                    <p id="err"></p>
+                                </div>
+                            </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
-                        <div class="eco_contact_info">
-                            <ul>
-                                <li><i class="fa fa-home"> </i>FLORICOLTURA FIORENZO
-                                    <br>
-                                    <span class="eco_left_spacer text-uppercase">via cascina villa 1<br>
-                cernusco sul naviglio, milano (mi)</span>
-                                </li>
-                                <li><i class="fa fa-phone"></i>(+39) 02 923 2431</li>
-                                <li><i class="fa fa-mobile"></i>(+39) 333 681 9062</li>
-                                <li><i class="fa fa-envelope"></i>info@floticolturafiorenzo.it</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
@@ -107,36 +110,8 @@
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
-            type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-            var myCenter = new google.maps.LatLng("45.520154", "9.306600");
+        type="text/javascript"></script>
 
-            function initialize() {
-                var mapProp = {
-                    center: myCenter,
-                    zoom: 15,
-                    scrollwheel: true,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("bigth_googleMap"), mapProp);
-                
-                var marker = new google.maps.Marker({
-                    position: myCenter,
-                    map: map,
-                    animation: google.maps.Animation.BOUNCE
-                });
-                marker.setMap(map);
-                var infowindow = new google.maps.InfoWindow({
-                    content: ""
-                });
-                google.maps.event.addListener(marker, 'click', function() {
-                    infowindow.open(map, marker);
-                });
-            }
-            google.maps.event.addDomListener(window, 'load', initialize);
-        });
-    </script>
     <!--Script End-->
     <!--Body End-->
 </body>

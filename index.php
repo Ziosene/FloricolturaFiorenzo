@@ -21,7 +21,10 @@
 
 <body>
 
-	<?php include "component/navigator.php"; ?>
+	<?php
+        $page = "home";
+        include "component/navigator.php";
+    ?>
 
     <!--Home Slider Start-->
     <div class="garden_mainslider">
@@ -31,7 +34,7 @@
                 <ul>    <!-- SLIDE  -->
                     <li data-index="rs-2978" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Gardening" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_natura_fiori_fulmini/fiore_coloratissimo.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+                        <img src="images/fioreviola.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
@@ -360,11 +363,11 @@
         <div class="container">
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center text-uppercase">vieni a trovarci</h1>
-                <div class="eco_small_text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo interdum.</div>
+                <div class="eco_small_text text-center">Per ulteriori informazioni vieni direttamente al negozio o contattaci</div>
                 <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="">
                 </a>
             </div>
-            <div class="eco_contact_btn"><a href="#" class="eco_transition">CONTACT US NOW</a>
+            <div class="eco_contact_btn"><a href="contattaci.php" class="eco_transition text-uppercase">contattaci</a>
             </div>
         </div>
     </div>
@@ -428,7 +431,8 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?key=&amp;sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
+            type="text/javascript"></script>
 	<!--Script End-->
     <!--Body End-->
 </body>
