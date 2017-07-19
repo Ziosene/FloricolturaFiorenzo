@@ -7,7 +7,7 @@
                     <a href="#" class="eco_footer_title"><img src="images/ecorecycling-logo-footer.png" class="img-responsive" alt="">
                     </a>
                     <div class="eco_footer_content">
-                        <p>Descrizione</p>
+                        <p>Da oltre 25 anni produciamo fiori di stagione, ci occupiamo di manutenzione di giardini e forniamo fiori per le occasioni speciali come matrimoni e battesimi. L'attenzione al dettaglio e alla cura della pianta da sempre fanno ci fanno da motto. </p>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,15 @@
                 <div class="eco_footer_data">
                     <h6 class="eco_footer_title"> Social</h6>
                     <div class="eco_footer_content">
-                        FB
+                        <div class="fb-page" data-href="https://www.facebook.com/floricolturafiorenzo.it/" data-tabs="diario" data-width="325" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/floricolturafiorenzo.it/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/floricolturafiorenzo.it/">Floricoltura Fiorenzo</a></blockquote></div>
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.10";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
                     </div>
                     <!--Footer Categories Start-->
                 </div>
@@ -60,7 +68,7 @@
     </div>
 </div>
 <footer>
-    <div class="eco_copyight"> Floricoltura Fiorenzo &copy; 2017 by Lorenzo Senesi </div>
+    <div class="eco_copyight"> Floricoltura Fiorenzo &copy; 2017 by Lorenzo Senesi &  William Nardo </div>
 </footer>
 <!--Footer Section End-->
 <!--go to top-->
