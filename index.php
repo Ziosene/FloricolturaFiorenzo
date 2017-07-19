@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
 <head>
