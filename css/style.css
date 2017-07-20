@@ -689,7 +689,6 @@ ul.my_menu ul.sub-menu {
 	position: absolute;
 	font-size: 14px;
 	left: auto;
-	min-width: 180px;
 	background: #fff;
 	background: rgba(255,255,255,0.98);
 	opacity: 1;
@@ -754,13 +753,10 @@ ul.my_menu ul.sub-menu li.eco_imgli:hover {
 ul.my_menu li.eco_bigmenu ul.sub-menu {
 	float: left;
 	padding: 20px 0;
-	left: 0;
-	max-width: 100%;
 	margin-left: 0;
 	padding: 0 !important;
 	margin-bottom: 10px;
 	padding-top: 0px !important;
-	width: 100%;
 }
 ul.my_menu li.eco_bigmenu ul.sub-menu li.eco_pmcmenutitle {
 	font-weight: regular;
@@ -5130,6 +5126,9 @@ h2.eco_img_head {
 
 @media (max-width: 800px) {
 	.facebookContainer{
+		display: none;
+	}
+	.ancora{
 		display: none;
 	}
 }
