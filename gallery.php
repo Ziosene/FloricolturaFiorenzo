@@ -23,13 +23,17 @@
     <?php
         $page = "galleria";
         include "component/navigator.php";
+        include "class/dao/FotogalleryDAO.php";
+		$catId = $_GET["catId"];
+		$fotoDAO = new FotogalleryDAO($db->getConnection());
+		$fotos = $fotoDAO->retrieveFotogalleryByCategory($catId);
     ?>
     <!--Breadcrumb Start-->
     <div class="eco_bread">
         <div class="container">
             <div class="eco_page_topbar">
                 <div class="eco_page_title">
-                    <h4 class="text-uppercase">galleria</h4>
+                    <h4 class="text-uppercase"><?php echo $catDAO->retrieveNameById($catId); ?></h4>
                 </div>
             </div>
         </div>
@@ -38,113 +42,33 @@
     <div class="eco_inner_page_container">
         <div class="container">
             <div class="eco_filter">
-                <ul class="eco_filter_title">
-                    <li><a href="#" class="filter-item active text-uppercase" data-filter="all">tutte</a>
-					</li>
-					<li><a href="#" class="filter-item" data-filter="lawn_care">LAWN CARE</a>
-					</li>
-					<li><a href="#" class="filter-item" data-filter="garden_care">GARDEN CARE</a>
-					</li>
-					<li><a href="#" class="filter-item" data-filter="planting">PLANTING</a>
-					</li>
-                </ul>
+
             </div>
 			<div class="row">
 				<div class="eco_mix_grid" id="grid">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco_show_overlay lawn_care garden_gallery mix mix_all">
-						<div class="eco_port_recentimage garden_portfolio">
-							<div class="eco_port_overdefult">
-								<div class="eco_port_recentdescription text-center">
-									<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase">Lawn Care</a> </div>
+					<?php
+                    if(isset($fotos)){
+                    foreach ($fotos as $foto){?>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+							<div class="eco_port_recentimage garden_portfolio">
+								<div class="eco_port_overdefult">
+									<div class="eco_port_recentdescription text-center">
+										<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase">Lawn Care</a> </div>
+									</div>
+								</div>
+								<div class="eco_port_image">
+									<a href="#"><img style="width:100%; height:287px;" src="<?php echo "/resources/".$foto->getCategoryName()."/".$foto->getFileName()?>" alt="<?php echo $foto->getCategoryName(); ?>" class="img-responsive"></a>
 								</div>
 							</div>
-							<div class="eco_port_image">
-								<a href="#"> <img src="http://placehold.it/363x287" alt="" class="img-responsive"> </a>
-							</div>
+							<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><a href=""><?php echo $foto->getNome()?></a></h5>
 						</div>
-						<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><a href="">flower plants</a></h5>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco_show_overlay garden_care planting mix garden_gallery">
-						<div class="eco_port_recentimage garden_portfolio">
-							<div class="eco_port_overdefult">
-								<div class="eco_port_recentdescription text-center">
-									<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase">Garden Care, Planting</a> </div>
-								</div>
-							</div>
-							<div class="eco_port_image">
-								<a href="#"> <img src="http://placehold.it/363x287" alt="" class="img-responsive"> </a>
-							</div>
-						</div>
-						<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><a href="">bone size plants</a></h5>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco_show_overlay planting mix garden_gallery">
-						<div class="eco_port_recentimage garden_portfolio">
-							<div class="eco_port_overdefult">
-								<div class="eco_port_recentdescription text-center">
-									<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase">Planting</a> </div>
-								</div>
-							</div>
-							<div class="eco_port_image">
-								<a href="#"> <img src="http://placehold.it/363x287" alt="" class="img-responsive"> </a>
-							</div>
-						</div>
-						<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><a href="">plant transplantation</a></h5>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco_show_overlay lawn_care garden_care mix garden_gallery">
-						<div class="eco_port_recentimage garden_portfolio">
-							<div class="eco_port_overdefult">
-								<div class="eco_port_recentdescription text-center">
-									<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase">Lawn Care, Garden Care</a> </div>
-								</div>
-							</div>
-							<div class="eco_port_image">
-								<a href="#"> <img src="http://placehold.it/363x287" alt="" class="img-responsive"> </a>
-							</div>
-						</div>
-						<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><a href="">garden cleaning</a></h5>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco_show_overlay lawn_care garden_care mix garden_gallery">
-						<div class="eco_port_recentimage garden_portfolio">
-							<div class="eco_port_overdefult">
-								<div class="eco_port_recentdescription text-center">
-									<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase">Lawn Care, Garden Care</a> </div>
-								</div>
-							</div>
-							<div class="eco_port_image">
-								<a href="#"> <img src="http://placehold.it/363x287" alt="" class="img-responsive"> </a>
-							</div>
-						</div>
-						<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><a href="">Plants Cutting</a></h5>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco_show_overlay planting mix garden_gallery">
-						<div class="eco_port_recentimage garden_portfolio">
-							<div class="eco_port_overdefult">
-								<div class="eco_port_recentdescription text-center">
-									<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase">Planting</a> </div>
-								</div>
-							</div>
-							<div class="eco_port_image">
-								<a href="#"> <img src="http://placehold.it/363x287" alt="" class="img-responsive"> </a>
-							</div>
-						</div>
-						<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><a href="">Preparing the Soil</a></h5>
-					</div>
+					<?php }}else{ ?>
+
+                        Non è stata caricata ancora nessuna fotoper questa categoria.
+
+                    <?php }?>
 				</div>
 			</div>
-            <!--pagination-->
-            <nav class="eco_pagination padder_bottom_50">
-                <ul class="pagination">
-                    <li class="disabled"><a href="#"><span aria-hidden="true">Pagina 1 di 2</span><span class="sr-only">Precedente</span></a>
-                    </li>
-                    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li><a href="#">2 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Successiva</span></a>
-                    </li>
-                </ul>
-            </nav>
-            <!--pagination-->
         </div>
     </div>
     <!--container-->

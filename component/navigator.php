@@ -70,7 +70,7 @@
                                 <ul class="sub-menu">
                                     <?php if(isset($cats)) {
                                         foreach ($cats as $cat) { ?>
-                                        <li><a href="../gallery.php" ><?php echo $cat->getLabel();?></a></li>
+                                        <li><a href="../gallery.php?catId=<?php echo $cat->getValue();?>" ><?php echo $cat->getLabel();?></a></li>
                                     <?php }} ?>
                                 </ul>
                                 <!--./sub-menu end-->
@@ -116,7 +116,7 @@
                     <ul class="sub-menu">
                         <?php if(isset($cats)) {
                             foreach ($cats as $cat) { ?>
-                                <li><a href="../gallery.php" ><?php echo $cat->getLabel();?></a></li>
+                                <a href="../gallery.php?catId=<?php echo $cat->getValue();?>" ><?php echo $cat->getLabel();?></a></li>
                             <?php }} ?>
                     </ul>
                     <!--./sub-menu end-->
