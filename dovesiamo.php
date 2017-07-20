@@ -49,18 +49,26 @@
                         <!--eco_mapdiv end-->
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
-                        <div class="eco_contact_info">
-                            <ul>
-                                <li><i class="fa fa-home"> </i>FLORICOLTURA FIORENZO
-                                    <br>
-                                    <span class="eco_left_spacer text-uppercase">via cascina villa 1<br>
-                cernusco sul naviglio, milano (mi)</span>
-                                </li>
-                                <li><i class="fa fa-phone"></i>(+39) 02 923 2431</li>
-                                <li><i class="fa fa-mobile"></i>(+39) 333 681 9062</li>
-                                <li><i class="fa fa-envelope"></i>info@floticolturafiorenzo.it</li>
-                            </ul>
-                        </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tabel-dovesiamo" >
+                                <div class="eco_contact_info">
+                                    <ul>
+                                        <li><i class="fa fa-home"> </i>FLORICOLTURA FIORENZO
+                                            <br>
+                                            <span class="eco_left_spacer text-uppercase">via cascina villa 1<br>cernusco sul naviglio, milano (mi)</span>
+                                        </li>
+                                        <li><i class="fa fa-phone"></i>(+39) 02 923 2431</li>
+                                        <li><i class="fa fa-mobile"></i>(+39) 333 681 9062</li>
+                                        <li><i class="fa fa-envelope"></i>info@floticolturafiorenzo.it</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                                <h5>Come raggiungerci</h5>
+                                <ul>
+                                    <li><p>Da <span class="eco_color">Milano</span>: seguire la Strada Statale 11 Padana Superiore, raggiungere l'Esselunga di Pioltello, alla rotonda prendere la terza uscita in via Melghera. Percorrere la via fino al raggiungere di un semaforo. Superare il semaforo e salire sul ponte.</p></li>
+                                    <li><p>Da <span class="eco_color">Bergamo</span>: </p></li>
+                                </ul>
+                            </div>
                     </div>
                 </div>
             </div>

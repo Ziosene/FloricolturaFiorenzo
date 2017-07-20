@@ -134,7 +134,7 @@
     <div class="wraper">
         <div class="container">
             <div class="eco_main_heading">
-                <h1 class="text-center text-uppercase"> <strong><span>le nostre</span> <span class="eco_color">caratteristiche</span></strong> </h1>
+                <h1 class="text-center text-uppercase"> <strong class="text-features"><span>le nostre</span> <span class="eco_color">caratteristiche</span></strong> </h1>
                 <div class="eco_small_text text-center">Noi siamo specializzati in</div>
             </div>
         </div>
@@ -154,7 +154,7 @@
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<div class="eco_featured_content padder_bottom_50">
 								<div class="eco_round_img">
-									<a href="#"><img src="http://placehold.it/198x198" class="img-responsive" alt="">
+									<a href="#"><img src="images/petunia.jpg" class="img-responsive" alt="">
 									</a>
 								</div>
 								<h4 class="padder_top_20 eco_mbottom_0">caratteristica 1</h4>
@@ -165,7 +165,7 @@
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<div class="eco_featured_content padder_bottom_50">
 								<div class="eco_round_img">
-									<a href="#"><img src="http://placehold.it/198x198" class="img-responsive" alt="">
+									<a href="#"><img src="images/peonia.jpg" class="img-responsive" alt="">
 									</a>
 								</div>
 								<h4 class="padder_top_20 eco_mbottom_0">caratteristica 2</h4>

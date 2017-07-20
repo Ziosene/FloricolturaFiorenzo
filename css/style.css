@@ -2236,7 +2236,7 @@ input#em_submit {
 	line-height: 30px;
 	width: 65%;
 	font-family: inherit;
-	margin-left: 70px;
+	margin: 0 auto;
 	font-size: 14px;
 }
 .eco_contact_info ul {
@@ -5130,6 +5130,15 @@ h2.eco_img_head {
 	}
 	.ancora{
 		display: none;
+	}
+	.eco_home_service, .tabel-dovesiamo{
+		margin-top: 20px;
+	}
+	.garden_mainslider{
+		clear: left;
+	}
+	.text-features{
+		word-break:normal;
 	}
 }
 

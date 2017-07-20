@@ -7,7 +7,7 @@
                     <a href="#" class="eco_footer_title"><img src="images/ecorecycling-logo-footer.png" class="img-responsive" alt="">
                     </a>
                     <div class="eco_footer_content">
-                        <p>Da oltre 25 anni produciamo fiori di stagione, ci occupiamo di manutenzione di giardini e forniamo fiori per le occasioni speciali come matrimoni e battesimi. L'attenzione al dettaglio e alla cura della pianta da sempre fanno ci fanno da motto. </p>
+                        <p>Da oltre 25 anni produciamo fiori di stagione, ci occupiamo di manutenzione di giardini e forniamo fiori per le occasioni speciali come matrimoni e battesimi. L'attenzione al dettaglio e alla cura della pianta da sempre ci fanno da motto. </p>
                     </div>
                 </div>
             </div>
