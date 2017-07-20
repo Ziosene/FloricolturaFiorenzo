@@ -213,7 +213,8 @@
     <!--eco_cenetr_wrapper end-->
     <div class="eco_service_wraper">
         <div class="container-fluid">
-            <a id="ser1"></a>
+            <a class="ancora" id="ser1"></a>
+            <a id="ser1offset"></a>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="row">
@@ -241,7 +242,8 @@
     <!--eco_service_wraper end-->
 
         <div class="container-fluid">
-            <a id="ser2"></a>
+            <a class="ancora" id="ser2"></a>
+            <a id="ser2offset"></a>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="eco_full_text">
@@ -281,7 +283,8 @@
 
         <div class="eco_service_wraper">
             <div class="container-fluid">
-                <a id="ser3"></a>
+                <a class="ancora" id="ser3"></a>
+                <a id="ser3offset"></a>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="row">
@@ -309,7 +312,8 @@
             <!--eco_service_wraper end-->
 
             <div class="container-fluid">
-                <a id="ser4"></a>
+                <a class="ancora" id="ser4"></a>
+                <a id="ser4offset"></a>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="eco_full_text">
