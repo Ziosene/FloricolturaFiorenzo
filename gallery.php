@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galleria :: Floricoltura Fiorenzo</title>
+    <?php include "component/seo.php"; ?>
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
@@ -64,7 +63,7 @@
 						</div>
 					<?php }}else{ ?>
 
-                        Non è stata caricata ancora nessuna fotoper questa categoria.
+                        Non è stata caricata ancora nessuna foto per questa categoria.
 
                     <?php }?>
 				</div>

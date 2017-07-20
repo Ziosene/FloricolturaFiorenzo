@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floricoltura Fiorenzo</title>
+	<?php include "component/seo.php"; ?>
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
@@ -34,7 +33,7 @@
                 <ul>    <!-- SLIDE  -->
                     <li data-index="rs-2978" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Gardening" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="images/fioreviola.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+                        <img src="images/fioreviola.jpg"  alt="fioreviolaslider"  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
@@ -235,7 +234,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div>
@@ -248,7 +247,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 
 										</div>
 									</div>
@@ -261,7 +260,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -273,7 +272,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -285,7 +284,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -299,7 +298,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -323,7 +322,7 @@
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 												<?php $i++; ?>
 											</div>
 										</div>
@@ -331,7 +330,7 @@
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 												<?php $i++; ?>
 											</div>
 										</div>
@@ -339,7 +338,7 @@
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 												<?php $i++; ?>
 											</div>
 										</div>
@@ -364,7 +363,7 @@
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center text-uppercase">vieni a trovarci</h1>
                 <div class="eco_small_text text-center">Per ulteriori informazioni vieni direttamente al negozio o contattaci</div>
-                <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="">
+                <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="logoContattaci" >
                 </a>
             </div>
             <div class="eco_contact_btn"><a href="contattaci.php" class="eco_transition text-uppercase">contattaci</a>
@@ -376,26 +375,26 @@
 	<div class="eco_contactadd_slider garden_clientslider">
         <div class="container">
             <div class="slider4">
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
                 <!--slide 2-->
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
             </div>
             <p class="eco_color3 text-center padder_top_20">This is a list of <strong>companies</strong> that already trust us with their gardening process. Do join them.</p>
