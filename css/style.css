@@ -5124,7 +5124,7 @@ h2.eco_img_head {
 	}
 }
 
-.tp-tabs{
+.tp-tabs, .tparrows{
 	display:none !important;
 }
 

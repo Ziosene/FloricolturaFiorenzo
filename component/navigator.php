@@ -93,7 +93,7 @@
 <div class="pagenav fixedmenu">
     <div class="holder-fixedmenu">
         <div class="logo-fixedmenu">
-            <a href="index.html"><img src="images/ecorecycling-logo-main.png" alt="">
+            <a href="../index.php"><img src="../images/ecorecycling-logo-main.png" alt="">
             </a>
         </div>
         <div class="menu-fixedmenu home">
@@ -123,7 +123,7 @@
                     <ul class="sub-menu">
                         <?php if(isset($cats)) {
                             foreach ($cats as $cat) { ?>
-                                <a href="../gallery.php?catId=<?php echo $cat->getValue();?>" ><?php echo $cat->getLabel();?></a></li>
+                               <li><a href="../gallery.php?catId=<?php echo $cat->getValue();?>" ><?php echo $cat->getLabel();?></a></li>
                             <?php }} ?>
                     </ul>
                     <!--./sub-menu end-->
