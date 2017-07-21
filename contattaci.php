@@ -37,10 +37,34 @@
     <!--Breadcrumb End-->
     <!--Inner Container Start-->
     <!--eco_contactForm Start-->
+    <script>
+
+        function submitContact(){
+
+            var param="name="+document.getElementById("uname").value+"&email="+document.getElementById("umail").value+"&subject="+document.getElementById("subj").value+"&messageEmail="+document.getElementById("msg").value;
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("POST", "email_form.php", true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.setRequestHeader("Content-length", param.length);
+            xmlhttp.setRequestHeader("Connection", "close");
+
+            xmlhttp.onreadystatechange = function() {
+                if(xmlhttp.responseText == "ok"){
+                    document.getElementById("contactMeSociety").style.display = "none";
+                    document.getElementById("result").style.display = "";
+                    document.getElementById("contactMeSociety").reset();
+                }
+            };
+
+            xmlhttp.send(param);
+
+        }
+    </script>
     <div class="eco_inner_page_container">
         <div class="container">
             <div class="eco_contact_page padder_top_50 padder_bottom_50">
-                <form action="#">
+                <form action="javascript:submitContact();" id="contactMeSociety">
                     <div class="row">
                             <div class="eco_contact_form">
                                 <div class="form-group">
@@ -57,7 +81,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Messaggio</label>
-                                    <textarea required class="form-control tr_textarea" id="msg" rows="5"></textarea>
+                                    <textarea required class="form-control tr_textarea" id="msg" name="messageEmail" rows="5"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <input type="submit" name="btn" value="send" id="em_submit" class="btn btn-primary">
@@ -66,6 +90,7 @@
                             </div>
                     </div>
                 </form>
+                <div id="result" style="display:none;">Grazie! <br> Messaggio inviato correttamente</div>
             </div>
         </div>
     </div>

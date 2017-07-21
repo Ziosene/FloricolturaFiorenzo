@@ -76,7 +76,7 @@
 							data-paddingbottom="[0,0,0,0]"
 							data-paddingleft="[0,0,0,0]"
 
-							style="z-index: 9; white-space: nowrap; font-size: 50px; line-height: 20px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-transform:left;font-style:italic;border-width:0px;">Frase ad effetto</div>
+							style="z-index: 9; white-space: nowrap; font-size: 50px; line-height: 20px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-transform:left;font-style:italic;border-width:0px;">"Il giardinaggio richiede molta acqua,</div>
 
 						<!-- LAYER NR. 3 -->
 						<div class="tp-caption tp-resizeme garden_sldier_heading1" 
@@ -96,7 +96,7 @@
 							data-paddingbottom="[0,0,0,0]"
 							data-paddingleft="[0,0,0,0]"
 
-							style="z-index: 10; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-transform:left;border-width:0px;">Continua frase ad effetto</div>
+							style="z-index: 10; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-transform:left;font-style:italic;border-width:0px;"> la maggior parte sotto forma di sudore."</div>
 					</li>
 				</ul>
 				<div style="" class="tp-static-layers">
@@ -254,7 +254,7 @@
         <div class="container">
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center eco_weight_bold text-uppercase eco_color6">Contattaci</h1>
-                <div class="eco_small_text text-center eco_color6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo interdum.</div>
+                <div class="eco_small_text text-center eco_color6">Per qualsiasi informazione non esitare a scriverci.</div>
                 <a href="#" class="eco_img_width text-center"><img src="images/ecorecycling-logo-slideshow.png" alt="" class="eco_img_responsive">
                 </a>
             </div>
