@@ -24,17 +24,6 @@
         $page = "contattami";
         include "component/navigator.php";
     ?>
-    <!--Breadcrumb Start-->
-    <div class="eco_bread">
-        <div class="container">
-            <div class="eco_page_topbar">
-                <div class="eco_page_title">
-                    <h4 class="text-uppercase">scrivici per qualsiasi informazione</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Breadcrumb End-->
     <!--Inner Container Start-->
     <!--eco_contactForm Start-->
     <script>
@@ -61,6 +50,16 @@
 
         }
     </script>
+
+    <div class="wraper">
+        <div class="container">
+            <div class="eco_main_heading">
+                <h1 class="text-center"><span>SCRIVETECI PER QUALSIASI TIPO DI </span> <BR><strong><span class="eco_color">INFORMAZIONE</span></strong> </h1>
+                <div class="eco_small_text text-center">Compilate il form sottostante; vi risponderemo il prima possibile!</div>
+            </div>
+        </div>
+    </div>
+
     <div class="eco_inner_page_container">
         <div class="container">
             <div class="eco_contact_page padder_top_50 padder_bottom_50">

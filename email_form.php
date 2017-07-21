@@ -21,7 +21,7 @@ $msg = "This is a multi-part message in MIME format.\n\n";
 $msg .= "--$mail_boundary\n";
 $msg .= "Content-Type: text/plain; charset=\"iso-8859-1\"\n";
 $msg .= "Content-Transfer-Encoding: 8bit\n\n";
-$msg .= $text_msg;  // aggiungi il messaggio in formato text
+$msg .= "Email inviata da: ".$_POST['name'].".\n\n".$text_msg;  // aggiungi il messaggio in formato text
 
 // Boundary di terminazione multipart/alternative
 $msg .= "\n--$mail_boundary--\n";
