@@ -3,7 +3,7 @@
 // Genera un boundary
 $mail_boundary = "=_NextPart_" . md5(uniqid(time()));
 
-$to = "info@floricolturafiorenzo.com";
+$to = "info@floricolturafiorenzo.it";
 $subject = "Mail inviata dal sito: ".$_POST['subject'];
 $sender = $_POST['email'];
 
