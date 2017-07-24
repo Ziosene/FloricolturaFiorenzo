@@ -65,7 +65,7 @@
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
-                            <li class="eco_bigmenu"><a href="#" class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
+                            <li class="eco_pos_rel"><a href="#" class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
                                     <?php if(isset($cats)) {
@@ -121,7 +121,7 @@
                     </ul>
                     <!--./sub-menu end-->
                 </li>
-                <li class="eco_bigmenu"><a href="#" class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
+                <li class="eco_pos_rel"><a href="#" class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
                         <?php if(isset($cats)) {
