@@ -58,7 +58,7 @@
                                         </li>
                                         <li><i class="fa fa-phone"></i>(+39) 02 923 2431</li>
                                         <li><i class="fa fa-mobile"></i>(+39) 333 681 9062</li>
-                                        <li><i class="fa fa-envelope"></i>info@floticolturafiorenzo.it</li>
+                                        <li><i class="fa fa-envelope"></i>info@floricolturafiorenzo.it</li>
                                     </ul>
                                 </div>
                             </div>
