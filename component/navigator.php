@@ -54,7 +54,7 @@
                     <!--navbar-header-->
                     <div id="main-nav" class="collapse navbar-collapse padding_left">
                         <ul class="nav navbar-nav my_menu">
-                            <li class="eco_pos_rel"><a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
+                            <li class="eco_pos_rel homeButton"><a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
                             <li class="eco_pos_rel"><a href="../servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
@@ -98,8 +98,11 @@
         </div>
         <div class="menu-fixedmenu home">
             <ul id="menu-home-page" class="menu my_menu">
-                <li class="eco_pos_rel"><a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
-                <li class="eco_pos_rel"><a href="../servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
+                <li class="eco_pos_rel">
+                    <a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a>
+                </li>
+                <li class="eco_pos_rel">
+                    <a href="../servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
                         <li>
