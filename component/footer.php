@@ -37,7 +37,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="eco_footer_data">
                     <h6 class="eco_footer_title">Contatti</h6>
-                    <p class="padder_bottom_10"><b>Floricoltura Fiorenzo</b>, <br/>
+                    <p class="padder_bottom_10"><b style="color:#69af07">Floricoltura Fiorenzo</b> <br/>
                         via Cascina Villa, 1, 20063 <br/>Cernusco sul Naviglio MI</p>
                     <p><b>Telefono:</b> <a style="color:#69af07;" href="tel:+39333 681 9062">+39 333 681 9062</a>
                         <br>
