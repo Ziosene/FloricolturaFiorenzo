@@ -64,10 +64,12 @@
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
                                 <h5>Come raggiungerci</h5>
-                                <ul>
-                                    <li><p>Da <span class="eco_color">Milano</span>: seguire la Strada Statale 11 Padana Superiore, raggiungere l'Esselunga di Pioltello, alla rotonda prendere la terza uscita in via Melghera. Percorrere la via fino al raggiungere di un semaforo. Superare il semaforo e salire sul ponte.</p></li>
-                                    <li><p>Da <span class="eco_color">Bergamo</span>: </p></li>
-                                </ul>
+                                    <p>Seguire la <span class="eco_color">Strada Statale 11 Padana Superiore</span>,
+                                        raggiungere l'<span class="eco_color">Esselunga di Pioltello</span>,
+                                        alla rotonda prendere l'uscita per <span class="eco_color">via Melghera</span>
+                                        (per entrare a Cernusco sul Naviglio. Percorrere la via fino al raggiungere di un semaforo.
+                                        Superare il semaforo e salire sul ponte. Vi trovate così in <span class="eco_color">Via della Martesana</span>,
+                                        tranquillamente percorribile con i mezzi.</p></li>
                             </div>
                     </div>
                 </div>
@@ -117,7 +119,7 @@
             type="text/javascript"></script>
     <script>
         $(document).ready(function() {
-            var myCenter = new google.maps.LatLng("45.5198947", "9.3068889");
+            var myCenter = new google.maps.LatLng("45.5200291", "9.3068828");
 
             function initialize() {
                 var mapProp = {
