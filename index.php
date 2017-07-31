@@ -135,7 +135,7 @@
         <div class="container">
             <div class="eco_main_heading">
                 <h1 class="text-center"><span>I NOSTRI </span> <strong><span class="eco_color">SERVIZI</span></strong> </h1>
-                <div class="eco_small_text text-center">Vi proponiamo i seguenti servizi</div>
+                <div class="eco_small_text text-center"></div>
             </div>
         </div>
     </div>

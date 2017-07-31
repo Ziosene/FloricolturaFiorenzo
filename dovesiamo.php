@@ -119,7 +119,7 @@
             type="text/javascript"></script>
     <script>
         $(document).ready(function() {
-            var myCenter = new google.maps.LatLng("45.5200291", "9.3068828");
+            var myCenter = new google.maps.LatLng("45.519925", "9.306987");
 
             function initialize() {
                 var mapProp = {
