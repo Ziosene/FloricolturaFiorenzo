@@ -56,7 +56,6 @@
                                             <br>
                                             <span class="eco_left_spacer text-uppercase">via cascina villa 1<br>cernusco sul naviglio, milano (mi)</span>
                                         </li>
-                                        <li><i class="fa fa-phone"></i>(+39) 02 923 2431</li>
                                         <li><i class="fa fa-mobile"></i>(+39) 333 681 9062</li>
                                         <li><i class="fa fa-envelope"></i>info@floricolturafiorenzo.it</li>
                                     </ul>
@@ -64,12 +63,12 @@
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
                                 <h5>Come raggiungerci</h5>
-                                    <p>Seguire la <span class="eco_color">Strada Statale 11 Padana Superiore</span>,
-                                        raggiungere l'<span class="eco_color">Esselunga di Pioltello</span>,
-                                        alla rotonda prendere l'uscita per <span class="eco_color">via Melghera</span>
-                                        (per entrare a Cernusco sul Naviglio. Percorrere la via fino al raggiungere di un semaforo.
+                                    <p>Raggiungere <span class="eco_color">Cernusco sul Naviglio</span>
+                                        seguendo la <span class="eco_color">Strada Statale 11 Padana Superiore</span>,
+                                        imboccare <span class="eco_color">via Melghera</span>.
+                                        Percorrere la via fino a raggiungere un semaforo.
                                         Superare il semaforo e salire sul ponte. Vi trovate così in <span class="eco_color">Via della Martesana</span>,
-                                        tranquillamente percorribile con i mezzi.</p></li>
+                                        tranquillamente percorribile con i propri mezzi.</p></li>
                             </div>
                     </div>
                 </div>

@@ -58,7 +58,7 @@
                             <li class="eco_pos_rel"><a href="../servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
-                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser1" : "ser1offset";?>">Servizio1</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser1" : "ser1offset";?>">In Vivaio</a></li>
                                     <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser2" : "ser2offset";?>">Servizio2</a></li>
                                     <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser3" : "ser3offset";?>">Servizio3</a></li>
                                     <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser4" : "ser4offset";?>">Servizio4</a></li>
@@ -106,7 +106,7 @@
                     <!--sub-menu start-->
                     <ul class="sub-menu">
                         <li>
-                            <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page != "servizi" ? "ser1offset" : "ser1";?>">Servizio1</a>
+                            <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page != "servizi" ? "ser1offset" : "ser1";?>">In Vivaio</a>
                         </li>
                         <li>
                             <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser2" : "ser2offset";?>">Servizio2</a>
