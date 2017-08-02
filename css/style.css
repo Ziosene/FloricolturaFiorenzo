@@ -5137,9 +5137,8 @@ h2.eco_img_head {
 	.garden_mainslider{
 		clear: left;
 	}
-	.text-features{
-		word-break:normal;
-		font-size: 40px;
+	.text-center{
+		word-break: normal;
 	}
 }
 
@@ -5152,5 +5151,9 @@ h2.eco_img_head {
 
 .homeButton{
 	border-left: 1px solid #3d3d3d;
+}
+
+.emailSvg{
+	height: 1em;
 }
 /*---------------Media Css End---------------*/

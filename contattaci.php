@@ -55,7 +55,7 @@
         <div class="container">
             <div class="eco_main_heading">
                 <h1 class="text-center"><span>SCRIVETECI PER QUALSIASI TIPO DI </span> <BR><strong><span class="eco_color">INFORMAZIONE</span></strong> </h1>
-                <div class="eco_small_text text-center">Compilate il form sottostante; vi risponderemo il prima possibile!</div>
+                <div class="eco_small_text text-center">Vi risponderemo il prima possibile!</div>
             </div>
         </div>
     </div>

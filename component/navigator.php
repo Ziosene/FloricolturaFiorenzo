@@ -26,8 +26,15 @@
                     <div class="eco_ph padding_lr"><i class="fa fa-phone"></i>
                         <a style="color:#FFFFFF;" href="tel:+39333 681 9062">+39 333 681 9062</a>
                     </div>
-                    <div class="eco_email"><i class="fa fa-envelope"></i>
-                        <a style="color:#FFFFFF;" href="mailto:info@floricolturafiorenzo.it"> info@floricolturafiorenzo.it</a>
+                    <div class="eco_email">
+                        <i class="fa fa-envelope"></i>
+                        <!--<a style="color:#FFFFFF;" href="mailto:info@floricolturafiorenzo.it"> info@floricolturafiorenzo.it</a>-->
+                        <a href="mailto:info@floricolturafiorenzo.it">
+                            <svg height="20" width="220">
+                                <text fill="#ffffff" font-size="16px" font-family="Open Sans"
+                                      x="47%" y="97%" style="text-anchor: middle">info@floricolturafiorenzo.it</text>
+                            </svg>
+                        </a>
                     </div>
                 </div>
                 <div class="eco_social_icon facebookContainer">

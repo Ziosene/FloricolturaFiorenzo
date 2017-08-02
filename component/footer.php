@@ -42,8 +42,15 @@
                     <p><b>Telefono:</b> <a style="color:#69af07;" href="tel:+39333 681 9062">+39 333 681 9062</a>
                         <br>
                     </p>
-                    <p><b>Email:</b> <a style="color:#69af07;" href="mailto:info@floricolturafiorenzo.it">
-                            info@floricolturafiorenzo.it</a></p>
+                    <p><b>Email:</b>
+<!--                        <a style="color:#69af07;" href="mailto:info@floricolturafiorenzo.it">info@floricolturafiorenzo.it</a>-->
+                        <a href="mailto:info@floricolturafiorenzo.it">
+                            <svg height="20" width="220">
+                                <text fill="#69af07" font-size="16px" font-family="Open Sans"
+                                      x="47%" y="97%" style="text-anchor: middle">info@floricolturafiorenzo.it</text>
+                            </svg>
+                        </a>
+                    </p>
                     <div class="eco_footer_content">
                         <div class="fb-page" data-href="https://www.facebook.com/floricolturafiorenzo.it/"
                              data-tabs="diario" data-width="325" data-small-header="false"

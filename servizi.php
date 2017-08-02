@@ -134,8 +134,6 @@
                     <!--row end-->
                 </div>
                 <!--col-lg-8 end-->
-				<div class="container">
-					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
 							<div class="eco_full_text">
 								<h3 class="eco_color text-uppercase">servizio 1</h3>
@@ -144,14 +142,13 @@
 							</div>
 						</div>
 						<!--col-lg-6 end-->
-					</div>
-            </div>
             <!--row end-->
-        </div>
+            </div>
         <!--container-fluid end-->
+        </div>
     </div>
     <!--eco_service_wraper end-->
-
+    <div class="eco_service_wraper">
         <div class="container-fluid">
             <a class="ancora" id="ser2"></a>
             <a id="ser2offset"></a>
@@ -166,18 +163,17 @@
                     <!--row end-->
                 </div>
                 <!--col-lg-8 end-->
-                    <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="row">
                                 <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
                             </div>
                         </div>
                         <!--col-lg-6 end-->
-                    </div>
                 </div>
                 <!--row end-->
             <!--container-fluid end-->
         </div>
+    </div>
 
     <div class="eco_cenetr_wrapper padder_top_100 padder_bottom_100">
         <div class="container">
@@ -192,62 +188,58 @@
         <!--container end-->
     </div>
 
-        <div class="eco_service_wraper">
-            <div class="container-fluid">
-                <a class="ancora" id="ser3"></a>
-                <a id="ser3offset"></a>
+<div class="eco_service_wraper">
+    <div class="container-fluid">
+        <a class="ancora" id="ser3"></a>
+        <a id="ser3offset"></a>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="row">
-                            <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
-                        </div>
-                        <!--row end-->
-                    </div>
-                    <!--col-lg-8 end-->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                                <div class="eco_full_text">
-                                    <h3 class="eco_color text-uppercase">servizio 3</h3>
-                                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
-                                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
-                                </div>
-                            </div>
-                            <!--col-lg-6 end-->
-                        </div>
-                    </div>
-                    <!--row end-->
-                </div>
-                <!--container-fluid end-->
-            </div>
-            <!--eco_service_wraper end-->
-
-            <div class="container-fluid">
-                <a class="ancora" id="ser4"></a>
-                <a id="ser4offset"></a>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="eco_full_text">
-                            <h3 class="eco_color text-uppercase">servizio 4</h3>
-                            <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
-                            <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
-                        </div>
-
-                        <!--row end-->
-                    </div>
-                    <!--col-lg-8 end-->
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <div class="row">
-                                <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
-                            </div>
-                        </div>
-                        <!--col-lg-6 end-->
-                    </div>
+                    <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
                 </div>
                 <!--row end-->
-                <!--container-fluid end-->
             </div>
+            <!--col-lg-8 end-->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
+                <div class="eco_full_text">
+                    <h3 class="eco_color text-uppercase">servizio 1</h3>
+                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
+                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
+                </div>
+            </div>
+            <!--col-lg-6 end-->
+            <!--row end-->
+        </div>
+        <!--container-fluid end-->
+    </div>
+</div>
+<!--eco_service_wraper end-->
+<div class="eco_service_wraper">
+    <div class="container-fluid">
+        <a class="ancora" id="ser4"></a>
+        <a id="ser4offset"></a>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="eco_full_text">
+                    <h3 class="eco_color text-uppercase">servizio 2</h3>
+                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
+                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
+                </div>
+
+                <!--row end-->
+            </div>
+            <!--col-lg-8 end-->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
+                </div>
+            </div>
+            <!--col-lg-6 end-->
+        </div>
+        <!--row end-->
+        <!--container-fluid end-->
+    </div>
+</div>
 
     <!--eco_cenetr_wrapper end-->
     <div class="eco_new_background text-center">
