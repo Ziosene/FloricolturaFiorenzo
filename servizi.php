@@ -110,7 +110,7 @@
 
     <div class="eco_cenetr_wrapper padder_top_100 padder_bottom_100">
         <div class="container">
-            <div class="eco_enter_content">
+            <div class="eco_enter_content" data-scrollreveal="enter from the top over 1s">
                 <p class="text-uppercase">Descrizione generale dei servizi</p>
                 <h3 class="eco_color text-uppercase padder_bottom_50">Categoria Servizi 1</h3>
                 <p class="eco_color3 text-left padder_bottom_40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
@@ -177,7 +177,7 @@
 
     <div class="eco_cenetr_wrapper padder_top_100 padder_bottom_100">
         <div class="container">
-            <div class="eco_enter_content">
+            <div class="eco_enter_content" data-scrollreveal="enter from the top over 1s">
                 <p class="text-uppercase">Descrizione generale dei servizi</p>
                 <h3 class="eco_color text-uppercase padder_bottom_50">Categoria Servizi 2</h3>
                 <p class="eco_color3 text-left padder_bottom_40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
