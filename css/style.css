@@ -5156,4 +5156,12 @@ h2.eco_img_head {
 .emailSvg{
 	height: 1em;
 }
+
+.form-group{
+	color: #69af07;
+}
+
+.text-form{
+	font-weight: bold;
+}
 /*---------------Media Css End---------------*/

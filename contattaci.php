@@ -67,19 +67,19 @@
                     <div class="row">
                             <div class="eco_contact_form">
                                 <div class="form-group">
-                                    <label>Nome Cognome</label>
+                                    <label><span class="text-form">Nome Cognome</span></label>
                                     <input required type="text" id="uname" name="name" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label>Email</label>
+                                    <label><span class="text-form">Email</span></label>
                                     <input required type="email" id="umail" name="email" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label>Oggetto</label>
+                                    <label><span class="text-form">Oggetto</span></label>
                                     <input required type="text" id="subj" name="subject" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label>Messaggio</label>
+                                    <label><span class="text-form">Messaggio</span></label>
                                     <textarea required class="form-control tr_textarea" id="msg" name="messageEmail" rows="5"></textarea>
                                 </div>
                                 <div class="form-group">

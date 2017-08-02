@@ -161,7 +161,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="eco_home_service" data-scrollreveal="enter from the bottom over 1s">
+						<div class="eco_home_service" data-scrollreveal="enter from the top over 1s">
 							<div class="eco_service_icon">
 								<a href="../servizi.php#ser2offset" class="eco_transition"> <i class="glyph-icon flaticon-plant-on-a-hand"></i></a>
 							</div>
