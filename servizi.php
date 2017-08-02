@@ -135,8 +135,8 @@
                 </div>
                 <!--col-lg-8 end-->
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-							<div class="eco_full_text">
-								<h3 class="eco_color text-uppercase">servizio 1</h3>
+							<div class="eco_full_text" data-scrollreveal="enter from the left over 1s">
+								<h3 class="eco_color text-uppercase">In Vivaio</h3>
 								<p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
 								<p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
 							</div>
@@ -154,7 +154,7 @@
             <a id="ser2offset"></a>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="eco_full_text">
+                    <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
                         <h3 class="eco_color text-uppercase">servizio 2</h3>
                         <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
                         <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
@@ -201,8 +201,8 @@
             </div>
             <!--col-lg-8 end-->
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <div class="eco_full_text">
-                    <h3 class="eco_color text-uppercase">servizio 1</h3>
+                <div class="eco_full_text" data-scrollreveal="enter from the left over 1s">
+                    <h3 class="eco_color text-uppercase">servizio 3</h3>
                     <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
                     <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
                 </div>
@@ -220,8 +220,8 @@
         <a id="ser4offset"></a>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="eco_full_text">
-                    <h3 class="eco_color text-uppercase">servizio 2</h3>
+                <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
+                    <h3 class="eco_color text-uppercase">servizio 4</h3>
                     <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
                     <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
                 </div>

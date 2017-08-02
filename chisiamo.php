@@ -147,7 +147,7 @@
 				<div class="eco_main_recycle">
 					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <div class="garden_about_img"><img src="http://placehold.it/462x420" class="img-responsive" alt=""></div> </div>
 					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">	
-						<div class="garden_aboute_data">
+						<div class="garden_aboute_data" data-scrollreveal="enter from the left over 1s">
 							<h2 class="eco_rehead">Chi Siamo</h2>
 							<p>Siamo un'azienda a conduzione familiare, nata oltre 30 anni fa dall'amore per la coltivazione
                             di piante fiorite e verdi in vaso, che ancora oggi restano il nostro punto di forza. Nel tempo abbiamo
