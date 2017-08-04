@@ -63,11 +63,16 @@
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
                                 <h5>Come raggiungerci</h5>
-                                    <p>Raggiungere <span class="eco_color">Cernusco sul Naviglio</span>
-                                        seguendo la <span class="eco_color">Strada Statale 11 Padana Superiore</span>,
-                                        imboccare <span class="eco_color">via Melghera</span>.
+                                    <p>Raggiungere <a href="https://www.google.it/maps/place/20063+Cernusco+sul+Naviglio+MI/@45.5196248,9.3034903,13z/data=!3m1!4b1!4m5!3m4!1s0x4786c829fdd96ef7:0x2de7e5288a9c0464!8m2!3d45.5249795!4d9.3329595">
+                                            <span class="eco_color">Cernusco sul Naviglio</span></a>
+                                        seguendo la <a href="https://www.google.it/maps/place/45%C2%B030'50.6%22N+9%C2%B019'14.9%22E/@45.5140995,9.3197489,17.25z/data=!4m5!3m4!1s0x0:0x0!8m2!3d45.514065!4d9.320806">
+                                            <span class="eco_color">Strada Statale 11 Padana Superiore</span></a>,
+                                        imboccare <a href="https://www.google.it/maps/place/Via+Melghera,+20063+Cernusco+sul+Naviglio+MI/@45.517277,9.3179161,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c8224eb0aa19:0x4f3850db249f2d56!8m2!3d45.517277!4d9.3201048">
+                                            <span class="eco_color">via Melghera</span></a>.
                                         Percorrere la via fino a raggiungere un semaforo.
-                                        Superare il semaforo e salire sul ponte. Vi trovate così in <span class="eco_color">Via della Martesana</span>,
+                                        Superare il semaforo e salire sul ponte. Vi trovate così in
+                                        <a href="https://www.google.it/maps/place/Via+della+Martesana,+20063+Cernusco+sul+Naviglio+MI/@45.5201474,9.305539,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c81b6493a285:0x13194a62dd5d8341!8m2!3d45.5201474!4d9.3077277">
+                                            <span class="eco_color">Via della Martesana</span></a>,
                                         tranquillamente percorribile con i propri mezzi.</p></li>
                             </div>
                     </div>
