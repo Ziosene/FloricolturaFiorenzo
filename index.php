@@ -152,11 +152,11 @@
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the left over 1s">
 							<div class="eco_service_icon">
-								<a href="../servizi.php#ser1offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-1"></i> </a>
+								<a href="../servizi.php#ser1offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-2"></i> </a>
 							</div>
 							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Giardini e Terrazzi </h5>
-								<div class="eco_service_data">Realizzazione, manutenzione e cura di giardini e terrazzi.</div>
+								<h5 class="text-uppercase"> In Vivaio </h5>
+								<div class="eco_service_data">Vendita diretta al pubblico di piante prodotte nelle nostre serre</div>
 							</div>
 						</div>
 					</div>
@@ -174,11 +174,11 @@
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the bottom over 1s">
 							<div class="eco_service_icon">
-								<a href="../servizi.php#ser3offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-2"></i> </a>
+								<a href="../servizi.php#ser3offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-1"></i> </a>
 							</div>
 							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Vivaio </h5>
-								<div class="eco_service_data">Vendita diretta al pubblico di piante prodotte nelle nostre serre</div>
+								<h5 class="text-uppercase"> Giardini e Terrazzi </h5>
+								<div class="eco_service_data">Realizzazione, manutenzione e cura di giardini e terrazzi.</div>
 							</div>
 						</div>
 					</div>
