@@ -83,6 +83,14 @@
                                     <textarea required class="form-control tr_textarea" id="msg" name="messageEmail" rows="5"></textarea>
                                 </div>
                                 <div class="form-group">
+                                        <div class="material-switch">
+                                            <span class="text-form">Newsletter</span>
+                                            <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox" checked/>
+                                            <label for="someSwitchOptionSuccess" class="label-success"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <input type="submit" name="btn" value="send" id="em_submit" class="btn btn-primary">
                                     <p id="err"></p>
                                 </div>
