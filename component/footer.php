@@ -22,13 +22,13 @@
                     <h6 class="eco_footer_title"> Orari</h6>
                     <div class="eco_footer_content">
                         <ul>
-                            <li><span style="width:90px;float:left;"><b>Lunedì:</b></span> 09:00 - 12:30 &nbsp; / &nbsp; 14:00 - 18:00</li>
-                            <li><span style="width:90px;float:left;"><b>Martedì:</b></span> 09:00 - 12:30 &nbsp; / &nbsp; 14:00 - 18:00</li>
-                            <li><span style="width:90px;float:left;"><b>Mercoledì:</b></span> 09:00 - 12:30 &nbsp; / &nbsp; 14:00 - 18:00</li>
-                            <li><span style="width:90px;float:left;"><b>Giovedì:</b></span> 09:00 - 12:30 &nbsp; / &nbsp; 14:00 - 18:00</li>
-                            <li><span style="width:90px;float:left;"><b>Venerdì:</b></span> 09:00 - 12:30 &nbsp; / &nbsp; 14:00 - 18:00</li>
-                            <li><span style="width:90px;float:left;"><b>Sabato:</b></span> 09:00 - 12:30 &nbsp; / &nbsp; 14:00 - 18:00</li>
-                            <li><span style="width:90px;float:left;"><b>Domenica:</b></span> 09:00 - 12:30 &nbsp; / &nbsp; 14:00 - 18:00</li>
+                            <li><span style="width:90px;float:left;"><b>Lunedì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
+                            <li><span style="width:90px;float:left;"><b>Martedì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
+                            <li><span style="width:90px;float:left;"><b>Mercoledì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
+                            <li><span style="width:90px;float:left;"><b>Giovedì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
+                            <li><span style="width:90px;float:left;"><b>Venerdì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
+                            <li><span style="width:90px;float:left;"><b>Sabato:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
+                            <li><span style="width:90px;float:left;"><b>Domenica:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
                         </ul>
                     </div>
                     <!--Footer Categories Start-->
