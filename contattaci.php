@@ -90,7 +90,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="submit" name="btn" value="send" id="em_submit" class="btn btn-primary">
+                                    <input type="submit" name="btn" value="invia" id="em_submit" class="btn btn-primary">
                                     <p id="err"></p>
                                 </div>
                             </div>

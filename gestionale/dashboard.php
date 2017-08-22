@@ -12,14 +12,17 @@
             require_once("../class/dao/FotogalleryDAO.php");
             require_once("../class/dao/CategoryDAO.php");
             require_once("../class/dao/StatisticDAO.php");
+            require_once("../class/dao/NewsletterDAO.php");
 
             $fotogalleryDAO = new FotogalleryDAO($db->getConnection());
             $catDAO = new CategoryDAO($db->getConnection());
             $stat = new StatisticDAO($db->getConnection());
+            $newsletterDAO = new NewsletterDAO($db->getConnection());
 
             $numFotogallery = $fotogalleryDAO->numFotogallery();
             $numCat = $catDAO->numCategory();
             $view = $stat->visualizzazioni();
+            $numEmail = $newsletterDAO->numEmail();
         ?>
 
         <div id="page-wrapper">
@@ -36,7 +39,7 @@
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
+                                    <i class="fa fa-laptop fa-5x"></i>
                                 </div>
 
                                 <div class="col-xs-9 text-right">
@@ -52,7 +55,7 @@
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
+                                    <i class="fa fa-photo fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"><?php echo $numFotogallery; ?></div>
@@ -67,11 +70,11 @@
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-3">
-                                    <i class="fa fa-shopping-cart fa-5x"></i>
+                                    <i class="fa fa-list fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Servizi</div>
+                                    <div class="huge"><?php echo $numEmail; ?></div>
+                                    <div>Newsletter</div>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +85,7 @@
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
+                                    <i class="fa fa-eye fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"><?php echo $view; ?></div>

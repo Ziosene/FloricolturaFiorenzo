@@ -43,7 +43,9 @@ if($_POST['saveemail'] = 'vero'){
     $newsletterAcc = new Newsletter();
     $newsletterAcc->setEmail($_POST['email']);
     $newsletterAcc->setNomeCognome($_POST['name']);
-    $newsDAO->createNewsletter($newsletterAcc);
+    $controlEmail = $newsDAO->existNewsletter();
+    if($controlEmail == 0)
+        $newsDAO->createNewsletter($newsletterAcc);
 }
 
 ?>

@@ -45,7 +45,18 @@
                                     <a href="categorie.php"><i class="fa  fa-archive  fa-fw"></i> Categorie</a>
                                 </li>
                             </ul>
-                        </li>          
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-envelope fa-fw"></i> Email<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#"><i class="fa fa-users fa-fw"></i> Iscritti</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-share fa-fw"></i> Invia</a>
+                                </li>
+                            </ul>
+                        </li>
                         <li>
                             <a href="visualizzazioni.php"><i class="fa fa-bar-chart-o fa-fw"></i> Visualizzazioni</a>
                         </li>                       
