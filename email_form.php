@@ -33,7 +33,7 @@ if (mail($to, $subject, $msg, $headers, "-f$sender")) {
     echo "fail";
 }
 
-if(isset($_POST['SwitchOptionNewsletter'])){
+if($_POST['saveemail'] = 'vero'){
     include "class/DBManager.php";
     include "class/domain/Newsletter.php";
     include "class/dao/NewsletterDAO.php";

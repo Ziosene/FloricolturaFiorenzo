@@ -21,4 +21,35 @@ class NewsletterDAO
         $prepare->execute();
     }
 
+    function retrieveNewsletter($newsletter){
+        $result = mysqli_query($this->conn,"SELECT * FROM newsletter");
+        if(mysqli_num_rows($result) > 0) {
+            for($i = 0; $i < mysqli_num_rows($result); $i++) {
+                $row = mysqli_fetch_array($result);
+                $newsletter[$i] = new Newsletter();
+                $newsletter[$i]->setId($row[0]);
+                $newsletter[$i]->setEmail($row[1]);
+                $newsletter[$i]->setNomeCognome($row[2]);
+            }
+        }
+        return $newsletter;
+    }
+
+    function deleteNewsletter($email){
+        $prepare = $this->conn->prepare("DELETE FROM newsletter WHERE email = ?");
+        $prepare->bind_param("s",$email);
+        $prepare->execute();
+    }
+
+    function numEmail(){
+        $result = mysqli_query($this->conn,"SELECT count(id) FROM newsletter");
+        if(mysqli_num_rows($result) > 0)
+        {
+            $row = mysqli_fetch_array($result);
+            return $row[0];
+        }
+        else
+            return 0;
+    }
+
 }

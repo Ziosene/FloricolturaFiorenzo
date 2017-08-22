@@ -29,8 +29,7 @@
     <script>
 
         function submitContact(){
-
-            var param="name="+document.getElementById("uname").value+"&email="+document.getElementById("umail").value+"&subject="+document.getElementById("subj").value+"&messageEmail="+document.getElementById("msg").value;
+            var param="name="+document.getElementById("uname").value+"&email="+document.getElementById("umail").value+"&subject="+document.getElementById("subj").value+"&messageEmail="+document.getElementById("msg").value+"&saveemail=" + (document.getElementById("someSwitchOptionSuccess").checked ? "vero" : "falso");
 
             var xmlhttp = new XMLHttpRequest();
             xmlhttp.open("POST", "email_form.php", true);
