@@ -33,4 +33,17 @@ if (mail($to, $subject, $msg, $headers, "-f$sender")) {
     echo "fail";
 }
 
+if(isset($_POST['SwitchOptionNewsletter'])){
+    include "class/DBManager.php";
+    include "class/domain/Newsletter.php";
+    include "class/dao/NewsletterDAO.php";
+
+    $db= new DBManager();
+    $newsDAO = new NewsletterDAO($db->getConnection());
+    $newsletterAcc = new Newsletter();
+    $newsletterAcc->setEmail($_POST['email']);
+    $newsletterAcc->setNomeCognome($_POST['name']);
+    $newsDAO->createNewsletter($newsletterAcc);
+}
+
 ?>

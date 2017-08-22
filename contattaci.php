@@ -85,7 +85,7 @@
                                 <div class="form-group">
                                         <div class="material-switch">
                                             <span class="text-form">Newsletter</span>
-                                            <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox" checked/>
+                                            <input id="someSwitchOptionSuccess" name="SwitchOptionNewsletter" type="checkbox" checked/>
                                             <label for="someSwitchOptionSuccess" class="label-success"></label>
                                         </div>
                                     </div>
