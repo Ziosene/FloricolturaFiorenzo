@@ -29,7 +29,7 @@
     <script>
 
         function submitContact(){
-            var param="name="+document.getElementById("uname").value+"&email="+document.getElementById("umail").value+"&subject="+document.getElementById("subj").value+"&messageEmail="+document.getElementById("msg").value+"&saveemail=" + (document.getElementById("someSwitchOptionSuccess").checked ? "vero" : "falso");
+            var param="name="+document.getElementById("uname").value+"&email="+document.getElementById("umail").value+"&subject="+document.getElementById("subj").value+"&messageEmail="+document.getElementById("msg").value+"&saveemail="+(document.getElementById("someSwitchOptionSuccess").checked ? "vero" : "falso");
 
             var xmlhttp = new XMLHttpRequest();
             xmlhttp.open("POST", "email_form.php", true);
@@ -90,7 +90,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="submit" name="btn" value="invia" id="em_submit" class="btn btn-primary">
+                                    <input type="submit" name="btn" value="send" id="em_submit" class="btn btn-primary">
                                     <p id="err"></p>
                                 </div>
                             </div>

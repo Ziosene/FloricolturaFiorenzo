@@ -50,7 +50,7 @@
                             <a href="#"><i class="fa fa-envelope fa-fw"></i> Email<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#"><i class="fa fa-users fa-fw"></i> Iscritti</a>
+                                    <a href="newsletter.php"><i class="fa fa-users fa-fw"></i> Iscritti</a>
                                 </li>
                                 <li>
                                     <a href="#"><i class="fa fa-share fa-fw"></i> Invia</a>
