@@ -16,19 +16,26 @@ class PlannedMailDAO
     }
 
     function createPlannedMail($plannedmail){
-
-        $prepare = $this->conn->prepare("INSERT INTO newsletter (oggetto,testo, sent) VALUES (?, ?)");
+        $prepare = $this->conn->prepare("INSERT INTO plannedmail (oggetto,testo,sent) VALUES (?,?,?)");
         $prepare->bind_param("sss", $plannedmail->getOggetto(), $plannedmail->getTesto(), $plannedmail->getSent());
         $prepare->execute();
     }
 
-    function retrievePlannedMail($plannedmail){
 
-        $result = mysqli_query($this->conn,"SELECT * FROM plannedmail");
+
+    function sentScheduledEmail($id){
+        $prepare = $this->conn->prepare("UPDATE plannedmail set sent = 'Spedite' WHERE id = ?");
+        $prepare->bind_param("i",$id);
+        $prepare->execute();
+    }
+
+    function retrieveScheduledPlannedMail(){
+
+        $result = mysqli_query($this->conn,"SELECT id,oggetto,testo,sent FROM plannedmail WHERE sent = 'In Attesa'");
         if(mysqli_num_rows($result) > 0) {
             for($i = 0; $i < mysqli_num_rows($result); $i++) {
                 $row = mysqli_fetch_array($result);
-                $newsletter[$i] = new Newsletter();
+                $newsletter[$i] = new PlannedMail();
                 $newsletter[$i]->setId($row[0]);
                 $newsletter[$i]->setOggetto($row[1]);
                 $newsletter[$i]->setTesto($row[2]);

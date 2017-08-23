@@ -22,7 +22,7 @@ class NewsletterDAO
         $prepare->execute();
     }
 
-    function retrieveNewsletter($newsletter){
+    function retrieveNewsletter(){
 
         $result = mysqli_query($this->conn,"SELECT * FROM newsletter");
         if(mysqli_num_rows($result) > 0) {

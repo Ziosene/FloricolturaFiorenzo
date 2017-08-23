@@ -16,30 +16,32 @@ include "component/head.php";
             </div>
         </div>
         <!-- /.row -->
-        <div class="row">
-            <div class="col-lg-12">
+        <form action="action/newsletter/emailMassiveUpload.php" method="POST">
+            <div class="row">
+                <div class="col-lg-12">
 
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Oggetto</div>
-                        <input type="text" class="form-control"  id="formGroupExampleInput" placeholder="Oggetto della mail"/>
-                </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Oggetto</div>
+                            <input type="text" required name="oggetto" class="form-control"  id="formGroupExampleInput" placeholder="Oggetto della mail"/>
+                    </div>
 
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Email</div>
-                        <textarea type="text" class="form-control" rows="20" id="formGroupExampleInput" placeholder="Digita la mail da inviare"></textarea>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Email</div>
+                            <textarea type="text" required name="testo" class="form-control" rows="20" id="formGroupExampleInput" placeholder="Digita la mail da inviare"></textarea>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- /.row -->
-        <!-- /.row -->
-        <div class="row">
-            <div class="col-lg-8" >
-                <p></p>
+            <!-- /.row -->
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-8" >
+                    <p></p>
+                </div>
+                <div class="col-lg-4" >
+                    <button style="float:right" class="btn btn-primary" type="submit"><i class="fa fa-envelope-o"></i> Invia</button>
+                </div>
             </div>
-            <div class="col-lg-4" >
-                <button href="#" data-toggle="modal" data-target="#newCat" style="float:right" class="btn btn-primary" type="button"><i class="fa fa-envelope-o"></i> Invia</button>
-            </div>
-        </div>
+        </form>
         <!-- /.row -->
     </div>
     <!-- /#page-wrapper -->
