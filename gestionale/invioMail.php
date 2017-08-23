@@ -1,8 +1,5 @@
 <?php
 include "component/head.php";
-require_once("../class/dao/NewsletterDAO.php");
-
-$newsletterDAO = new NewsletterDAO($db->getConnection());
 ?>
 
 <body>
@@ -15,25 +12,33 @@ $newsletterDAO = new NewsletterDAO($db->getConnection());
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Utenti Iscritti</h1>
+                <h1 class="page-header">Digitazione Newsletter</h1>
             </div>
-            <!-- /.col-lg-12 -->
         </div>
         <!-- /.row -->
         <div class="row">
             <div class="col-lg-12">
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Utenti Iscritti</div>
-                    <!-- /.panel-heading -->
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-addon" id="sizing-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
-                    </div>
+                    <div class="panel-heading">Oggetto</div>
+                        <input type="text" class="form-control"  id="formGroupExampleInput" placeholder="Oggetto della mail"/>
                 </div>
-                <!-- /.panel -->
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Email</div>
+                        <textarea type="text" class="form-control" rows="20" id="formGroupExampleInput" placeholder="Digita la mail da inviare"></textarea>
+                </div>
             </div>
-            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-8" >
+                <p></p>
+            </div>
+            <div class="col-lg-4" >
+                <button href="#" data-toggle="modal" data-target="#newCat" style="float:right" class="btn btn-primary" type="button"><i class="fa fa-envelope-o"></i> Invia</button>
+            </div>
         </div>
         <!-- /.row -->
     </div>
@@ -61,19 +66,7 @@ $newsletterDAO = new NewsletterDAO($db->getConnection());
 <script src="dist/js/sb-admin-2.js"></script>
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
-<script>
-    $(document).ready(function() {
-        $('#dataTables-example').DataTable({
-            responsive: true,
-            "language": {
-                "lengthMenu": "Mostra _MENU_ elementi",
-                "zeroRecords": "Nessun dato trovato",
-                "info": "Pagina _PAGE_ di _PAGES_",
-                "infoEmpty": "Nessuna informazione",
-                "infoFiltered": "(filtered from _MAX_ total records)"}
-        });
-    });
-</script>
+
 
 </body>
 

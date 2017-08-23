@@ -53,7 +53,7 @@
                                     <a href="newsletter.php"><i class="fa fa-users fa-fw"></i> Iscritti</a>
                                 </li>
                                 <li>
-                                    <a href="invioEmail.php"><i class="fa fa-share fa-fw"></i> Invia</a>
+                                    <a href="invioMail.php"><i class="fa fa-share fa-fw"></i> Invia</a>
                                 </li>
                             </ul>
                         </li>
