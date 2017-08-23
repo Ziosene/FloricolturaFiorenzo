@@ -48,10 +48,10 @@ class NewsletterDAO
         else return 0;
     }
 
-    function deleteNewsletter($email){
+    function deleteNewsletter($id){
 
-        $prepare = $this->conn->prepare("DELETE FROM newsletter WHERE email = ?");
-        $prepare->bind_param("s",$email);
+        $prepare = $this->conn->prepare("DELETE FROM newsletter WHERE id = ?");
+        $prepare->bind_param("i",$id);
         $prepare->execute();
     }
 

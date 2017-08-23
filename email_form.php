@@ -26,13 +26,6 @@ $msg .= "Email inviata da: ".$_POST['name'].".\n\n".$text_msg;  // aggiungi il m
 // Boundary di terminazione multipart/alternative
 $msg .= "\n--$mail_boundary--\n";
 
-// Invia il messaggio, il quinto parametro "-f$sender" imposta il Return-Path su hosting Linux
-if (mail($to, $subject, $msg, $headers, "-f$sender")) {
-    echo "ok";
-} else {
-    echo "fail";
-}
-
 if($_POST['saveemail'] = 'vero'){
     include "class/DBManager.php";
     include "class/domain/Newsletter.php";
@@ -43,9 +36,16 @@ if($_POST['saveemail'] = 'vero'){
     $newsletterAcc = new Newsletter();
     $newsletterAcc->setEmail($_POST['email']);
     $newsletterAcc->setNomeCognome($_POST['name']);
-    $controlEmail = $newsDAO->existNewsletter();
-    if($controlEmail == 0)
+    $controlEmail = $newsDAO->existNewsletter($_POST['email']);
+    if($controlEmail == 0) {
         $newsDAO->createNewsletter($newsletterAcc);
+    }
+}
+
+if (mail($to, $subject, $msg, $headers, "-f$sender")) {
+    echo "ok";
+} else {
+    echo "Errore nell'invio dell mail.";
 }
 
 ?>
