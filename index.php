@@ -405,6 +405,15 @@
     <?php include "component/footer.php"; ?>
 
     <!--Script Start-->
+    <script src="js/cookies/cookiechoices.js" type="text/javascript"></script>
+    <script>//<![CDATA[
+        document.addEventListener('DOMContentLoaded', function(event) {
+            cookieChoices.showCookieConsentBar('Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. ' +
+                'Se continui ad utilizzare questo sito accetti la nostra Privacy Policy.',
+                'Chiudi', 'Maggiori Informazioni',
+                'https://www.google.com/intl/it/policies/privacy/');
+        });
+        //]]></script>
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/jquery.bxslider.min.js"></script>

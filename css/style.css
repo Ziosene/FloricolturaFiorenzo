@@ -5214,4 +5214,27 @@ h2.eco_img_head {
 .formEmailNewsletter{
 	margin: 15px;
 }
+/*---------------Banner Cookies Start---------------*/
+
+#cookieChoiceInfo {
+	background-color: #000;
+	font-size: 16px;
+	color: #DDD;
+	padding: 10px;
+	opacity: .9;
+}
+#cookieChoiceDismiss {
+	background-color: #0A0;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 3px 10px;
+	border-radius:  3px;
+}
+#cookieChoiceDismiss:hover{
+	background-color: #0F0;
+}
+
+/*---------------Banner Cookies Start---------------*/
 /*---------------Media Css End---------------*/

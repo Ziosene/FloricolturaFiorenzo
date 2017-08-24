@@ -212,7 +212,8 @@
                         Ci occupiamo di realizzare composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
                     <p class="eco_color3 text-left">Negli ultimi anni i nostri arredi per il periodo natalizio,
                         dai classici centro tavola ai portali e ghirlande in vero pino, sono diventate un vero e proprio must!
-                        Potrai quindi scegliere se ritirare il tutto in vivaio o se saremo noi a consegnartelo e istallarlo.</p>
+                        Potrai quindi scegliere se ritirare il tutto in vivaio o se saremo noi a consegnarlo e installarlo
+                        direttamente a casa tua.</p>
                     </div>
             </div>
             <!--col-lg-6 end-->
