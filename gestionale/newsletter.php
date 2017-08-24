@@ -84,7 +84,7 @@
                 <h4 class="modal-title">Conferma</h4>
             </div>
             <div class="modal-body">
-                <p>Sei sicuro di voler eliminare il fotogallery selezionato ?</p>
+                <p>Sei sicuro di voler eliminare l'utente selezionato ?</p>
             </div>
             <div class="modal-footer">
                 <form action="action/newsletter/removeNewsletter.php" id="deleteFormNews" method="POST">

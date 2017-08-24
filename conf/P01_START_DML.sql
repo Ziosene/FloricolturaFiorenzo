@@ -50,5 +50,6 @@ CREATE TABLE IF NOT EXISTS statistic (
    oggetto varchar(500) NOT NULL,
    testo varchar(5000) NOT NULL,
    sent varchar(25) NOT NULL,
+   mydate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
    PRIMARY KEY (id)
  )ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

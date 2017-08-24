@@ -129,7 +129,7 @@
                                     </thead>
                                     <tbody>
                                     <?php
-                                    $result = mysqli_query($db->getConnection(),"SELECT id, oggetto, sent FROM plannedmail ORDER BY id desc");
+                                    $result = mysqli_query($db->getConnection(),"SELECT id, oggetto, sent, mydate FROM plannedmail ORDER BY id desc");
                                     if(isset($result)){
                                         while ($email = mysqli_fetch_array($result)){
                                             ?>
@@ -137,11 +137,12 @@
                                                 <td><?php echo $email['id'];?></td>
                                                 <td><?php echo $email['oggetto'];?></td>
                                                 <td><?php echo $email['sent'];?></td>
-
+                                                <td><?php echo $email['mydate'];?></td>
                                                 <td>
-                                                    <?php if( $email['sent']=="In Attesa"){ ;?>
-                                                        AZIONI FUTURE
-                                                    <?php } ?>
+                                                    <a href="#" data-toggle="modal" data-target="#deleteConfirmMail"
+                                                       onclick="prepareDeleteStatment(<?php echo $email['id'];?>);">
+                                                        <i class="fa fa-times"></i>
+                                                    </a>
                                                 </td>
                                             </tr>
                                         <?php  }
@@ -162,6 +163,40 @@
 
     </div>
     <!-- /#wrapper -->
+
+    <div id="deleteConfirmMail" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Conferma</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Sei sicuro di voler eliminare il fotogallery selezionato ?</p>
+                </div>
+                <div class="modal-footer">
+                    <form action="action/newsletter/removeEmailMassive.php" id="deleteFormMailMassive" method="POST">
+                        <input type="hidden" id="idDeleteMail" name="idDeleteMail" value="" />
+                        <button type="button" onclick="document.getElementById('deleteFormMailMassive').submit();" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Elimina</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+        function prepareDeleteStatment( id ){
+            var hidden = document.getElementById("idDeleteMail");
+            hidden.value =id;
+        }
+
+    </script>
 
     <!-- jQuery -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

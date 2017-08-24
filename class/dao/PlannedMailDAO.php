@@ -63,5 +63,4 @@ class PlannedMailDAO
         else
             return 0;
     }
-
 }
