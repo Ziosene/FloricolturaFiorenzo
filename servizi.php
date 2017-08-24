@@ -137,8 +137,12 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
 							<div class="eco_full_text" data-scrollreveal="enter from the left over 1s">
 								<h3 class="eco_color text-uppercase">In Vivaio</h3>
-								<p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
-								<p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
+								<p class="eco_color3 text-left">Nel nostro vivaio potrete trovare fiori e piante da interno ed esterno.
+                                    Siamo specializzati nella coltivazione delle piante floricole stagionali da esterno e prestiamo particolare
+                                    attenzione nel consigliare al cliente la coltura più adatta alle esigenze esposte. </p>
+								<p class="eco_color3 text-left">Con noi potrete dare forma a composizioni uniche e personalizzate
+                                    per poter arredare i vostri giardini, terrazzi o anche semplicemente un regalo;
+                                    forniamo infatti un servizio su richiesta per la fornitura di mazzi con fiori recisi e consegne a domicilio.</p>
 							</div>
 						</div>
 						<!--col-lg-6 end-->
@@ -155,7 +159,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
-                        <h3 class="eco_color text-uppercase">servizio 2</h3>
+                        <h3 class="eco_color text-uppercase">Servizio 2</h3>
                         <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
                         <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
                     </div>
@@ -202,10 +206,14 @@
             <!--col-lg-8 end-->
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
                 <div class="eco_full_text" data-scrollreveal="enter from the left over 1s">
-                    <h3 class="eco_color text-uppercase">servizio 3</h3>
-                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
-                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
-                </div>
+                    <h3 class="eco_color text-uppercase">Per La Festa</h3>
+                    <p class="eco_color3 text-left">Che sia un matrimonio, un battesimo o qualsiasi festa con noi potrai dare
+                        forma ad arredi floreali e verdi per impreziosire l’atmosfera.
+                        Ci occupiamo di realizzare composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
+                    <p class="eco_color3 text-left">Negli ultimi anni i nostri arredi per il periodo natalizio,
+                        dai classici centro tavola ai portali e ghirlande in vero pino, sono diventate un vero e proprio must!
+                        Potrai quindi scegliere se ritirare il tutto in vivaio o se saremo noi a consegnartelo e istallarlo.</p>
+                    </div>
             </div>
             <!--col-lg-6 end-->
             <!--row end-->

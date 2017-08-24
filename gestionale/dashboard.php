@@ -174,7 +174,7 @@
                     <h4 class="modal-title">Conferma</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Sei sicuro di voler eliminare il fotogallery selezionato ?</p>
+                    <p>Sei sicuro di voler eliminare la newsletter selezionata ?</p>
                 </div>
                 <div class="modal-footer">
                     <form action="action/newsletter/removeEmailMassive.php" id="deleteFormMailMassive" method="POST">

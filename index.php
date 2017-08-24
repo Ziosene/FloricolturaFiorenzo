@@ -161,20 +161,9 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="eco_home_service" data-scrollreveal="enter from the top over 1s">
-							<div class="eco_service_icon">
-								<a href="../servizi.php#ser2offset" class="eco_transition"> <i class="glyph-icon flaticon-plant-on-a-hand"></i></a>
-							</div>
-							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Eventi </h5>
-								<div class="eco_service_data">Organizzazione e allestimento eventi, quali matrimoni, battesimi, ...</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the bottom over 1s">
 							<div class="eco_service_icon">
-								<a href="../servizi.php#ser3offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-1"></i> </a>
+								<a href="../servizi.php#ser2offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-1"></i> </a>
 							</div>
 							<div class="eco_service_text">
 								<h5 class="text-uppercase"> Giardini e Terrazzi </h5>
@@ -182,6 +171,17 @@
 							</div>
 						</div>
 					</div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="eco_home_service" data-scrollreveal="enter from the top over 1s">
+                            <div class="eco_service_icon">
+                                <a href="../servizi.php#ser3offset" class="eco_transition"> <i class="glyph-icon flaticon-plant-on-a-hand"></i></a>
+                            </div>
+                            <div class="eco_service_text">
+                                <h5 class="text-uppercase"> Per La Festa </h5>
+                                <div class="eco_service_data">Organizzazione e allestimento eventi</div>
+                            </div>
+                        </div>
+                    </div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the right over 1s">
 							<div class="eco_service_icon">
