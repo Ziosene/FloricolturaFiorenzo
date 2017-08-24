@@ -402,6 +402,30 @@
     </div>
     <!--contact slider Section End-->
 
+    <div id="suca" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Iscriviti alla nostra Newsletter</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="recipient-name" class="form-control-label">Riceverai le nostre offerte speciali</label>
+                        <input type="text" class="form-control" id="recipient-name" name="emailNewsletter" placeholder="Digita la tua mail">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <form action="/email_form_newsletter.php" id="suca2" method="POST">
+                        <input type="submit" name="idDeleteFormNewsletter" value="Aggiungi" id="idDeleteFormNewsletter" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <?php include "component/footer.php"; ?>
 
     <!--Script Start-->
@@ -413,7 +437,9 @@
                 'Chiudi', 'Maggiori Informazioni',
                 'https://www.google.com/intl/it/policies/privacy/');
         });
-        //]]></script>
+        //]]>
+    </script>
+
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/jquery.bxslider.min.js"></script>
