@@ -12,9 +12,10 @@
     $db= new DBManager();
     $newsDAO = new NewsletterDAO($db->getConnection());
     $newsletterAcc = new Newsletter();
-    $newsletterAcc->setEmail($_POST['emailNewsletter']);
-    $controlEmail = $newsDAO->existNewsletter($_POST['emailNewsletter']);
+    $newsletterAcc->setEmail($_POST['email']);
+    $controlEmail = $newsDAO->existNewsletter($_POST['email']);
     if($controlEmail == 0) {
         $newsDAO->createNewsletter($newsletterAcc);
     }
+    echo "ok";
 ?>

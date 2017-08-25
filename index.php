@@ -402,7 +402,7 @@
     </div>
     <!--contact slider Section End-->
 
-    <div id="suca" class="modal fade" role="dialog">
+    <div id="modalNewsletter" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
@@ -411,17 +411,19 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Iscriviti alla nostra Newsletter</h4>
                 </div>
+                <form action="javascript:submitEmailForm()" id="actionNewsletter">
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="recipient-name" class="form-control-label">Riceverai le nostre offerte speciali</label>
-                        <input type="text" class="form-control" id="recipient-name" name="emailNewsletter" placeholder="Digita la tua mail">
+                        <input type="email" required class="form-control" id="emailForm" name="emailNewsletter" placeholder="Digita la tua mail">
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <form action="/email_form_newsletter.php" id="suca2" method="POST">
+
                         <input type="submit" name="idDeleteFormNewsletter" value="Aggiungi" id="idDeleteFormNewsletter" class="btn btn-primary">
-                    </form>
+
                 </div>
+                </form>
             </div>
         </div>
     </div>
@@ -438,6 +440,29 @@
                 'https://www.google.com/intl/it/policies/privacy/');
         });
         //]]>
+    </script>
+
+    <script>
+
+        function submitEmailForm(){
+            var param="email="+document.getElementById("emailForm").value;
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("POST", "email_form_newsletter.php", true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.setRequestHeader("Content-length", param.length);
+            xmlhttp.setRequestHeader("Connection", "close");
+
+            xmlhttp.onreadystatechange = function() {
+                if(xmlhttp.responseText == "ok"){
+                    document.getElementById("modalNewsletter").style.display = "none";
+                    document.getElementById("modalNewsletter").reset();
+                }
+            };
+
+            xmlhttp.send(param);
+
+        }
     </script>
 
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
@@ -465,8 +490,15 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
-            type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(function(){
+                $('#modalNewsletter').modal('show');
+                },5000);
+        })
+    </script>
 	<!--Script End-->
     <!--Body End-->
 </body>
