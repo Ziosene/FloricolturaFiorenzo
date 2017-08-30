@@ -134,8 +134,8 @@
     <div class="wraper">
         <div class="container">
             <div class="eco_main_heading">
-                <h1 class="text-center text-uppercase"> <strong class="text-features"><span>le nostre</span> <span class="eco_color">caratteristiche</span></strong> </h1>
-                <div class="eco_small_text text-center">Noi siamo specializzati in</div>
+                <h1 class="text-center text-uppercase"> <strong class="text-features"><span>La nostra</span> <span class="eco_color">storia</span></strong> </h1>
+                <div class="eco_small_text text-center">Fiori e Piante dal 1987</div>
             </div>
         </div>
     </div>

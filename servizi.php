@@ -115,7 +115,7 @@
                 <h3 class="eco_color text-uppercase padder_bottom_50">Categoria Servizi 1</h3>
                 <p class="eco_color3 text-left padder_bottom_40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
                 <p class="eco_color3 text-left padder_bottom_60">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                <img src="http://placehold.it/315x401" class="eco_img_responsive" alt=""> </div>
+                <img src="/images/Serra.jpg" class="eco_img_responsive" alt=""> </div>
             <!--eco_enter_content end-->
         </div>
         <!--container end-->
@@ -159,10 +159,15 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
-                        <h3 class="eco_color text-uppercase">Servizio 2</h3>
-                        <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
-                        <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
-                    </div>
+                        <h3 class="eco_color text-uppercase">Per La Festa</h3>
+                        <p class="eco_color3 text-left">Che sia un matrimonio, un battesimo o qualsiasi festa con noi potrai dare
+                            forma ad arredi floreali e verdi per impreziosire l’atmosfera.
+                            Ci occupiamo di realizzare composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
+                        <p class="eco_color3 text-left">Negli ultimi anni i nostri arredi per il periodo natalizio,
+                            dai classici centro tavola ai portali e ghirlande in vero pino, sono diventate un vero e proprio must!
+                            Potrai quindi scegliere se ritirare il tutto in vivaio o se saremo noi a consegnarlo e installarlo
+                            direttamente a casa tua.</p>
+                       </div>
 
                     <!--row end-->
                 </div>
@@ -206,15 +211,10 @@
             <!--col-lg-8 end-->
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
                 <div class="eco_full_text" data-scrollreveal="enter from the left over 1s">
-                    <h3 class="eco_color text-uppercase">Per La Festa</h3>
-                    <p class="eco_color3 text-left">Che sia un matrimonio, un battesimo o qualsiasi festa con noi potrai dare
-                        forma ad arredi floreali e verdi per impreziosire l’atmosfera.
-                        Ci occupiamo di realizzare composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
-                    <p class="eco_color3 text-left">Negli ultimi anni i nostri arredi per il periodo natalizio,
-                        dai classici centro tavola ai portali e ghirlande in vero pino, sono diventate un vero e proprio must!
-                        Potrai quindi scegliere se ritirare il tutto in vivaio o se saremo noi a consegnarlo e installarlo
-                        direttamente a casa tua.</p>
-                    </div>
+                    <h3 class="eco_color text-uppercase">Giardini e Terrazzi</h3>
+                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
+                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
+                </div>
             </div>
             <!--col-lg-6 end-->
             <!--row end-->
@@ -230,9 +230,11 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
-                    <h3 class="eco_color text-uppercase">servizio 4</h3>
-                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
-                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
+                    <h3 class="eco_color text-uppercase">Irrigazione</h3>
+                    <p class="eco_color3 text-left">"Il segreto di bel giardino?! L'acqua!".
+                        Ricordiamo sempre ai nostri clienti che una buona irrigazione che eviti gli eccessi é alla base di un giardino curato.
+                        Ecco perché forniamo un servizio di realizzazione e manutenzione di impianti di irrigazione per giardini e terrazzi.</p>
+                    <p class="eco_color3 text-left"></p>
                 </div>
 
                 <!--row end-->
