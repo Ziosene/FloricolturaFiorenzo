@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
     <!--color changing css file-->
-    <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+<!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
@@ -119,36 +119,37 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap" type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-            var myCenter = new google.maps.LatLng("45.519925", "9.306987");
 
-            function initialize() {
-                var mapProp = {
-                    center: myCenter,
-                    zoom: 15,
-                    scrollwheel: true,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("bigth_googleMap"), mapProp);
-                
-                var marker = new google.maps.Marker({
-                    position: myCenter,
-                    map: map,
-                    animation: google.maps.Animation.BOUNCE
-                });
-                marker.setMap(map);
-                var infowindow = new google.maps.InfoWindow({
-                    content: ""
-                });
-                google.maps.event.addListener(marker, 'click', function() {
-                    infowindow.open(map, marker);
-                });
-            }
+    <script>
+
+        function initialize() {
+            var myCenter = new google.maps.LatLng("45.519925", "9.306987");
+            var mapProp = {
+                center: myCenter,
+                zoom: 15,
+                scrollwheel: true,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("bigth_googleMap"), mapProp);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+                map: map,
+                animation: google.maps.Animation.BOUNCE
+            });
+            marker.setMap(map);
+            var infowindow = new google.maps.InfoWindow({
+                content: ""
+            });
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map, marker);
+            });
+        }
+        $(document).ready(function() {
             google.maps.event.addDomListener(window, 'load', initialize);
         });
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initialize" type="text/javascript"></script>
     <!--Script End-->
     <!--Body End-->
 </body>

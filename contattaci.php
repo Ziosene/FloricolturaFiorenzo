@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
     <!--color changing css file-->
-    <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+<!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
@@ -139,7 +139,6 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap" type="text/javascript"></script>
 
     <!--Script End-->
     <!--Body End-->

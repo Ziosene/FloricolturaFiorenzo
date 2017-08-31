@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
     <!--color changing css file-->
-    <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+<!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
@@ -292,9 +292,7 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Plants Cutting">
-													<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
-												</a>
+                                                <h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
@@ -490,7 +488,6 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap" type="text/javascript"></script>
 
     <script>
         $(document).ready(function() {

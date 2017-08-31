@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
     <!--color changing css file-->
-    <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+<!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
@@ -142,7 +142,8 @@
                                     attenzione nel consigliare al cliente la coltura più adatta alle esigenze esposte. </p>
 								<p class="eco_color3 text-left">Con noi potrete dare forma a composizioni uniche e personalizzate
                                     per poter arredare i vostri giardini, terrazzi o anche semplicemente un regalo;
-                                    forniamo infatti un servizio su richiesta per la fornitura di mazzi con fiori recisi e consegne a domicilio.</p>
+                                    forniamo infatti un servizio su richiesta per la fornitura di mazzi con
+                                    fiori recisi (<span class="eco_color"><strong>su ordinazione</strong></span>) e consegne a domicilio .</p>
 							</div>
 						</div>
 						<!--col-lg-6 end-->
@@ -162,7 +163,8 @@
                         <h3 class="eco_color text-uppercase">Per La Festa</h3>
                         <p class="eco_color3 text-left">Che sia un matrimonio, un battesimo o qualsiasi festa con noi potrai dare
                             forma ad arredi floreali e verdi per impreziosire l’atmosfera.
-                            Ci occupiamo di realizzare composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
+                            Ci occupiamo di realizzare (<span class="eco_color"><strong>su prenotazione</strong></span>)
+                            composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
                         <p class="eco_color3 text-left">Negli ultimi anni i nostri arredi per il periodo natalizio,
                             dai classici centro tavola ai portali e ghirlande in vero pino, sono diventate un vero e proprio must!
                             Potrai quindi scegliere se ritirare il tutto in vivaio o se saremo noi a consegnarlo e installarlo
@@ -304,8 +306,7 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
-            type="text/javascript"></script>
+
     <!--Script End-->
     <!--Body End-->
 </body>
