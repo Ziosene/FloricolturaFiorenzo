@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi Siamo :: Floricoltura Fiorenzo</title>
+    <?php include "component/seo.php"; ?>
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
     <!--color changing css file-->
-    <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+<!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
@@ -135,84 +134,29 @@
     <div class="wraper">
         <div class="container">
             <div class="eco_main_heading">
-                <h1 class="text-center text-uppercase"> <strong><span>le nostre</span> <span class="eco_color">caratteristiche</span></strong> </h1>
-                <div class="eco_small_text text-center">Noi siamo specializzati in</div>
+                <h1 class="text-center text-uppercase"> <strong class="text-features"><span>La nostra</span> <span class="eco_color">storia</span></strong> </h1>
+                <div class="eco_small_text text-center">Fiori e Piante dal 1987</div>
             </div>
         </div>
     </div>
     <!--Home Heading End-->
 
-    <!--Achievement Section Start-->
-    <div class="eco_achievement">
-        <div class="container">
-            <div class="eco_wraper text-center">
-                <div class="eco_small_heading text-uppercase"></div>
-
-                <div class="eco_border padder_bottom_50">
-                </div>
-				<div class="eco_featured">
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="eco_featured_content padder_bottom_50">
-								<div class="eco_round_img">
-									<a href="#"><img src="http://placehold.it/198x198" class="img-responsive" alt="">
-									</a>
-								</div>
-								<h4 class="padder_top_20 eco_mbottom_0">caratteristica 1</h4>
-								<p class="eco_pera eco_color1">Nam dapibus commodo</p>
-								<p class="eco_color2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo inter. Quisque tempor, justo sit amet.</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="eco_featured_content padder_bottom_50">
-								<div class="eco_round_img">
-									<a href="#"><img src="http://placehold.it/198x198" class="img-responsive" alt="">
-									</a>
-								</div>
-								<h4 class="padder_top_20 eco_mbottom_0">caratteristica 2</h4>
-								<p class="eco_pera eco_color1">Nam dapibus commodo</p>
-								<p class="eco_color2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo inter.&nbsp;Quisque tempor, justo sit amet.</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="eco_featured_content padder_bottom_50">
-								<div class="eco_round_img">
-									<a href="#"><img src="http://placehold.it/198x198" class="img-responsive" alt="">
-									</a>
-								</div>
-								<h4 class="padder_top_20 eco_mbottom_0">caratteristica 3</h4>
-								<p class="eco_pera eco_color1">Nam dapibus commodo</p>
-								<p class="eco_color2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo inter.&nbsp;Quisque tempor, justo sit amet.</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="eco_featured_content padder_bottom_50">
-								<div class="eco_round_img">
-									<a href="#"><img src="http://placehold.it/198x198" class="img-responsive" alt="">
-									</a>
-								</div>
-								<h4 class="padder_top_20 eco_mbottom_0">caratteristica 4</h4>
-								<p class="eco_pera eco_color1">Nam dapibus commodo</p>
-								<p class="eco_color2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus commodo inter.&nbsp;Quisque tempor, justo sit amet.</p>
-							</div>
-						</div>
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Achievement Section End-->
     <div class="eco_recycle_wraper padder_top_90 padder_bottom_90">
         <div class="container">
 			<div class="row">
 				<div class="eco_main_recycle">
 					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <div class="garden_about_img"><img src="http://placehold.it/462x420" class="img-responsive" alt=""></div> </div>
 					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">	
-						<div class="garden_aboute_data">
-							<h2 class="eco_rehead">About Us</h2>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+						<div class="garden_aboute_data" data-scrollreveal="enter from the left over 1s">
+							<h2 class="eco_rehead">Chi Siamo</h2>
+							<p>Siamo un'azienda a conduzione familiare, nata oltre 30 anni fa dall'amore per la coltivazione
+                            di piante fiorite e verdi in vaso, che ancora oggi restano il nostro punto di forza. Nel tempo abbiamo
+                            ampliato l'offerta dei nostri servizi e oggi, infatti, ci occupiamo anche della realizzazione di terrazzi
+                            e giardini, la loro manutenzione, proponendo al cliente soluzioni funzionali alle richieste.</p>
 							<br>
-							<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<p>Il parco della Martesana fa da cornice alla Nostra sede di 5000mq, in cui prendono forma i Nostri
+                            progetti alla base dei quali c'è la passione e la voglia di realizzare il desiderio del cliente mantenendo
+                            sempre al centro il benessere della pianta.</p>
 						</div>
 					</div>
 				</div>
@@ -256,8 +200,6 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
-            type="text/javascript"></script>
     <!--Script End-->
     <!--Body End-->
 </body>

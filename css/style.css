@@ -689,7 +689,6 @@ ul.my_menu ul.sub-menu {
 	position: absolute;
 	font-size: 14px;
 	left: auto;
-	min-width: 180px;
 	background: #fff;
 	background: rgba(255,255,255,0.98);
 	opacity: 1;
@@ -754,13 +753,10 @@ ul.my_menu ul.sub-menu li.eco_imgli:hover {
 ul.my_menu li.eco_bigmenu ul.sub-menu {
 	float: left;
 	padding: 20px 0;
-	left: 0;
-	max-width: 100%;
 	margin-left: 0;
 	padding: 0 !important;
 	margin-bottom: 10px;
 	padding-top: 0px !important;
-	width: 100%;
 }
 ul.my_menu li.eco_bigmenu ul.sub-menu li.eco_pmcmenutitle {
 	font-weight: regular;
@@ -2240,7 +2236,7 @@ input#em_submit {
 	line-height: 30px;
 	width: 65%;
 	font-family: inherit;
-	margin-left: 70px;
+	margin: 0 auto;
 	font-size: 14px;
 }
 .eco_contact_info ul {
@@ -5108,7 +5104,7 @@ h2.eco_img_head {
 }
 .garden_slider_subheading, .garden_sliderbtn1, .Agency-Social {
     display: none !important;
-} 
+}
 .garden_sldier_heading {
     line-height: 20px !important;
     font-size: 15px !important;
@@ -5124,7 +5120,7 @@ h2.eco_img_head {
 	}
 }
 
-.tp-tabs{
+.tp-tabs, .tparrows{
 	display:none !important;
 }
 
@@ -5132,5 +5128,113 @@ h2.eco_img_head {
 	.facebookContainer{
 		display: none;
 	}
+	.ancora{
+		display: none;
+	}
+	.eco_home_service, .tabel-dovesiamo{
+		margin-top: 20px;
+	}
+	.garden_mainslider{
+		clear: left;
+	}
+	.text-center{
+		word-break: normal;
+	}
 }
+
+.ancora{
+	position: relative;
+	display: block;
+	top: -50px;
+	visibility: hidden;
+}
+
+.homeButton{
+	border-left: 1px solid #3d3d3d;
+}
+
+.emailSvg{
+	height: 1em;
+}
+
+.form-group{
+	color: #69af07;
+}
+
+.text-form{
+	font-weight: bold;
+}
+/*---------------Newsletter Start---------------*/
+.material-switch > input[type="checkbox"] {
+	display: none;
+}
+
+.material-switch > label {
+	background: #69af07;
+	cursor: pointer;
+	height: 0px;
+	position: relative;
+	width: 40px;
+}
+
+.material-switch > label::before {
+	background: rgb(0, 0, 0);
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	content: '';
+	height: 16px;
+	margin-top: -8px;
+	position:absolute;
+	opacity: 0.3;
+	transition: all 0.4s ease-in-out;
+	width: 40px;
+}
+.material-switch > label::after {
+	background: rgb(255, 255, 255);
+	border-radius: 16px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	content: '';
+	height: 24px;
+	left: -4px;
+	margin-top: -8px;
+	position: absolute;
+	top: -4px;
+	transition: all 0.3s ease-in-out;
+	width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+	background: inherit;
+	opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+	background: inherit;
+	left: 20px;
+}
+/*---------------Newsletter End---------------*/
+.formEmailNewsletter{
+	margin: 15px;
+}
+/*---------------Banner Cookies Start---------------*/
+
+#cookieChoiceInfo {
+	background-color: #000;
+	font-size: 16px;
+	color: #DDD;
+	padding: 10px;
+	opacity: .9;
+}
+#cookieChoiceDismiss {
+	background-color: #0A0;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 3px 10px;
+	border-radius:  3px;
+}
+#cookieChoiceDismiss:hover{
+	background-color: #0F0;
+}
+
+/*---------------Banner Cookies Start---------------*/
 /*---------------Media Css End---------------*/

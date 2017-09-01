@@ -581,39 +581,7 @@ $(document).ready(function() {
                         }
                     });
                 }
-    //contact form submition
-    $("#em_submit").on("click", function() {
-        var e = $("#uname").val();
-        var t = $("#umail").val();
-        var n = $("#subj").val();
-        var r = $("#msg").val();
-        $.ajax({
-            type: "POST",
-            url: "ajaxmail.php",
-            data: {
-                username: e,
-                useremail: t,
-                useresubject: n,
-                mesg: r
-            },
-            success: function(n) {
-                var i = n.split("#");
-                if (i[0] == "1") {
-                    $("#uname").val("");
-                    $("#umail").val("");
-                    $("#subj").val("");
-                    $("#msg").val("");
-                    $("#err").html(i[1])
-                } else {
-                    $("#uname").val(e);
-                    $("#umail").val(t);
-                    $("#subj").val(t);
-                    $("#msg").val(r);
-                    $("#err").html(i[1])
-                }
-            }
-        })
-    });
+
     //preloader
     $("#status").fadeOut();
     $("#preloader").delay(300).fadeOut("slow")

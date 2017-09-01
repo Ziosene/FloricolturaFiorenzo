@@ -42,7 +42,7 @@ $count = $catDAO->numCategory();
 
                 <div class="row">
                     <div class="col-lg-10" >
-                        <p>In questa sezione &#232; possibile configurare le opportune categoria dell'applicazione.</p>
+                        <p>In questa sezione &#232; possibile configurare le opportune categorie di foto.</p>
                     </div>
                     <div class="col-lg-2" >
                             <button href="#" data-toggle="modal" data-target="#newCat" style="float:right" class="btn btn-primary" type="button"><i class="fa fa-plus"></i> Aggiungi</button>

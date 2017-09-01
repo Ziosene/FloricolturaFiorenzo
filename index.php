@@ -3,22 +3,21 @@
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floricoltura Fiorenzo</title>
+	<?php include "component/seo.php"; ?>
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
     <!--color changing css file-->
-    <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+<!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
     <!-- favicon link End -->
 </head>
 <!-- Header End -->
-<!-- Body Start -->
 
+<!-- Body Start -->
 <body>
 
 	<?php
@@ -34,7 +33,7 @@
                 <ul>    <!-- SLIDE  -->
                     <li data-index="rs-2978" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Gardening" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="images/fioreviola.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+                        <img src="images/fioreviola.jpg"  alt="fioreviolaslider"  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
@@ -136,7 +135,7 @@
         <div class="container">
             <div class="eco_main_heading">
                 <h1 class="text-center"><span>I NOSTRI </span> <strong><span class="eco_color">SERVIZI</span></strong> </h1>
-                <div class="eco_small_text text-center">Vi proponiamo i seguenti servizi</div>
+                <div class="eco_small_text text-center"></div>
             </div>
         </div>
     </div>
@@ -153,7 +152,29 @@
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the left over 1s">
 							<div class="eco_service_icon">
-								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-nature-1"></i> </a>
+								<a href="../servizi.php#ser1offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-2"></i> </a>
+							</div>
+							<div class="eco_service_text">
+								<h5 class="text-uppercase"> In Vivaio </h5>
+								<div class="eco_service_data">Vendita all'ingrosso e diretta al pubblico di piante e fiori</div>
+							</div>
+						</div>
+					</div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="eco_home_service" data-scrollreveal="enter from the top over 1s">
+                            <div class="eco_service_icon">
+                                <a href="../servizi.php#ser2offset" class="eco_transition"> <i class="glyph-icon flaticon-plant-on-a-hand"></i></a>
+                            </div>
+                            <div class="eco_service_text">
+                                <h5 class="text-uppercase"> Per La Festa </h5>
+                                <div class="eco_service_data">Realizzazione e allestimento di composizioni floreali</div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="eco_home_service" data-scrollreveal="enter from the bottom over 1s">
+							<div class="eco_service_icon">
+								<a href="../servizi.php#ser3offset" class="eco_transition"> <i class="glyph-icon flaticon-nature-1"></i> </a>
 							</div>
 							<div class="eco_service_text">
 								<h5 class="text-uppercase"> Giardini e Terrazzi </h5>
@@ -162,31 +183,9 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="eco_home_service" data-scrollreveal="enter from the bottom over 1s">
-							<div class="eco_service_icon">
-								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-plant-on-a-hand"></i></a>
-							</div>
-							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Eventi </h5>
-								<div class="eco_service_data">Organizzazione e allestimento eventi, quali matrimoni, battesimi, ...</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="eco_home_service" data-scrollreveal="enter from the bottom over 1s">
-							<div class="eco_service_icon">
-								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-nature-2"></i> </a>
-							</div>
-							<div class="eco_service_text">
-								<h5 class="text-uppercase"> Vivaio </h5>
-								<div class="eco_service_data">Vendita diretta al pubblico di piante prodotte nelle nostre serre</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<div class="eco_home_service" data-scrollreveal="enter from the right over 1s">
 							<div class="eco_service_icon">
-								<a href="#" class="eco_transition"> <i class="glyph-icon flaticon-water"></i> </a>
+								<a href="../servizi.php#ser4offset" class="eco_transition"> <i class="glyph-icon flaticon-water"></i> </a>
 							</div>
 							<div class="eco_service_text">
 								<h5 class="text-uppercase"> Irrigazione </h5>
@@ -235,7 +234,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div>
@@ -248,7 +247,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 
 										</div>
 									</div>
@@ -261,7 +260,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -273,7 +272,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -285,7 +284,7 @@
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -293,13 +292,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<a href="portfolio-singlevideo.html" title="Plants Cutting">
-													<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
-												</a>
+                                                <h5><?php echo $gallery[$i]->getCategoryName();?></h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
-											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+											<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 										</div>
 									</div>
 								</div><?php $i++; ?>
@@ -323,7 +320,7 @@
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 												<?php $i++; ?>
 											</div>
 										</div>
@@ -331,7 +328,7 @@
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 												<?php $i++; ?>
 											</div>
 										</div>
@@ -339,7 +336,7 @@
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="eco_port_recentimage eco_margin_bottom">
 											<div class="eco_port_image">
-												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="" class="img-responsive">
+												<img style="width:100%; height:292px;" src="<?php echo "/resources/".$gallery[$i]->getCategoryName()."/".$gallery[$i]->getFileName()?>" alt="<?php echo $gallery[$i]->getCategoryName(); ?>" class="img-responsive">
 												<?php $i++; ?>
 											</div>
 										</div>
@@ -364,7 +361,7 @@
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center text-uppercase">vieni a trovarci</h1>
                 <div class="eco_small_text text-center">Per ulteriori informazioni vieni direttamente al negozio o contattaci</div>
-                <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="">
+                <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="logoContattaci" >
                 </a>
             </div>
             <div class="eco_contact_btn"><a href="contattaci.php" class="eco_transition text-uppercase">contattaci</a>
@@ -376,26 +373,26 @@
 	<div class="eco_contactadd_slider garden_clientslider">
         <div class="container">
             <div class="slider4">
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
                 <!--slide 2-->
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="">
+                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
             </div>
             <p class="eco_color3 text-center padder_top_20">This is a list of <strong>companies</strong> that already trust us with their gardening process. Do join them.</p>
@@ -403,9 +400,69 @@
     </div>
     <!--contact slider Section End-->
 
+    <div id="modalNewsletter" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Iscriviti alla nostra Newsletter</h4>
+                </div>
+                <form action="javascript:submitEmailForm()" id="actionNewsletter">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="recipient-name" class="form-control-label">Riceverai le nostre offerte speciali</label>
+                        <input type="email" required class="form-control" id="emailForm" name="emailNewsletter" placeholder="Digita la tua mail">
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                        <input type="submit" name="idDeleteFormNewsletter" value="Aggiungi" id="idDeleteFormNewsletter" class="btn btn-primary">
+
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <?php include "component/footer.php"; ?>
 
     <!--Script Start-->
+    <script src="js/cookies/cookiechoices.js" type="text/javascript"></script>
+    <script>//<![CDATA[
+        document.addEventListener('DOMContentLoaded', function(event) {
+            cookieChoices.showCookieConsentBar('Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. ' +
+                'Se continui ad utilizzare questo sito accetti la nostra Privacy Policy.',
+                'Chiudi', 'Maggiori Informazioni',
+                'https://www.google.com/intl/it/policies/privacy/');
+        });
+        //]]>
+    </script>
+
+    <script>
+
+        function submitEmailForm(){
+            var param="email="+document.getElementById("emailForm").value;
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("POST", "email_form_newsletter.php", true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.setRequestHeader("Content-length", param.length);
+            xmlhttp.setRequestHeader("Connection", "close");
+
+            xmlhttp.onreadystatechange = function() {
+                if(xmlhttp.responseText == "ok"){
+                    document.getElementById("modalNewsletter").style.display = "none";
+                    document.getElementById("modalNewsletter").reset();
+                }
+            };
+
+            xmlhttp.send(param);
+
+        }
+    </script>
+
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/jquery.bxslider.min.js"></script>
@@ -431,8 +488,14 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
-            type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(function(){
+                $('#modalNewsletter').modal('show');
+                },5000);
+        })
+    </script>
 	<!--Script End-->
     <!--Body End-->
 </body>

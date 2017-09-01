@@ -26,8 +26,15 @@
                     <div class="eco_ph padding_lr"><i class="fa fa-phone"></i>
                         <a style="color:#FFFFFF;" href="tel:+39333 681 9062">+39 333 681 9062</a>
                     </div>
-                    <div class="eco_email"><i class="fa fa-envelope"></i>
-                        <a style="color:#FFFFFF;" href="mailto:info@floricolturafiorenzo.it"> info@floricolturafiorenzo.it</a>
+                    <div class="eco_email">
+                        <i class="fa fa-envelope"></i>
+                        <!--<a style="color:#FFFFFF;" href="mailto:info@floricolturafiorenzo.it"> info@floricolturafiorenzo.it</a>-->
+                        <a href="mailto:info@floricolturafiorenzo.it">
+                            <svg height="20" width="220">
+                                <text fill="#ffffff" font-size="16px" font-family="Open Sans"
+                                      x="47%" y="97%" style="text-anchor: middle">info@floricolturafiorenzo.it</text>
+                            </svg>
+                        </a>
                     </div>
                 </div>
                 <div class="eco_social_icon facebookContainer">
@@ -54,30 +61,30 @@
                     <!--navbar-header-->
                     <div id="main-nav" class="collapse navbar-collapse padding_left">
                         <ul class="nav navbar-nav my_menu">
-                            <li class="eco_pos_rel"><a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
+                            <li class="eco_pos_rel homeButton"><a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
                             <li class="eco_pos_rel"><a href="../servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
-                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser1">Servizio1</a></li>
-                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser2">Servizio2</a></li>
-                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser3">Servizio3</a></li>
-                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#ser4">Servizio4</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser1" : "ser1offset";?>">In Vivaio</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser2" : "ser2offset";?>">Per La Festa</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser3" : "ser3offset";?>">Giardini e Terrazzi</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser4" : "ser4offset";?>">Irrigazione</a></li>
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
-                            <li class="eco_bigmenu"><a href="#" class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
+                            <li class="eco_pos_rel"><a class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
                                 <!--sub-menu start-->
                                 <ul class="sub-menu">
                                     <?php if(isset($cats)) {
                                         foreach ($cats as $cat) { ?>
-                                        <li><a href="../gallery.php" ><?php echo $cat->getLabel();?></a></li>
+                                        <li><a href="../gallery.php?catId=<?php echo $cat->getValue();?>" ><?php echo $cat->getLabel();?></a></li>
                                     <?php }} ?>
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
                             <li class="eco_pos_rel"><a href="../chisiamo.php" class="<?php echo $page == "chisiamo" ? "active" : "";?>">CHI SIAMO</a></li>
                             <li class="eco_pos_rel"><a href="../dovesiamo.php" class="<?php echo $page == "dovesiamo" ? "active" : "";?>">DOVE SIAMO</a></li>
-                            <li class="eco_pos_rel"><a href="../contattami.php" class="<?php echo $page == "contattami" ? "active" : "";?>">CONTATTACI</a></li>
+                            <li class="eco_pos_rel"><a href="../contattaci.php" class="<?php echo $page == "contattami" ? "active" : "";?>">CONTATTACI</a></li>
                         </ul>
                     </div>
                     <!--navbar-collapse-->
@@ -93,37 +100,47 @@
 <div class="pagenav fixedmenu">
     <div class="holder-fixedmenu">
         <div class="logo-fixedmenu">
-            <a href="index.html"><img src="images/ecorecycling-logo-main.png" alt="">
+            <a href="../index.php"><img src="../images/ecorecycling-logo-main.png" alt="">
             </a>
         </div>
         <div class="menu-fixedmenu home">
             <ul id="menu-home-page" class="menu my_menu">
-                <li class="eco_pos_rel"><a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a></li>
-                <li class="eco_pos_rel"><a href="../servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
+                <li class="eco_pos_rel">
+                    <a href="../index.php" class="<?php echo $page == "home" ? "active" : "";?>">HOME</a>
+                </li>
+                <li class="eco_pos_rel">
+                    <a href="../servizi.php" class="<?php echo $page == "servizi" ? "active" : "";?>">Servizi</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
-                        <li><a class="scroll" href="../servizi.php#ser1">Servizio1</a></li>
-                        <li><a class="scroll" href="../servizi.php#ser2">Servizio2</a></li>
-                        <li><a class="scroll" href="../servizi.php#ser3">Servizio3</a></li>
-                        <li><a class="scroll" href="../servizi.php#ser4">Servizio4</a></li>
+                        <li>
+                            <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page != "servizi" ? "ser1offset" : "ser1";?>">In Vivaio</a>
+                        </li>
+                        <li>
+                            <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser2" : "ser2offset";?>">Per La Festa</a>
+                        </li>
+                        <li>
+                            <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser3" : "ser3offset";?>">Giardini e Terrazzi</a>
+                        </li>
+                        <li>
+                            <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser4" : "ser4offset";?>">Irrigazione</a>
                         </li>
 
                     </ul>
                     <!--./sub-menu end-->
                 </li>
-                <li class="eco_bigmenu"><a href="#" class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
+                <li class="eco_pos_rel"><a class="<?php echo $page == "galleria" ? "active" : "";?>">Galleria</a>
                     <!--sub-menu start-->
                     <ul class="sub-menu">
                         <?php if(isset($cats)) {
                             foreach ($cats as $cat) { ?>
-                                <li><a href="../gallery.php" ><?php echo $cat->getLabel();?></a></li>
+                               <li><a href="../gallery.php?catId=<?php echo $cat->getValue();?>" ><?php echo $cat->getLabel();?></a></li>
                             <?php }} ?>
                     </ul>
                     <!--./sub-menu end-->
                 </li>
                 <li class="eco_pos_rel"><a href="../chisiamo.php" class="<?php echo $page == "chisiamo" ? "active" : "";?>">CHI SIAMO</a></li>
                 <li class="eco_pos_rel"><a href="../dovesiamo.php" class="<?php echo $page == "dovesiamo" ? "active" : "";?>">DOVE SIAMO</a></li>
-                <li class="eco_pos_rel"><a href="../contattami.php" class="<?php echo $page == "contattami" ? "active" : "";?>">CONTATTACI</a></li>
+                <li class="eco_pos_rel"><a href="../contattaci.php" class="<?php echo $page == "contattami" ? "active" : "";?>">CONTATTACI</a></li>
             </ul>
         </div>
     </div>

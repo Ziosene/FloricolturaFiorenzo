@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dove Siamo :: Floricoltura Fiorenzo</title>
+    <?php include "component/seo.php"; ?>
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
     <!--color changing css file-->
-    <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+<!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
@@ -50,18 +49,32 @@
                         <!--eco_mapdiv end-->
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
-                        <div class="eco_contact_info">
-                            <ul>
-                                <li><i class="fa fa-home"> </i>FLORICOLTURA FIORENZO
-                                    <br>
-                                    <span class="eco_left_spacer text-uppercase">via cascina villa 1<br>
-                cernusco sul naviglio, milano (mi)</span>
-                                </li>
-                                <li><i class="fa fa-phone"></i>(+39) 02 923 2431</li>
-                                <li><i class="fa fa-mobile"></i>(+39) 333 681 9062</li>
-                                <li><i class="fa fa-envelope"></i>info@floticolturafiorenzo.it</li>
-                            </ul>
-                        </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tabel-dovesiamo" >
+                                <div class="eco_contact_info">
+                                    <ul>
+                                        <li><i class="fa fa-home"> </i>FLORICOLTURA FIORENZO
+                                            <br>
+                                            <span class="eco_left_spacer text-uppercase">via cascina villa 1<br>cernusco sul naviglio, milano (mi)</span>
+                                        </li>
+                                        <li><i class="fa fa-mobile"></i>(+39) 333 681 9062</li>
+                                        <li><i class="fa fa-envelope"></i>info@floricolturafiorenzo.it</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                                <h5>Come raggiungerci</h5>
+                                    <p>Raggiungere <a href="https://www.google.it/maps/place/20063+Cernusco+sul+Naviglio+MI/@45.5196248,9.3034903,13z/data=!3m1!4b1!4m5!3m4!1s0x4786c829fdd96ef7:0x2de7e5288a9c0464!8m2!3d45.5249795!4d9.3329595">
+                                            <span class="eco_color">Cernusco sul Naviglio</span></a>
+                                        seguendo la <a href="https://www.google.it/maps/place/45%C2%B030'50.6%22N+9%C2%B019'14.9%22E/@45.5140995,9.3197489,17.25z/data=!4m5!3m4!1s0x0:0x0!8m2!3d45.514065!4d9.320806">
+                                            <span class="eco_color">Strada Statale 11 Padana Superiore</span></a>,
+                                        imboccare <a href="https://www.google.it/maps/place/Via+Melghera,+20063+Cernusco+sul+Naviglio+MI/@45.517277,9.3179161,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c8224eb0aa19:0x4f3850db249f2d56!8m2!3d45.517277!4d9.3201048">
+                                            <span class="eco_color">via Melghera</span></a>.
+                                        Percorrere la via fino a raggiungere un semaforo.
+                                        Superare il semaforo e salire sul ponte. Vi trovate così in
+                                        <a href="https://www.google.it/maps/place/Via+della+Martesana,+20063+Cernusco+sul+Naviglio+MI/@45.5201474,9.305539,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c81b6493a285:0x13194a62dd5d8341!8m2!3d45.5201474!4d9.3077277">
+                                            <span class="eco_color">Via della Martesana</span></a>,
+                                        tranquillamente percorribile con i propri mezzi.</p></li>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -106,37 +119,37 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initMap"
-            type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-            var myCenter = new google.maps.LatLng("45.520154", "9.306600");
 
-            function initialize() {
-                var mapProp = {
-                    center: myCenter,
-                    zoom: 15,
-                    scrollwheel: true,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("bigth_googleMap"), mapProp);
-                
-                var marker = new google.maps.Marker({
-                    position: myCenter,
-                    map: map,
-                    animation: google.maps.Animation.BOUNCE
-                });
-                marker.setMap(map);
-                var infowindow = new google.maps.InfoWindow({
-                    content: ""
-                });
-                google.maps.event.addListener(marker, 'click', function() {
-                    infowindow.open(map, marker);
-                });
-            }
+    <script>
+
+        function initialize() {
+            var myCenter = new google.maps.LatLng("45.519925", "9.306987");
+            var mapProp = {
+                center: myCenter,
+                zoom: 15,
+                scrollwheel: true,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("bigth_googleMap"), mapProp);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+                map: map,
+                animation: google.maps.Animation.BOUNCE
+            });
+            marker.setMap(map);
+            var infowindow = new google.maps.InfoWindow({
+                content: ""
+            });
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map, marker);
+            });
+        }
+        $(document).ready(function() {
             google.maps.event.addDomListener(window, 'load', initialize);
         });
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initialize" type="text/javascript"></script>
     <!--Script End-->
     <!--Body End-->
 </body>

@@ -3688,12 +3688,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   /*position: relative;*/
   display: block;
   border-right: 1px solid #3d3d3d;
-  padding: 0px 11px 0px 16px !important;
 }
 .nav > li > a {
   /*position: relative;*/
   display: block;
-  padding: 10px 15px;
+  padding: 10px 30px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
