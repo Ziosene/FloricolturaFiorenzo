@@ -108,13 +108,17 @@
     <!-- END REVOLUTION SLIDER -->
 
 
-    <div class="eco_cenetr_wrapper padder_top_100 padder_bottom_100">
+    <div class="eco_cenetr_wrapper padder_top_80 padder_bottom_80">
         <div class="container">
             <div class="eco_enter_content" data-scrollreveal="enter from the top over 1s">
-                <p class="text-uppercase">Descrizione generale dei servizi</p>
-                <h3 class="eco_color text-uppercase padder_bottom_50">Categoria Servizi 1</h3>
-                <p class="eco_color3 text-left padder_bottom_40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                <p class="eco_color3 text-left padder_bottom_60">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+                <h3 class="eco_color text-uppercase padder_bottom_50">Cosa facciamo per voi</h3>
+                <p class="eco_color3 text-left">Dalla vendita privata alla progettazione dei vostri giardini e terrazzi.
+                    Dal nostro vivaio alla nostra esperienza nella cura degli spazi verdi.
+                    Che la vostra esigenza sia un regalo mai fuori moda, arricchire il vostro giardino,
+                    addobbare una festa, ma anche realizzare un impianto di irrigazione,
+                    la Floricoltura Fiorenzo saprà consigliarvi la soluzione più adatta.</p>
+                <p class="eco_color3 text-left padder_bottom_60">Dal 1987 lavoriamo con passione, puntualità e creatività,
+                    fianco a fianco ai nostri clienti. Perchè la nostra semina raccolga il vostro sorriso.</p>
                 <img src="/images/Serra.jpg" class="eco_img_responsive" alt=""> </div>
             <!--eco_enter_content end-->
         </div>
@@ -184,19 +188,6 @@
                 <!--row end-->
             <!--container-fluid end-->
         </div>
-    </div>
-
-    <div class="eco_cenetr_wrapper padder_top_100 padder_bottom_100">
-        <div class="container">
-            <div class="eco_enter_content" data-scrollreveal="enter from the top over 1s">
-                <p class="text-uppercase">Descrizione generale dei servizi</p>
-                <h3 class="eco_color text-uppercase padder_bottom_50">Categoria Servizi 2</h3>
-                <p class="eco_color3 text-left padder_bottom_40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                <p class="eco_color3 text-left padder_bottom_60">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                <img src="http://placehold.it/315x401" class="eco_img_responsive" alt=""> </div>
-            <!--eco_enter_content end-->
-        </div>
-        <!--container end-->
     </div>
 
 <div class="eco_service_wraper">
