@@ -19,7 +19,9 @@
             <!--Footer Categories Start-->
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="eco_footer_data">
-                    <h6 class="eco_footer_title"> Orari</h6>
+                    <h6 class="eco_footer_title"> Orari &nbsp;
+                        (<span class="eco_color">chiuso sabato 9 settembre</span>)
+                    </h6>
                     <div class="eco_footer_content">
                         <ul>
                             <li><span style="width:90px;float:left;"><b>Lunedì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>

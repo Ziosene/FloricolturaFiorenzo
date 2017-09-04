@@ -165,7 +165,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
                         <h3 class="eco_color text-uppercase">Per La Festa</h3>
-                        <p class="eco_color3 text-left">Che sia un matrimonio, un battesimo o qualsiasi festa con noi potrai dare
+                        <p class="eco_color3 text-left">Che sia un matrimonio, un battesimo, una laurea o qualsiasi festa con noi potrai dare
                             forma ad arredi floreali e verdi per impreziosire l’atmosfera.
                             Ci occupiamo di realizzare (<span class="eco_color"><strong>su prenotazione</strong></span>)
                             composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
@@ -180,7 +180,7 @@
                 <!--col-lg-8 end-->
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="row">
-                                <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
+                                <div class="eco_full_img"> <img src="/images/perLaFesta.jpg" class="eco_img_responsive" alt=""> </div>
                             </div>
                         </div>
                         <!--col-lg-6 end-->
@@ -235,7 +235,7 @@
             <!--col-lg-8 end-->
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="row">
-                    <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
+                    <div class="eco_full_img"> <img src="/images/irrigation.jpg" class="eco_img_responsive" alt=""> </div>
                 </div>
             </div>
             <!--col-lg-6 end-->

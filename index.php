@@ -33,7 +33,7 @@
                 <ul>    <!-- SLIDE  -->
                     <li data-index="rs-2978" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Gardening" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="images/fioreviola.jpg"  alt="fioreviolaslider"  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+                        <img src="images/fotoHome.jpg"  alt="fioreviolaslider"  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
@@ -370,6 +370,7 @@
     </div>
     <!--Recycling1 Img Section End-->
     <!--Recycling1 Img Section End-->
+    <!--
 	<div class="eco_contactadd_slider garden_clientslider">
         <div class="container">
             <div class="slider4">
@@ -383,7 +384,9 @@
                 </div>
                 <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
+                -->
                 <!--slide 2-->
+    <!--
                 <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
                 </div>
                 <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
@@ -398,6 +401,7 @@
             <p class="eco_color3 text-center padder_top_20">This is a list of <strong>companies</strong> that already trust us with their gardening process. Do join them.</p>
         </div>
     </div>
+    -->
     <!--contact slider Section End-->
 
     <div id="modalNewsletter" class="modal fade" role="dialog">
