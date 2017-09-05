@@ -5,6 +5,7 @@
 <head>
     <title>Contattami :: Floricoltura Fiorenzo</title>
     <?php include "component/seo.php"; ?>
+    <meta name="description" content="Scriveteci per qualsiasi tipo di informazione">
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->

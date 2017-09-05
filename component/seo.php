@@ -1,8 +1,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="Produzione e vendita di piante e fiori, manutenzione giardini e organizzazione eventi">
-
 <meta property="og:locale" content="it_IT">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Floricoltura Fiorenzo - Produzione e vendita piante e fiori a Cernusco sul Naviglio">

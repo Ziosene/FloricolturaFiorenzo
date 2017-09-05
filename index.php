@@ -5,6 +5,7 @@
 <head>
     <title>Floricoltura Fiorenzo</title>
 	<?php include "component/seo.php"; ?>
+    <meta name="description" content="Produzione e vendita di piante a Cernusco sul Naviglio">
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
