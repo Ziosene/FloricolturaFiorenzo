@@ -6,6 +6,7 @@
     <title>Chi Siamo :: Floricoltura Fiorenzo</title>
     <?php include "component/seo.php"; ?>
     <meta name="description" content="La nostra storia dal 1987">
+    <meta name="robots" content="noindex" />
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->

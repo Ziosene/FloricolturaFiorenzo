@@ -5,6 +5,7 @@
 <head>
     <title>Galleria :: Floricoltura Fiorenzo</title>
     <?php include "component/seo.php"; ?>
+    <meta name="robots" content="noindex" />
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->

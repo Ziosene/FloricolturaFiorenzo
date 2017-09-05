@@ -22,3 +22,30 @@
     ga('send', 'pageview');
 
 </script>
+
+<!--script social media research google-->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Floricoltura Fiorenzo",
+  "url": "http://www.floricolturafiorenzo.it",
+  "sameAs": [
+    "https://www.facebook.com/floricolturafiorenzo.it/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.floricolturafiorenzo.it",
+  "contactPoint": [
+    { "@type": "ContactPoint",
+      "telephone": " +39 333 681 9062 ",
+      "contactType": "Customer Service"
+    }
+  ]
+}
+</script>

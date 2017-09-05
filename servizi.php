@@ -191,7 +191,7 @@
         </div>
     </div>
 
-<div class="eco_service_wraper">
+    <div class="eco_service_wraper">
     <div class="container-fluid">
         <a class="ancora" id="ser3"></a>
         <a id="ser3offset"></a>
@@ -222,7 +222,7 @@
     </div>
 </div>
 <!--eco_service_wraper end-->
-<div class="eco_service_wraper">
+    <div class="eco_service_wraper">
     <div class="container-fluid">
         <a class="ancora" id="ser4"></a>
         <a id="ser4offset"></a>
