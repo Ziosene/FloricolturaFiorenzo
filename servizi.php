@@ -197,7 +197,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="row">
-                    <div class="eco_full_img"> <img src="http://placehold.it/952x520" class="eco_img_responsive" alt=""> </div>
+                    <div class="eco_full_img"> <img src="/images/giardiniTerrazzi.jpg" class="eco_img_responsive" alt=""> </div>
                 </div>
                 <!--row end-->
             </div>
@@ -205,8 +205,13 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
                 <div class="eco_full_text" data-scrollreveal="enter from the left over 1s">
                     <h3 class="eco_color text-uppercase">Giardini e Terrazzi</h3>
-                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper nisl ut aliquip ex ea commodo.</p>
-                    <p class="eco_color3 text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet erat volutpat.</p>
+                    <p class="eco_color3 text-left">"Avere uno spazio verde in cui rifugiarsi per scappare dallo stress può aiutarci ad essere più felici"
+                        Insieme a noi potrete dare forma a giardini, arredare terrazzi o uffici,
+                        sapremo come guidarvi nella scelta ascoltando le vostre richieste.
+                        Vi seguiremo passo passo, dal sopralluogo fino alla realizzazione, ma sopratutto nella manutenzione.</p>
+                    <p class="eco_color3 text-left">Ci occupiamo di potature, sfalcio d'erba, trapianti
+                        e tutto ciò che renderà il vostro verde curato. Seguiamo infatti lo sviluppo della pianta
+                        operando gli interventi nei periodi stagionali consigliati per assicurarne la sanità.</p>
                 </div>
             </div>
             <!--col-lg-6 end-->
