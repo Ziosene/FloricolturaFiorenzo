@@ -146,7 +146,7 @@
         <div class="container">
 			<div class="row">
 				<div class="eco_main_recycle">
-					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <div class="garden_about_img"><img src="http://placehold.it/462x420" class="img-responsive" alt=""></div> </div>
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <div class="garden_about_img"><img src="/images/chiSiamo.jpg" class="img-responsive" alt=""></div> </div>
 					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">	
 						<div class="garden_aboute_data" data-scrollreveal="enter from the left over 1s">
 							<h2 class="eco_rehead">Chi Siamo</h2>
