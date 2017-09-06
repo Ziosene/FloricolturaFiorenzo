@@ -44,6 +44,9 @@
                                 <li>
                                     <a href="categorie.php"><i class="fa  fa-archive  fa-fw"></i> Categorie</a>
                                 </li>
+                                <li>
+                                    <a href="orari.php"><i class="fa fa-clock-o  fa-fw"></i> Orari</a>
+                                </li>
                             </ul>
                         </li>
                         <li>
