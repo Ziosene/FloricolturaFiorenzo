@@ -109,7 +109,7 @@
     <!-- END REVOLUTION SLIDER -->
 
 
-    <div class="eco_cenetr_wrapper padder_top_80 padder_bottom_80">
+    <div class="eco_cenetr_wrapper padder_top_50 padder_bottom_50">
         <div class="container">
             <div class="eco_enter_content" data-scrollreveal="enter from the top over 1s">
                 <h3 class="eco_color text-uppercase padder_bottom_50">Cosa facciamo per voi</h3>
@@ -171,7 +171,7 @@
                             Ci occupiamo di realizzare (<span class="eco_color"><strong>su prenotazione</strong></span>)
                             composizioni da tavolo, mazzi di fiori, noleggio piante e molto altro.</p>
                         <p class="eco_color3 text-left">Negli ultimi anni i nostri arredi per il periodo natalizio,
-                            dai classici centro tavola ai portali e ghirlande in vero pino, sono diventate un vero e proprio must!
+                            dai classici centro tavola ai portali e ghirlande in vero pino, sono diventate un vero e proprio <strong>#must</strong>!
                             Potrai quindi scegliere se ritirare il tutto in vivaio o se saremo noi a consegnarlo e installarlo
                             direttamente a casa tua.</p>
                        </div>
