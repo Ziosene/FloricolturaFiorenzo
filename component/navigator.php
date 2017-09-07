@@ -1,9 +1,12 @@
 <?php
     require_once('class/DBManager.php');
     require_once('class/dao/CategoryDAO.php');
+    require_once('class/dao/ConfigurationDAO.php');
     $db= new DBManager();
     $catDAO = new CategoryDAO($db->getConnection());
     $cats = $catDAO->retrieveCategorys();
+    $confDAO = new ConfigurationDAO($db->getConnection());
+    $orari = $confDAO->retrieveConfiguration();
 ?>
 <!--preloader start-->
 <div id="preloader">

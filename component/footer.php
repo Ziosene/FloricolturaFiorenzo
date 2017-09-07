@@ -24,13 +24,14 @@
                     </h6>
                     <div class="eco_footer_content">
                         <ul>
-                            <li><span style="width:90px;float:left;"><b>Lunedì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
-                            <li><span style="width:90px;float:left;"><b>Martedì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
-                            <li><span style="width:90px;float:left;"><b>Mercoledì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
-                            <li><span style="width:90px;float:left;"><b>Giovedì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
-                            <li><span style="width:90px;float:left;"><b>Venerdì:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
-                            <li><span style="width:90px;float:left;"><b>Sabato:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
-                            <li><span style="width:90px;float:left;"><b>Domenica:</b></span> 09:30 - 12:30 &nbsp; / &nbsp; 15:30 - 19:00</li>
+                            <?php
+                            foreach($orari as $key => $values){
+                            ?>
+                            <li><span style="width:90px;float:left;"><b><?php echo $key; ?>:</b></span> <?php echo $values; ?>
+                            </li>
+                        <?php
+                        }
+                        ?>
                         </ul>
                     </div>
                     <!--Footer Categories Start-->
