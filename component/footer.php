@@ -24,14 +24,20 @@
                     </h6>
                     <div class="eco_footer_content">
                         <ul>
-                            <?php
-                            foreach($orari as $key => $values){
-                            ?>
-                            <li><span style="width:90px;float:left;"><b><?php echo $key; ?>:</b></span> <?php echo $values; ?>
+                            <li><span style="width:90px;float:left;"><b>Lunedì:</b></span> <?php echo $_SESSION[confCache]['Lunedi'];?>
                             </li>
-                        <?php
-                        }
-                        ?>
+                            <li><span style="width:90px;float:left;"><b>Martedì:</b></span> <?php echo $_SESSION[confCache]['Martedi'];?>
+                            </li>
+                            <li><span style="width:90px;float:left;"><b>Mercoledì:</b></span> <?php echo $_SESSION[confCache]['Mercoledi'];?>
+                            </li>
+                            <li><span style="width:90px;float:left;"><b>Giovedì:</b></span> <?php echo $_SESSION[confCache]['Giovedi'];?>
+                            </li>
+                            <li><span style="width:90px;float:left;"><b>Venerdì:</b></span> <?php echo $_SESSION[confCache]['Venerdi'];?>
+                            </li>
+                            <li><span style="width:90px;float:left;"><b>Sabato:</b></span> <?php echo $_SESSION[confCache]['Sabato'];?>
+                            </li>
+                            <li><span style="width:90px;float:left;"><b>Domenica:</b></span> <?php echo $_SESSION[confCache]['Domenica'];?>
+                            </li>
                         </ul>
                     </div>
                     <!--Footer Categories Start-->

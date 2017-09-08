@@ -6,7 +6,10 @@
     $catDAO = new CategoryDAO($db->getConnection());
     $cats = $catDAO->retrieveCategorys();
     $confDAO = new ConfigurationDAO($db->getConnection());
+
+    session_start();
     $orari = $confDAO->retrieveConfiguration();
+    $_SESSION['confCache'] = $orari;
 ?>
 <!--preloader start-->
 <div id="preloader">
