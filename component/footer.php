@@ -20,7 +20,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="eco_footer_data">
                     <h6 class="eco_footer_title"> Orari &nbsp;
-                        (<span class="eco_color">chiuso sabato 9 settembre</span>)
+                        <span class="eco_color"></span>
                     </h6>
                     <div class="eco_footer_content">
                         <ul>
@@ -37,6 +37,8 @@
                             <li><span style="width:90px;float:left;"><b>Sabato:</b></span> <?php echo $_SESSION[confCache]['Sabato'];?>
                             </li>
                             <li><span style="width:90px;float:left;"><b>Domenica:</b></span> <?php echo $_SESSION[confCache]['Domenica'];?>
+                            </li>
+                            <li><span style="width:90px;float:left;"><b>Chiusure:</b></span> <?php echo $_SESSION[confCache]['Chiusure'];?>
                             </li>
                         </ul>
                     </div>
