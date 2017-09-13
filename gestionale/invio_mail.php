@@ -22,12 +22,41 @@ include "component/head.php";
 
                     <div class="panel panel-primary">
                         <div class="panel-heading">Oggetto</div>
-                            <input type="text" required name="oggetto" class="form-control"  id="formGroupExampleInput" placeholder="Oggetto della mail"/>
+                            <input type="text" required name="oggetto" class="form-control"  id="formEmail" placeholder="Oggetto della mail"/>
                     </div>
-
                     <div class="panel panel-primary">
                         <div class="panel-heading">Email</div>
-                            <textarea type="text" required name="testo" class="form-control" rows="20" id="formGroupExampleInput" placeholder="Digita la mail da inviare"></textarea>
+                        <form>
+                            <textarea type="text" required id="testo" name="testo" class="form-control" rows="20" placeholder="Digita la mail da inviare"></textarea>
+                            <script>
+                                    CKEDITOR.editorConfig = function( config ) {
+                                        config.toolbar = 'MyToolbar';
+                                        config.toolbarGroups = [
+                                            { name: 'document', groups: [ 'mode', 'document', 'doctools' ] },
+                                            { name: 'clipboard', groups: [ 'clipboard', 'undo' ] },
+                                            { name: 'editing', groups: [ 'find', 'selection', 'spellchecker', 'editing' ] },
+                                            { name: 'forms', groups: [ 'forms' ] },
+                                            { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
+                                            { name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi', 'paragraph' ] },
+                                            { name: 'links', groups: [ 'links' ] },
+                                            { name: 'insert', groups: [ 'insert' ] },
+                                            '/',
+                                            { name: 'styles', groups: [ 'styles' ] },
+                                            { name: 'colors', groups: [ 'colors' ] },
+                                            { name: 'tools', groups: [ 'tools' ] },
+                                            { name: 'others', groups: [ 'others' ] },
+                                            { name: 'about', groups: [ 'about' ] }
+                                        ];
+
+                                        config.removeButtons = 'Save,NewPage,Preview,Print,Source,Cut,Copy,Paste,PasteText,PasteFromWord,SelectAll,Find,Replace,Form,Checkbox,Radio,TextField,Textarea,Button,Select,ImageButton,HiddenField,Blockquote,CreateDiv,BidiLtr,BidiRtl,Language,Image,Flash,Table,HorizontalRule,PageBreak,Iframe,About';
+                                    };
+                                CKEDITOR.replace( 'testo',
+                                    {
+                                        toolbar : 'MyToolbar'
+                                    });
+
+                            </script>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -66,7 +95,6 @@ include "component/head.php";
 
 <!-- Custom Theme JavaScript -->
 <script src="dist/js/sb-admin-2.js"></script>
-
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
 
 

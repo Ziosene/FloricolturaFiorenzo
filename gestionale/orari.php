@@ -22,7 +22,11 @@ $configurationDAO = new ConfigurationDAO($db->getConnection());
         <!-- /.row -->
         <div class="row">
             <div class="col-lg-12">
-
+                <?php if($_GET['save'] == 'success'){ ?>
+                    <div class="alert alert-success">
+                        Gli orari sono stati aggiornati
+                    </div>
+                <?php } ?>
                 <div class="panel panel-primary">
                     <div class="panel-heading">Orari Apertura</div>
                     <!-- /.panel-heading -->
