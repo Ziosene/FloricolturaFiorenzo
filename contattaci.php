@@ -41,7 +41,7 @@
             xmlhttp.onreadystatechange = function() {
                 if(xmlhttp.responseText == "ok"){
                     document.getElementById("contactMeSociety").style.display = "none";
-                    document.getElementById("result").style.display = "";
+                    document.getElementById("newsletterPost").style.display = "";
                     document.getElementById("contactMeSociety").reset();
                 }
             };
@@ -97,7 +97,12 @@
                             </div>
                     </div>
                 </form>
-                <div id="result" style="display:none;">Grazie! <br> Messaggio inviato correttamente</div>
+            <div class="col-sm-6 col-md-6 col-lg-4" id="newsletterPost" style="padding-top: 4px;display: none">
+                <div class="alert alert-success subscription-success">
+                    <h3>Grazie per esserti iscritto.</h3>
+                    <div class="text">Ti terremo aggiornato sulle nuove strutture.</div>
+                </div>
+            </div>
             </div>
         </div>
     </div>
