@@ -26,7 +26,6 @@ include "component/head.php";
                     </div>
                     <div class="panel panel-primary">
                         <div class="panel-heading">Email</div>
-                        <form>
                             <textarea type="text" required id="testo" name="testo" class="form-control" rows="20" placeholder="Digita la mail da inviare"></textarea>
                             <script>
                                     CKEDITOR.editorConfig = function( config ) {
@@ -56,7 +55,7 @@ include "component/head.php";
                                     });
 
                             </script>
-                        </form>
+
                     </div>
                 </div>
             </div>
