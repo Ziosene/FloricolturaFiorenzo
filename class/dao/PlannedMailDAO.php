@@ -18,7 +18,10 @@ class PlannedMailDAO
     function createPlannedMail($plannedmail){
         $prepare = $this->conn->prepare("INSERT INTO plannedmail (oggetto,testo,sent) VALUES (?,?,?)");
         $prepare->bind_param("sss", $plannedmail->getOggetto(), $plannedmail->getTesto(), $plannedmail->getSent());
-        $prepare->execute();
+        if(!$prepare->execute()){
+            echo "MySQL error: ". $this->conn->error;
+            exit();
+        }
     }
 
 

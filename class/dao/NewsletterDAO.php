@@ -19,7 +19,10 @@ class NewsletterDAO
 
         $prepare = $this->conn->prepare("INSERT INTO newsletter (email,nomeCognome) VALUES (?, ?)");
         $prepare->bind_param("ss", $newsletter->getEmail(), $newsletter->getNomeCognome());
-        $prepare->execute();
+        if(!$prepare->execute()){
+            echo "MySQL error: ". $this->conn->error;
+            exit();
+        }
     }
 
     function retrieveNewsletter(){

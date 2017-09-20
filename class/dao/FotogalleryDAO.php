@@ -18,7 +18,10 @@ class FotogalleryDAO
 
         $prepare = $this->conn->prepare("INSERT INTO fotogallery (categoryId,nome,descrizione,filename) VALUES (?,?,?,?)");
         $prepare->bind_param("isss",$fotogallery->getCategoryId(),$fotogallery->getNome(),$fotogallery->getDesc(),$fotogallery->getFilename());
-        $prepare->execute();
+        if(!$prepare->execute()){
+            echo "MySQL error: ". $this->conn->error;
+            exit();
+        }
 
     }
 

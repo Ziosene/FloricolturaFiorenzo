@@ -35,7 +35,10 @@ class CategoryDAO
     function createCategory($cat){
         $prepare = $this->conn->prepare("INSERT INTO categorie (nome) VALUES (?)");
         $prepare->bind_param("s",$cat);
-        $prepare->execute();
+        if(!$prepare->execute()){
+            echo "MySQL error: ". $this->conn->error;
+            exit();
+        }
 
         mkdir(dirname(__FILE__)."/../../resources/".$cat."/",0777) ;
     }

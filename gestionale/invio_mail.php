@@ -27,35 +27,6 @@ include "component/head.php";
                     <div class="panel panel-primary">
                         <div class="panel-heading">Email</div>
                             <textarea type="text" required id="testo" name="testo" class="form-control" rows="20" placeholder="Digita la mail da inviare"></textarea>
-                            <script>
-                                    CKEDITOR.editorConfig = function( config ) {
-                                        config.toolbar = 'MyToolbar';
-                                        config.toolbarGroups = [
-                                            { name: 'document', groups: [ 'mode', 'document', 'doctools' ] },
-                                            { name: 'clipboard', groups: [ 'clipboard', 'undo' ] },
-                                            { name: 'editing', groups: [ 'find', 'selection', 'spellchecker', 'editing' ] },
-                                            { name: 'forms', groups: [ 'forms' ] },
-                                            { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
-                                            { name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi', 'paragraph' ] },
-                                            { name: 'links', groups: [ 'links' ] },
-                                            { name: 'insert', groups: [ 'insert' ] },
-                                            '/',
-                                            { name: 'styles', groups: [ 'styles' ] },
-                                            { name: 'colors', groups: [ 'colors' ] },
-                                            { name: 'tools', groups: [ 'tools' ] },
-                                            { name: 'others', groups: [ 'others' ] },
-                                            { name: 'about', groups: [ 'about' ] }
-                                        ];
-
-                                        config.removeButtons = 'Save,NewPage,Preview,Print,Source,Cut,Copy,Paste,PasteText,PasteFromWord,SelectAll,Find,Replace,Form,Checkbox,Radio,TextField,Textarea,Button,Select,ImageButton,HiddenField,Blockquote,CreateDiv,BidiLtr,BidiRtl,Language,Image,Flash,Table,HorizontalRule,PageBreak,Iframe,About';
-                                    };
-                                CKEDITOR.replace( 'testo',
-                                    {
-                                        toolbar : 'MyToolbar'
-                                    });
-
-                            </script>
-
                     </div>
                 </div>
             </div>
