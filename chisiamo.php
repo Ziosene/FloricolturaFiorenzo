@@ -102,7 +102,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 8; white-space: nowrap;text-transform:left;"><h1>Floricoltura <br> Fiorenzo</h1><br></div>
+                             style="z-index: 8; white-space: nowrap;text-transform:left;"><img src="images/FF_colore-orizzontale-index.png" class="eco_img_responsive padder_bottom_30" alt="logoContattaci" ></div>
 
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3"

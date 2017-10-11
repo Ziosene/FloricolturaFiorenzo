@@ -257,7 +257,7 @@
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center eco_weight_bold text-uppercase eco_color6">Contattaci</h1>
                 <div class="eco_small_text text-center eco_color6">Per qualsiasi informazione non esitare a scriverci.</div>
-                <a href="#" class="eco_img_width text-center"><img src="images/ecorecycling-logo-slideshow.png" alt="" class="eco_img_responsive">
+                <a href="#" class="eco_img_width text-center"><img src="images/FF_bianco-orizzontale.png" alt="" class="eco_img_responsive">
                 </a>
             </div>
             <div class="eco_contact_btn"><a href="contattaci.php" class="eco_transition">Contattaci</a>

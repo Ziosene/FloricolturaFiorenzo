@@ -584,6 +584,6 @@ $(document).ready(function() {
 
     //preloader
     $("#status").fadeOut();
-    $("#preloader").delay(300).fadeOut("slow")
+    $("#preloader").delay(300).fadeOut("slow");
         //preloader end
 }); //ready

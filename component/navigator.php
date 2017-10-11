@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                 <div class="eco_logo">
-                    <a href="../index.php"><img src="images/ecorecycling-logo-main.png" class="img-responsive" alt="logo">
+                    <a href="../index.php"><img src="images/FF_bianco-orizzontale-navigator.png" class="img-responsive" alt="logo">
                     </a>
                 </div>
             </div>
@@ -106,7 +106,7 @@
 <div class="pagenav fixedmenu">
     <div class="holder-fixedmenu">
         <div class="logo-fixedmenu">
-            <a href="../index.php"><img src="../images/ecorecycling-logo-main.png" alt="">
+            <a href="../index.php"><img src="../images/FF_bianco-orizzontale-navigator.png" alt="">
             </a>
         </div>
         <div class="menu-fixedmenu home">

@@ -13,7 +13,7 @@
 <!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/logoTitle.png" />
     <!-- favicon link End -->
 </head>
 <!-- Header End -->
@@ -57,7 +57,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 5;text-transform:left;background-color:rgba(18, 12, 20, 0.75);border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
+                             style="z-index: 5;background-color:rgba(18, 12, 20, 0.75);border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3"
@@ -78,7 +78,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 6;text-transform:left;background-color:#69af07;border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
+                             style="z-index: 6;background-color:#69af07;border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
 
                         <!-- LAYER NR. 4 -->
                         <div class="tp-caption Creative-Title tp-resizeme rs-parallaxlevel-1 garden_sldier_heading"
@@ -86,7 +86,7 @@
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                              data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']"
                              data-fontsize="['70','70','50','40']"
-                             data-lineheight="['70','70','55','45']"
+                             data-lineheight="['70','70','55','45 ']"
                              data-width="['none','none','none','320']"
                              data-height="none"
                              data-whitespace="nowrap"
@@ -101,7 +101,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 8; white-space: nowrap;text-transform:left;"><h1>Floricoltura <br> Fiorenzo</h1><br></div>
+                             style="z-index: 8; white-space: nowrap;"><img src="images/FF_bianco-orizzontale-navigator.png" alt="logoFloricoltura" ></div>
 
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3"
@@ -122,7 +122,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 9;text-transform:left;background-color:#69af07;border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
+                             style="z-index: 9;background-color:#69af07;border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
 
                     </li>
                 </ul>
@@ -362,7 +362,7 @@
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center text-uppercase">vieni a trovarci</h1>
                 <div class="eco_small_text text-center">Per ulteriori informazioni vieni direttamente al negozio o contattaci</div>
-                <a href="#" class="eco_img_width"><img src="images/ecorecycling-logo-main.png" class="eco_img_responsive padder_bottom_30" alt="logoContattaci" >
+                <a href="#" class="eco_img_width"><img src="images/FF_bianco-orizzontale.png" class="eco_img_responsive padder_bottom_30" alt="logoContattaci" >
                 </a>
             </div>
             <div class="eco_contact_btn"><a href="contattaci.php" class="eco_transition text-uppercase">contattaci</a>

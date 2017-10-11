@@ -759,7 +759,7 @@ ul.my_menu li.eco_bigmenu ul.sub-menu {
 	padding-top: 0px !important;
 }
 ul.my_menu li.eco_bigmenu ul.sub-menu li.eco_pmcmenutitle {
-	font-weight: regular;
+	font-weight: normal;
 	margin: 0;
 	background: none !important;
 	min-width: 220px;
@@ -1049,7 +1049,7 @@ h2.eco_heading {
 /*---------------service Section End---------------*/
 /*---------------Archievement Section Start---------------*/
 .eco_achievement {
-	background: #f8f8f8 url() 50% 0;
+	background: #f8f8f8 50% 0;
 	background-size: cover;
 	border-top: 1px solid #dddddd;
 	border-bottom: 1px solid #dddddd;
@@ -1104,7 +1104,7 @@ h2.eco_heading {
 /*---------------Recycle Main Section End---------------*/
 /*---------------Recycle Section Start---------------*/
 .eco_recycle {
-	background: #f8f8f8 url() 50% 0;
+	background: #f8f8f8 50% 0;
 	background-size: cover;
 	border-top: 1px solid #dddddd;
 	border-bottom: 1px solid #dddddd;
@@ -1142,7 +1142,7 @@ h2.eco_heading {
 .eco_contact {
 	width: 100%;
 	float: left;
-	background: #fff url(../images/quote-background-eco.jpg)50% 0;
+	background: #fff 50% 0;
 	background-size: 100% 100%;
 	border-top: 0px solid #fff;
 	border-bottom: 0px solid #fff;
@@ -3471,12 +3471,12 @@ iframe.eco_home_video {
 	text-transform: uppercase;
 }
 #intro {
-	background: url(../images/slideshow-eco-4.jpg) 50% 0 no-repeat fixed;
+	background: 50% 0 no-repeat fixed;
 	color: white;
 	margin: 0 auto;
 }
 #second {
-	background: url(../images/quote-background-eco.jpg) 50% 0 no-repeat fixed;
+	background: 50% 0 no-repeat fixed;
 	color: white;
 	margin: 0 auto;
 }

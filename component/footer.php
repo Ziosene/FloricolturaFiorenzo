@@ -4,8 +4,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="eco_footer_data">
-                    <a href="#" class="eco_footer_title"><img src="images/ecorecycling-logo-footer.png"
-                                                              class="img-responsive" alt="">
+                    <a href="#" class="eco_footer_title"><img src="images/FF_bianco-orizzontale-navigator.png" class="img-responsive" alt="">
                     </a>
                     <div class="eco_footer_content">
                         <p>Da oltre 25 anni produciamo fiori di stagione, ci occupiamo di manutenzione di giardini e
