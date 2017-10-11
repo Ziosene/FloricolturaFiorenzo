@@ -101,7 +101,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 8; white-space: nowrap;"><img src="images/FF_bianco-orizzontale-navigator.png" alt="logoFloricoltura" ></div>
+                             style="z-index: 8; white-space: nowrap;"><img src="images/FF_colore-orizzontale-index.png" class="img-responsive" alt="logoFloricoltura" ></div>
 
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3"
