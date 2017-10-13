@@ -30,82 +30,131 @@
 
     <!--START REVOLUTION SLIDER-->
     <div class="garden_mainslider">
-		<div id="rev_slider_476_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="christmas-snow-scene" data-source="gallery" style="background-color:transparent;padding:0px;">
-		<!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
-			<div id="rev_slider_476_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.3.0.2">
-				<ul>	<!-- SLIDE  -->
-					<li data-index="rs-1648" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-						<!-- MAIN IMAGE -->
-						<img src="images/albero.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
-						<!-- LAYERS -->
+    <div id="rev_slider_1061_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="creative-freedom" data-source="gallery" style="background-color:#1f1d24;padding:0px;">
+        <!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
+        <div id="rev_slider_1061_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.3.0.2">
+            <ul>    <!-- SLIDE  -->
+                <li data-index="rs-2978" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Gardening" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="images/albero.jpg"  alt="alberi"  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
+                         id="slide-2978-layer-1"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                         data-fontweight="['100','100','400','400']"
+                         data-width="full"
+                         data-height="full"
+                         data-whitespace="nowrap"
 
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-resizeme" 
-							 id="slide-1648-layer-3" 
-							 data-x="center" data-hoffset="" 
-							 data-y="center" data-voffset="-200" 
-										data-width="['none','none','none','none']"
-							data-height="['none','none','none','none']"
-				 
-							data-type="image" 
-							data-responsive_offset="on" 
+                         data-type="shape"
+                         data-basealign="slide"
+                         data-responsive_offset="off"
+                         data-responsive="off"
+                         data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":150,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power2.easeInOut"}]'
+                         data-textAlign="['left','left','left','left']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
 
-							data-frames='[{"from":"z:0;rX:0;rY:360deg;rZ:0;sX:0.5;sY:0.5;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":1500,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"nothing"}]'
-							data-textAlign="['left','left','left','left']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
+                         style="z-index: 5;background-color:rgba(18, 12, 20, 0.75);border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
 
-							style="z-index: 5;text-transform:left;border-width:0px;"><img src="js/plugins/rev/images/tree_icon.png" alt="" data-ww="100px" data-hh="100px" width="100" height="100" data-no-retina> </div>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3"
+                         id="slide-2978-layer-4"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-198','-198','-188','-181']"
+                         data-width="1"
+                         data-height="100"
+                         data-whitespace="nowrap"
 
-						<!-- LAYER NR. 2 -->
-						<div class="tp-caption tp-resizeme garden_sldier_heading1" 
-							 id="slide-1648-layer-7" 
-							 data-x="center" data-hoffset="" 
-							 data-y="center" data-voffset="-80" 
-										data-width="['auto']"
-							data-height="['auto']"
-				 
-							data-type="text" 
-							data-responsive_offset="on" 
+                         data-type="shape"
+                         data-responsive_offset="on"
+                         data-responsive="off"
+                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+                         data-textAlign="['left','left','left','left']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
 
-							data-frames='[{"from":"z:0;rX:90deg;rY:0deg;rZ:0;sX:0.5;sY:0.5;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":2100,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"nothing"}]'
-							data-textAlign="['left','left','left','left']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
+                         style="z-index: 6;background-color:#69af07;border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
 
-							style="z-index: 9; white-space: nowrap; font-size: 50px; line-height: 20px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-transform:left;font-style:italic;border-width:0px;">"Il giardinaggio richiede molta acqua,</div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption Creative-SubTitle tp-resizeme rs-parallaxlevel-2 garden_slider_subheading"
+                         id="slide-2978-layer-3"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-91','-91','-81','-64']"
+                         data-fontsize="['14','14','14','12']"
+                         data-lineheight="['14','14','14','12']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
 
-						<!-- LAYER NR. 3 -->
-						<div class="tp-caption tp-resizeme garden_sldier_heading1" 
-							 id="slide-1648-layer-8" 
-							 data-x="center" data-hoffset="" 
-							 data-y="center" data-voffset="-10" 
-										data-width="['auto']"
-							data-height="['auto']"
-				 
-							data-type="text" 
-							data-responsive_offset="on" 
+                         data-type="text"
+                         data-responsive_offset="on"
 
-							data-frames='[{"from":"z:0;rX:-90deg;rY:0deg;rZ:0;sX:0.5;sY:0.5;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":2250,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"nothing"}]'
-							data-textAlign="['left','left','left','left']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
+                         data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
 
-							style="z-index: 10; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-transform:left;font-style:italic;border-width:0px;"> la maggior parte sotto forma di sudore."</div>
-					</li>
-				</ul>
-				<div style="" class="tp-static-layers">
-					<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	
-				</div>
-			</div>
-		</div><!-- END REVOLUTION SLIDER -->
-	</div>
+                         style="z-index: 7; white-space: nowrap;text-transform:left;text-transform:uppercase;color:#fff;">Servizi</div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption Creative-Title tp-resizeme rs-parallaxlevel-1 garden_sldier_heading"
+                         id="slide-2978-layer-2"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']"
+                         data-fontsize="['70','70','50','40']"
+                         data-lineheight="['70','70','55','45 ']"
+                         data-width="['none','none','none','320']"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":2550,"ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 8; white-space: nowrap;text-transform:uppercase;">I nostri servizi<br> per voi!
+                    </div>
+
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3"
+                         id="slide-2978-layer-5"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['137','137','119','100']"
+                         data-width="1"
+                         data-height="100"
+                         data-whitespace="nowrap"
+
+                         data-type="shape"
+                         data-responsive_offset="on"
+                         data-responsive="off"
+                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2900,"ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+                         data-textAlign="['left','left','left','left']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 9;background-color:#69af07;border-color:rgba(0, 0, 0, 0);border-width:0px;"></div>
+
+                </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
+    </div><!-- END REVOLUTION SLIDER -->
+</div>
     <!-- END REVOLUTION SLIDER -->
 
 
