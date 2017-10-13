@@ -13,7 +13,7 @@
 <!--    <link rel="stylesheet" id="theme-change" type="text/css" href="#">-->
     <!--color changing css file end-->
     <!-- favicon link -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/logoge.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/logoTitle.png" />
     <!-- favicon link End -->
 </head>
 <!-- Header End -->
