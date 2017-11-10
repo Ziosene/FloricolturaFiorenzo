@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([^/.]+)$ $1.php [L]
+RewriteRule /gallery/matrimonio gallery.php?catId=3 [QSA,L,NC]
