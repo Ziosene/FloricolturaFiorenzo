@@ -1,4 +1,3 @@
-<!--Footer Section Start-->
 <div class="eco_footer">
     <div class="container">
         <div class="row">
@@ -13,9 +12,6 @@
                     </div>
                 </div>
             </div>
-
-            <!--Footer Tag End-->
-            <!--Footer Categories Start-->
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="eco_footer_data">
                     <h6 class="eco_footer_title"> Orari &nbsp;
@@ -41,7 +37,6 @@
                             </li>
                         </ul>
                     </div>
-                    <!--Footer Categories Start-->
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -53,7 +48,6 @@
                         <br>
                     </p>
                     <p><b>Email:</b>
-<!--                        <a style="color:#69af07;" href="mailto:info@floricolturafiorenzo.it">info@floricolturafiorenzo.it</a>-->
                         <a href="mailto:info@floricolturafiorenzo.it">
                             <svg height="20" width="220">
                                 <text fill="#69af07" font-size="16px" font-family="Open Sans"
@@ -80,7 +74,6 @@
                                 fjs.parentNode.insertBefore(js, fjs);
                             }(document, 'script', 'facebook-jssdk'));</script>
                     </div>
-                    <!--Footer Categories Start-->
                 </div>
             </div>
 
@@ -90,8 +83,6 @@
 <footer>
     <div class="eco_copyight"> Floricoltura Fiorenzo &copy; 2017 by Lorenzo Senesi & William Nardo</div>
 </footer>
-<!--Footer Section End-->
-<!--go to top-->
 <div class="totop">
     <div class="gototop">
         <a href="#">
@@ -99,5 +90,4 @@
         </a>
     </div>
 </div>
-
 <?php include 'stat.php'; ?>

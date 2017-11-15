@@ -2,9 +2,8 @@
 <!--[if IE 9]> <html lang="it" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <head>
-    <title>Floricoltura Fiorenzo</title>
 	<?php include "component/seo.php"; ?>
-    <meta name="description" content="Produzione e vendita di piante a Cernusco sul Naviglio">
+
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="shortcut icon" type="image/x-icon" href="images/logoTitle.png" />
 </head>
@@ -16,7 +15,7 @@
     <div class="garden_mainslider">
         <div id="rev_slider_476_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="christmas-snow-scene" data-source="gallery" style="background-color:transparent;padding:0px;">
             <div id="rev_slider_476_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.3.0.2">
-                <ul>	<!-- SLIDE  -->
+                <ul>
                     <li data-index="rs-1648" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <img src="images/fotoHome.jpg"  alt="logoFloricoltura"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
@@ -91,12 +90,12 @@
                     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
                 </div>
             </div>
-        </div><!-- END REVOLUTION SLIDER -->
+        </div>
     </div>
     <div class="wraper">
         <div class="container">
             <div class="eco_main_heading">
-                <h1 class="text-center"><span>I NOSTRI </span> <strong><span class="eco_color">SERVIZI</span></strong> </h1>
+                <h2 class="text-center"><span>I NOSTRI </span> <strong><span class="eco_color">SERVIZI</span></strong> </h2>
                 <div class="eco_small_text text-center"></div>
             </div>
         </div>
@@ -151,7 +150,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
         </div>
@@ -169,14 +167,10 @@
                 <div class="eco_small_heading text-uppercase">La raccolta dei nostri migliori</div>
                 <h2 class="eco_heading text-uppercase">Prodotti</h2>
                 <div class="eco_border padder_bottom_50"></div>
-				<!-- DESKTOPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP - INIZIO -->
                 <div class="eco_uneven_slider">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<!-- Controls -->
 						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a>
 						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a>
-						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
 							<?php for ($i = 0; $i < count($gallery) && $i + 6 <= count($gallery); ) {?>
 							<div class="item <?php echo $i==0 ? "active" : ""?>">
@@ -259,15 +253,11 @@
 						</div>
 					</div>
 				</div>
-				<!-- DESKTOPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP - FINE -->
-				<!-- MOBILEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE - INIZIO -->
 				<div class="row">
 					<div class="eco_tabs_slide_section">
 						<div id="eco_uneven" class="carousel slide" data-ride="carousel">
-							<!-- Indicators -->
 							<a class="left carousel-control" href="#eco_uneven" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a>
 							<a class="right carousel-control" href="#eco_uneven" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a>
-							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
 								<?php for ($i = 0; $i < count($gallery) && $i + 3 <= count($gallery); ) {?>
 								<div class="item <?php echo $i==0 ? "active" : ""?>">
@@ -301,7 +291,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- MOBILEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE - FINE -->
             </div>
         </div>
     </div>
@@ -318,41 +307,6 @@
             </div>
         </div>
     </div>
-    <!--Recycling1 Img Section End-->
-    <!--Recycling1 Img Section End-->
-    <!--
-	<div class="eco_contactadd_slider garden_clientslider">
-        <div class="container">
-            <div class="slider4">
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                -->
-                <!--slide 2-->
-    <!--
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-                <div class="slide"><img src="http://placehold.it/225x132" alt="sliderMarchio">
-                </div>
-            </div>
-            <p class="eco_color3 text-center padder_top_20">This is a list of <strong>companies</strong> that already trust us with their gardening process. Do join them.</p>
-        </div>
-    </div>
-    -->
-    <!--contact slider Section End-->
     <div id="modalNewsletter" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -375,7 +329,6 @@
         </div>
     </div>
     <?php include "component/footer.php"; ?>
-    <!--Script Start-->
     <script src="js/cookies/cookiechoices.js" type="text/javascript"></script>
     <script>//<![CDATA[
         document.addEventListener('DOMContentLoaded', function(event) {
@@ -384,23 +337,6 @@
                 'Chiudi', 'Maggiori Informazioni',
                 'https://www.google.com/intl/it/policies/privacy/');
         });
-    </script>
-    <script>
-        function submitEmailForm(){
-            var param="email="+document.getElementById("emailForm").value;
-            var xmlhttp = new XMLHttpRequest();
-            xmlhttp.open("POST", "email_form_newsletter.php", true);
-            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xmlhttp.setRequestHeader("Content-length", param.length);
-            xmlhttp.setRequestHeader("Connection", "close");
-            xmlhttp.onreadystatechange = function() {
-                if(xmlhttp.responseText == "ok"){
-                    document.getElementById("modalNewsletter").style.display = "none";
-                    document.getElementById("modalNewsletter").reset();
-                }
-            };
-            xmlhttp.send(param);
-        }
     </script>
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
@@ -425,13 +361,5 @@
     <script src="js/plugins/jquery-ui/jquery-ui.js" type="text/javascript"></script>
     <script src="js/plugins/smoothscroll/smoothScroll.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-            setTimeout(function(){
-                $('#modalNewsletter').modal('show');
-                },5000);
-        })
-    </script>
 </body>
-
 </html>
