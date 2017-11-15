@@ -242,10 +242,10 @@
     }
 
     // Position Lightbox
-    var top  = $window.scrollTop() + this.options.positionFromTop;
+    //var top  = $window.scrollTop() + this.options.positionFromTop;
     var left = $window.scrollLeft();
     this.$lightbox.css({
-      top: top + 'px',
+      top: 70 + 'px',
       left: left + 'px'
     }).fadeIn(this.options.fadeDuration);
 
