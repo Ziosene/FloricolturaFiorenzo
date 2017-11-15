@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="eco_footer_data">
-                    <a href="#" class="eco_footer_title"><img src="images/FF_bianco-orizzontale-navigator.png" class="img-responsive" alt="">
+                    <a href="#" class="eco_footer_title"><img alt="barra" src="images/FF_bianco-orizzontale-navigator.png" class="img-responsive" alt="">
                     </a>
                     <div class="eco_footer_content">
                         <p>Da oltre 25 anni produciamo fiori di stagione, ci occupiamo di manutenzione di giardini e
@@ -40,17 +40,22 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="eco_footer_data">
+                <div class="eco_footer_data" itemscope itemtype="http://schema.org/LocalBusiness">
                     <h6 class="eco_footer_title">Contatti</h6>
-                    <p class="padder_bottom_10"><b style="color:#69af07">Floricoltura Fiorenzo</b> <br/>
-                        via Cascina Villa, 1, 20063 <br/>Cernusco sul Naviglio MI</p>
-                    <p><b>Telefono:</b> <a style="color:#69af07;" href="tel:+39333 681 9062">+39 333 681 9062</a>
+                    <p class="padder_bottom_10"><b itemprop="name" style="color:#69af07">Floricoltura Fiorenzo</b> <br/>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">via Cascina Villa, 1</span>,
+                        <span itemprop="postalCode">20063</span> <br/>
+                        <span itemprop="addressCountry">Cernusco sul Naviglio</span>
+                        <span itemprop="addressLocality">MI</span></span>
+                    </p>
+                    <p><b>Telefono:</b> <a style="color:#69af07;" href="tel:+39333 681 9062"><span itemprop="telephone">+39 333 681 9062</span></a>
                         <br>
                     </p>
                     <p><b>Email:</b>
                         <a href="mailto:info@floricolturafiorenzo.it">
                             <svg height="20" width="220">
-                                <text fill="#69af07" font-size="16px" font-family="Open Sans"
+                                <text itemprop="email" fill="#69af07" font-size="16px" font-family="Open Sans"
                                       x="47%" y="97%" style="text-anchor: middle">info@floricolturafiorenzo.it</text>
                             </svg>
                         </a>

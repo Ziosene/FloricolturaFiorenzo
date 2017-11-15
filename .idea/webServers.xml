@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="563928f1-4a6e-49b8-be96-95585ebcb58e" name="Produzione" url="http://ftp.floricolturafiorenzo.it">
+      <webServer id="da032f2b-e9c2-4369-93d8-d613479e7721" name="prod" url="http://ftp.floricolturafiorenzo.it">
         <fileTransfer host="ftp.floricolturafiorenzo.it" port="21" rootFolder="/www.floricolturafiorenzo.it">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />

@@ -106,7 +106,7 @@
 <div class="pagenav fixedmenu">
     <div class="holder-fixedmenu">
         <div class="logo-fixedmenu">
-            <a href="../index.php"><img src="../images/FF_bianco-orizzontale-navigator.png" alt="">
+            <a href="../index.php"><img src="../images/FF_bianco-orizzontale-navigator.png" alt="barra">
             </a>
         </div>
         <div class="menu-fixedmenu home">

@@ -1,11 +1,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Floricoltura Fiorenzo - I fiori più belli di Cernusco sul Naviglio</title>
-<meta name="description" content="Floricoltura Fiorenzo - I fiori più belli di Cernusco sul Naviglio">
+<meta name="description" content="Vieni a trovarci nel vivaio migliore di Cernusco sul Naviglio. Potrai trovare Fiori e Piante per feste,eventi, matrimonio o per qualsiasi altra esigenza">
 <meta property="og:locale" content="it_IT">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Floricoltura Fiorenzo - I fiori più belli di Cernusco sul Naviglio">
-<meta property="og:description" content="Floricoltura Fiorenzo - I fiori più belli di Cernusco sul Naviglio">
+<meta property="og:description" content="Vieni a trovarci nel vivaio migliore di Cernusco sul Naviglio. Potrai trovare Fiori e Piante per feste,eventi, matrimonio o per qualsiasi altra esigenza">
 <meta property="og:url" content="https://www.floricolturafiorenzo.it/">
 <meta property="og:site_name" content="floricolturafiorenzo.it">
 <meta property="og:image" content="https://www.floricolturafiorenzo.it/images/serra.png">
