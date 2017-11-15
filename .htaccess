@@ -24,8 +24,3 @@ AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 AddOutputFilter DEFLATE .shtml
 </IfModule>
-
-RewriteEngine on
-RewriteBase /
-RewriteRule ^([^/.]+)$ $1.php [L]
-RewriteRule /gallery/matrimonio gallery.php?catId=3 [QSA,L,NC]
