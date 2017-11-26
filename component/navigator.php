@@ -13,8 +13,7 @@
 ?>
 <!--preloader start-->
 <div id="preloader">
-    <div id="status"><img src="images/loading.gif" id="preloader_image" alt="loader">
-    </div>
+    <!--<div id="status"><img src="images/preloader.gif" id="preloader_image" alt="loader"></div>-->
 </div>
 <!--preloader end-->
 <!--Head Section start-->
