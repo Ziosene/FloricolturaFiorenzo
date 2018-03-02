@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
 
-Sitemap: http://www.floricolturafiorenzo.it/sitemap.xml
+Sitemap: https://www.floricolturafiorenzo.it/sitemap.xml
