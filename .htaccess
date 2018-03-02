@@ -30,7 +30,6 @@
     RewriteEngine On
     RewriteBase /
 
-    RewriteRule ^(.+)\.php$ /$1 [R,L]
-    RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule ^(.*?)/?$ /$1.php [NC,END]
+    RewriteEngine On
+    RewriteRule https://www.floricolturafiorenzo.it/dovesiamo https://www.floricolturafiorenzo.it/dovesiamo.php [L]
 </IfModule>
