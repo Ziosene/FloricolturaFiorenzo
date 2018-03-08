@@ -27,9 +27,8 @@
 </IfModule>
 
 <IfModule mod_rewrite_c>
-    RewriteEngine On
-    RewriteBase /
-
-    RewriteEngine On
-    RewriteRule https://www.floricolturafiorenzo.it/dovesiamo.php https://www.floricolturafiorenzo.it/dovesiamo [L]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php [L]
 </IfModule>

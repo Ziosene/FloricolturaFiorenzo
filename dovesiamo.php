@@ -21,6 +21,7 @@
 <!-- Header End -->
 <!-- Body Start -->
 
+
 <body>
     <?php
         $page = "dovesiamo";
@@ -45,10 +46,13 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <!--eco_mapdiv strat-->
-                        <div class="eco_mapdiv">
+                        <div class="eco_mapdiv" id="mappa_google" style="display: none">
                             <div id="bigth_googleMap" style="width:100%;height:450px;"></div>
                         </div>
                         <!--eco_mapdiv end-->
+                        <div class="garden_about_img" id="mappa_foto">
+                            <img src="/images/mappa_ff.jpg" class="img-responsive" alt="mappa">
+                        </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tabel-dovesiamo" >
@@ -76,6 +80,12 @@
                                         <a href="https://www.google.it/maps/place/Via+della+Martesana,+20063+Cernusco+sul+Naviglio+MI/@45.5201474,9.305539,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c81b6493a285:0x13194a62dd5d8341!8m2!3d45.5201474!4d9.3077277">
                                             <span class="eco_color">Via della Martesana</span></a>,
                                         tranquillamente percorribile con i propri mezzi.</p></li>
+                                <div class="material-switch">
+                                    <span class="text-form" id="testo_foto">Clicca per visualizzare la cartina di come raggiungerci</span>
+                                    <span class="text-form" id="testo_google" style="display: none">Clicca per visualizzare la mappa di Google Maps</span>
+                                    <input id="someSwitchOptionSuccess" name="SwitchOptionNewsletter" type="checkbox" checked/>
+                                    <label for="someSwitchOptionSuccess" class="label-success"></label>
+                                </div>
                             </div>
                     </div>
                 </div>
@@ -149,6 +159,21 @@
         }
         $(document).ready(function() {
             google.maps.event.addDomListener(window, 'load', initialize);
+
+            $('#someSwitchOptionSuccess').change(function(){
+                if($('#someSwitchOptionSuccess').is(':checked')) {
+                    $('#mappa_foto').show();
+                    $('#testo_foto').show();
+                    $('#mappa_google').hide();
+                    $('#testo_google').hide();
+                }
+                else {
+                    $('#mappa_google').show();
+                    $('#testo_google').show();
+                    $('#mappa_foto').hide();
+                    $('#testo_foto').hide();
+                }
+            });
         });
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWX1bpxsxSVixeIVtmUYfd5aJ1RCzaKJU&callback=initialize" type="text/javascript"></script>
