@@ -81,8 +81,8 @@
                                             <span class="eco_color">Via della Martesana</span></a>,
                                         tranquillamente percorribile con i propri mezzi.</p></li>
                                 <div class="material-switch">
-                                    <span class="text-form" id="testo_foto">Clicca per visualizzare la cartina di come raggiungerci</span>
-                                    <span class="text-form" id="testo_google" style="display: none">Clicca per visualizzare la mappa di Google Maps</span>
+                                    <span class="text-form" id="testo_foto" style="display: none">Clicca per visualizzare la cartina di come raggiungerci</span>
+                                    <span class="text-form" id="testo_google">Clicca per visualizzare la mappa di Google Maps</span>
                                     <input id="someSwitchOptionSuccess" name="SwitchOptionNewsletter" type="checkbox" checked/>
                                     <label for="someSwitchOptionSuccess" class="label-success"></label>
                                 </div>
@@ -163,15 +163,15 @@
             $('#someSwitchOptionSuccess').change(function(){
                 if($('#someSwitchOptionSuccess').is(':checked')) {
                     $('#mappa_foto').show();
-                    $('#testo_foto').show();
+                    $('#testo_foto').hide();
                     $('#mappa_google').hide();
-                    $('#testo_google').hide();
+                    $('#testo_google').show();
                 }
                 else {
                     $('#mappa_google').show();
-                    $('#testo_google').show();
+                    $('#testo_google').hide();
                     $('#mappa_foto').hide();
-                    $('#testo_foto').hide();
+                    $('#testo_foto').show();
                 }
             });
         });
