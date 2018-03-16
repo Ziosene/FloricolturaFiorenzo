@@ -4,9 +4,9 @@
 
 <!-- Header Start -->
 <head>
-    <title>Servizi :: Floricoltura Fiorenzo</title>
+    <title>Servizi</title>
     <?php include "component/seo.php"; ?>
-    <meta name="description" content="I nostri servizi rivolti al cliente">
+    <meta name="description" content="Offriamo ogni genere di servizio in grado di soddisfare pienamente le tue richieste attraverso la nostra esperienza e professionalità">
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->

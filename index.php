@@ -4,6 +4,7 @@
 <head>
 	<?php include "component/seo.php"; ?>
 
+    <meta name="description" content="Vieni a trovarci nel vivaio migliore di Cernusco sul Naviglio. Potrai trovare Fiori e Piante per feste ,eventi, matrimonio o per qualsiasi altra esigenza">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="shortcut icon" type="image/x-icon" href="images/logoTitle.png" />
 </head>

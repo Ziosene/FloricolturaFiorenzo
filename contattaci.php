@@ -3,9 +3,9 @@
 <!--[if !IE]><!--><html lang="it"><!--<![endif]-->
 <!-- Header Start -->
 <head>
-    <title>Contattami :: Floricoltura Fiorenzo</title>
+    <title>Contattaci</title>
     <?php include "component/seo.php"; ?>
-    <meta name="description" content="Scriveteci per qualsiasi tipo di informazione">
+    <meta name="description" content="Per qualsiasi informazione o preventivo, vieni a trovarci direttamente in serra oppure scrivici, siamo a tua completa disposizione">
     <!--Main Css Start-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--Main Css End-->
