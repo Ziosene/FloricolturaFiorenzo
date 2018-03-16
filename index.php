@@ -159,6 +159,7 @@
 		require_once('class/dao/FotogalleryDAO.php');
 		require_once('class/domain/Fotogallery.php');
 		$fotogalleryDAO = new FotogalleryDAO($db->getConnection());
+        $catDAO = new CategoryDAO($db->getConnection());
 		$gallery = $fotogalleryDAO->retrieveFotogalleryShowroom();
 		if(isset($gallery)){
 	?>
@@ -179,7 +180,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
+												<h5>
+                                                    <a href="../gallery.php?catId=<?php echo $catDAO->retrieveNameCategorys($gallery[$i]->getCategoryName());?>" style="color: #69af07">
+                                                        <?php echo $gallery[$i]->getCategoryName();?>
+                                                    </a>
+                                                </h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
@@ -192,7 +197,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
+												<h5>
+                                                    <a href="../gallery.php?catId=<?php echo $catDAO->retrieveNameCategorys($gallery[$i]->getCategoryName());?>" style="color: #69af07">
+                                                        <?php echo $gallery[$i]->getCategoryName();?>
+                                                    </a>
+                                                </h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
@@ -205,7 +214,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
+												<h5>
+                                                    <a href="../gallery.php?catId=<?php echo $catDAO->retrieveNameCategorys($gallery[$i]->getCategoryName());?>" style="color: #69af07">
+                                                        <?php echo $gallery[$i]->getCategoryName();?>
+                                                    </a>
+                                                </h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
@@ -217,7 +230,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
+												<h5>
+                                                    <a href="../gallery.php?catId=<?php echo $catDAO->retrieveNameCategorys($gallery[$i]->getCategoryName());?>" style="color: #69af07">
+                                                        <?php echo $gallery[$i]->getCategoryName();?>
+                                                    </a>
+                                                </h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
@@ -229,7 +246,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-												<h5><?php echo $gallery[$i]->getCategoryName();?></h5>
+												<h5>
+                                                    <a href="../gallery.php?catId=<?php echo $catDAO->retrieveNameCategorys($gallery[$i]->getCategoryName());?>" style="color: #69af07">
+                                                        <?php echo $gallery[$i]->getCategoryName();?>
+                                                    </a>
+                                                </h5>
 											</div>
 										</div>
 										<div class="eco_port_image">
@@ -241,7 +262,11 @@
 									<div class="eco_port_recentimage eco_margin_bottom">
 										<div class="eco_port_overdefult">
 											<div class="eco_port_recentdescription">
-                                                <h5><?php echo $gallery[$i]->getCategoryName();?></h5>
+                                                <h5>
+                                                    <a href="../gallery.php?catId=<?php echo $catDAO->retrieveNameCategorys($gallery[$i]->getCategoryName());?>" style="color: #69af07">
+                                                        <?php echo $gallery[$i]->getCategoryName();?>
+                                                    </a>
+                                                </h5>
 											</div>
 										</div>
 										<div class="eco_port_image">

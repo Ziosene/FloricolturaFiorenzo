@@ -69,6 +69,16 @@ class CategoryDAO
         return $category;
     }
 
+    function retrieveNameCategorys($nameCatergory){
+        $result = mysqli_query($this->conn,"SELECT id FROM categorie where nome = '".$nameCatergory."'");
+        if(mysqli_num_rows($result) > 0)
+        {
+            $row = mysqli_fetch_array($result);
+            return $row[0];
+        }
+        else return NULL;
+    }
+
     function retrieveIdByName($name){
         $result = mysqli_query($this->conn,"SELECT id FROM categorie where nome = '".$name."'");
         if(mysqli_num_rows($result) > 0)
