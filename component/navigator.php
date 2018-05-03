@@ -45,7 +45,12 @@
                 <div class="eco_social_icon facebookContainer">
                     <ul>
                         <a href="https://www.facebook.com/floricolturafiorenzo.it/" title="Facebook">
-                            <li><i class="fa fa-facebook"></i></li>
+                            <!--<li><i class="fa fa-facebook"></i></li>-->
+                            <li><img src="images/facebookIcon.png" class="img-responsive" alt="logoFacebook"></li>
+                        </a>
+                        <a href="#" title="Instagram">
+                            <!--<li><i class="fa fa-facebook"></i></li>-->
+                            <li><img src="images/instagramIcon.png" class="img-responsive" alt="logoFacebook"></li>
                         </a>
                     </ul>
                 </div>
