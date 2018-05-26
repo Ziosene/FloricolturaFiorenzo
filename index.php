@@ -333,7 +333,7 @@
             </div>
         </div>
     </div>
-    <div id="modalNewsletter" class="modal fade" role="dialog">
+    <!--<div id="modalNewsletter" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -353,7 +353,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div>-->
     <?php include "component/footer.php"; ?>
     <script src="js/cookies/cookiechoices.js" type="text/javascript"></script>
     <script>//<![CDATA[

@@ -82,7 +82,7 @@
                                     <label><span class="text-form">Messaggio</span></label>
                                     <textarea required class="form-control tr_textarea" id="msg" name="messageEmail" rows="5"></textarea>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group" style="display: none">
                                         <div class="material-switch">
                                             <span class="text-form">Newsletter</span>
                                             <input id="someSwitchOptionSuccess" name="SwitchOptionNewsletter" type="checkbox" checked/>
@@ -97,10 +97,10 @@
                             </div>
                     </div>
                 </form>
-            <div class="col-sm-6 col-md-6 col-lg-4" id="newsletterPost" style="padding-top: 4px;display: none">
+            <div class="col-sm-6 col-md-6 col-lg-12" id="newsletterPost" style="padding-top: 4px;display: none; text-align: center">
                 <div class="alert alert-success subscription-success">
-                    <h3>Grazie per esserti iscritto.</h3>
-                    <div class="text">Ti terremo aggiornato sulle nuove strutture.</div>
+                    <h3>Grazie per averci scritto.</h3>
+                    <!--<div class="text">Ti terremo aggiornato sulle nuove strutture.</div>-->
                 </div>
             </div>
             </div>
