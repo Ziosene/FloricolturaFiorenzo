@@ -46,9 +46,10 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <!--eco_mapdiv strat-->
-                        <div class="eco_mapdiv" id="mappa_google" style="display: none">
+                        <!-- GOOGLE MAPS -->
+                        <!--<div class="eco_mapdiv" id="mappa_google" style="display: none">
                             <div id="bigth_googleMap" style="width:100%;height:450px;"></div>
-                        </div>
+                        </div>-->
                         <!--eco_mapdiv end-->
                         <div class="garden_about_img" id="mappa_foto">
                             <img src="/images/mappa_ff.jpg" class="img-responsive" alt="mappa">
@@ -80,12 +81,13 @@
                                         <a href="https://www.google.it/maps/place/Via+della+Martesana,+20063+Cernusco+sul+Naviglio+MI/@45.5201474,9.305539,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c81b6493a285:0x13194a62dd5d8341!8m2!3d45.5201474!4d9.3077277">
                                             <span class="eco_color">Via della Martesana</span></a>,
                                         tranquillamente percorribile con i propri mezzi.</p></li>
-                                <div class="material-switch">
+                                <!-- SWITCH MAPS IMMAGINE -->
+                                <!--<div class="material-switch">
                                     <span class="text-form" id="testo_foto" style="display: none">Clicca per visualizzare la cartina di come raggiungerci &nbsp;</span>
                                     <span class="text-form" id="testo_google">Clicca per visualizzare la mappa di Google Maps &nbsp;</span>
                                     <input id="someSwitchOptionSuccess" name="SwitchOptionNewsletter" type="checkbox" checked/>
                                     <label for="someSwitchOptionSuccess" class="label-success"></label>
-                                </div>
+                                </div>-->
                             </div>
                     </div>
                 </div>
