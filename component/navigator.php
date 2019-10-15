@@ -48,7 +48,7 @@
                             <!--<li><i class="fa fa-facebook"></i></li>-->
                             <li><img src="images/facebookIcon.png" class="img-responsive" alt="logoFacebook"></li>
                         </a>
-                        <a href="#" title="Instagram">
+                        <a href="https://www.instagram.com/floricolturafiorenzo/" title="Instagram">
                             <!--<li><i class="fa fa-facebook"></i></li>-->
                             <li><img src="images/instagramIcon.png" class="img-responsive" alt="logoFacebook"></li>
                         </a>
