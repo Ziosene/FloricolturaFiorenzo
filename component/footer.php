@@ -95,4 +95,3 @@
         </a>
     </div>
 </div>
-<?php include 'stat.php'; ?>
