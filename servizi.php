@@ -272,33 +272,70 @@
 </div>
 <!--eco_service_wraper end-->
     <div class="eco_service_wraper">
-    <div class="container-fluid">
-        <a class="ancora" id="ser4"></a>
-        <a id="ser4offset"></a>
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
-                    <h3 class="eco_color text-uppercase">Irrigazione</h3>
-                    <p class="eco_color3 text-left">"Il segreto di bel giardino?! L'acqua!".
-                        Ricordiamo sempre ai nostri clienti che una buona irrigazione che eviti gli eccessi é alla base di un giardino curato.
-                        Ecco perché forniamo un servizio di realizzazione e manutenzione di impianti di irrigazione per giardini e terrazzi.</p>
-                    <p class="eco_color3 text-left"></p>
-                </div>
+        <div class="container-fluid">
+            <a class="ancora" id="ser4"></a>
+            <a id="ser4offset"></a>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="eco_full_text" data-scrollreveal="enter from the right over 1s">
+                        <h3 class="eco_color text-uppercase">Irrigazione</h3>
+                        <p class="eco_color3 text-left">"Il segreto di bel giardino?! L'acqua!".
+                            Ricordiamo sempre ai nostri clienti che una buona irrigazione che eviti gli eccessi é alla base di un giardino curato.
+                            Ecco perché forniamo un servizio di realizzazione e manutenzione di impianti di irrigazione per giardini e terrazzi.</p>
+                        <p class="eco_color3 text-left"></p>
+                    </div>
 
+                    <!--row end-->
+                </div>
+                <!--col-lg-8 end-->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="eco_full_img"> <img src="/images/irrigation.jpg" class="eco_img_responsive" alt=""> </div>
+                    </div>
+                </div>
+                <!--col-lg-6 end-->
+            </div>
+            <!--row end-->
+            <!--container-fluid end-->
+        </div>
+    </div>
+
+    <div class="eco_service_wraper">
+        <div class="container-fluid">
+            <a class="ancora" id="ser5"></a>
+            <a id="ser5offset"></a>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="eco_full_img"> <img src="/images/consegnaDomicilio.png" class="eco_img_responsive" alt=""> </div>
+                    </div>
+                    <!--row end-->
+                </div>
+                <!--col-lg-8 end-->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
+                    <div class="eco_full_text" data-scrollreveal="enter from the left over 1s">
+                        <h3 class="eco_color text-uppercase">Consegna a domicilio</h3>
+                        <p class="eco_color3 text-left"> <span class="eco_color"><strong>Come fare:</strong></span>
+                            Contattaci per essere sempre aggiornato riguardo la disponibilità ed effettuare il tuo ordine. <br>
+                        <span class="eco_color"><strong>Ordine minimo:</strong></span> 30€ <br>
+                        <span class="eco_color"><strong>Tipologia di consegna:</strong></span>
+                        Consegna gratuita per il comune di Cernusco sul Naviglio. Costo di 5€ per consegna nei seguenti comuni:
+                            Brugherio, Bussero, Carugate, Cassina de' Pecchi, Cologno Monzese, Pioltello, Segrate, Vimodrone.
+                            Non verranno effettuate consegne al piano <br>
+                        <span class="eco_color"><strong>Pagamento:</strong></span>
+                            pagamento alla consegna, bonifico bancario <br>
+                        <span class="eco_color"><strong>Garanzia:</strong></span> Le piante sono da considerarsi merce deperibile.
+                            Di conseguenza, qualsiasi reclamo o recesso è consentito solo al momento della consegna, e solo per comprovata causa
+                            (malattia, carenza o eccesso di irrigazione a danneggiamento della pianta)</p>
+
+                    </div>
+                </div>
+                <!--col-lg-6 end-->
                 <!--row end-->
             </div>
-            <!--col-lg-8 end-->
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="row">
-                    <div class="eco_full_img"> <img src="/images/irrigation.jpg" class="eco_img_responsive" alt=""> </div>
-                </div>
-            </div>
-            <!--col-lg-6 end-->
+            <!--container-fluid end-->
         </div>
-        <!--row end-->
-        <!--container-fluid end-->
     </div>
-</div>
 
     <!--eco_cenetr_wrapper end-->
     <div class="eco_new_background text-center">

@@ -324,8 +324,8 @@
     <div class="garden_contact text-center">
         <div class="container">
             <div class="eco_main_heading padder_bottom_30">
-                <h1 class="text-center text-uppercase">vieni a trovarci</h1>
-                <div class="eco_small_text text-center">Per ulteriori informazioni vieni direttamente al negozio o contattaci</div>
+                <h1 class="text-center text-uppercase">consegna a domicilio</h1>
+                <div class="eco_small_text text-center">Per ulteriori informazioni contattaci o consulta la pagina dei servizi</div>
                 <a href="#" class="eco_img_width"><img src="images/FF_bianco-orizzontale.png" class="eco_img_responsive padder_bottom_30" alt="logoContattaci" >
                 </a>
             </div>

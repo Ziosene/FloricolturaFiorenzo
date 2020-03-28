@@ -79,6 +79,7 @@
                                     <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser2" : "ser2offset";?>">Per La Festa</a></li>
                                     <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser3" : "ser3offset";?>">Giardini e Terrazzi</a></li>
                                     <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser4" : "ser4offset";?>">Irrigazione</a></li>
+                                    <li><a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser5" : "ser5offset";?>">Consegna a domicilio</a></li>
                                 </ul>
                                 <!--./sub-menu end-->
                             </li>
@@ -133,6 +134,9 @@
                         </li>
                         <li>
                             <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser4" : "ser4offset";?>">Irrigazione</a>
+                        </li>
+                        <li>
+                            <a class="<?php echo $page == "servizi" ? "scroll" : "";?>" href="../servizi.php#<?php echo $page == "servizi" ? "ser5" : "ser5offset";?>">Consegna a domicilio</a>
                         </li>
 
                     </ul>
