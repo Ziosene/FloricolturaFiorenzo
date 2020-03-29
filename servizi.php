@@ -317,7 +317,7 @@
                         <h3 class="eco_color text-uppercase">Consegna a domicilio</h3>
                         <p class="eco_color3 text-left"> <span class="eco_color"><strong>Come fare:</strong></span>
                             Contattaci per essere sempre aggiornato riguardo la disponibilità ed effettuare il tuo ordine. <br>
-                        <span class="eco_color"><strong>Ordine minimo:</strong></span> 30€ <br>
+                        <span class="eco_color"><strong>Ordine minimo:</strong></span> 20€ <br>
                         <span class="eco_color"><strong>Tipologia di consegna:</strong></span>
                         Consegna gratuita per il comune di Cernusco sul Naviglio. Costo di 5€ per consegna nei seguenti comuni:
                             Brugherio, Bussero, Carugate, Cassina de' Pecchi, Cologno Monzese, Pioltello, Segrate, Vimodrone.
