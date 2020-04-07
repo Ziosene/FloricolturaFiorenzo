@@ -307,7 +307,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="row">
-                        <div class="eco_full_img"> <img src="/images/consegnaDomicilio.png" class="eco_img_responsive" alt=""> </div>
+                        <div class="eco_full_img"> <img src="/images/consegnaDomicilio.JPG" class="eco_img_responsive" alt=""> </div>
                     </div>
                     <!--row end-->
                 </div>
