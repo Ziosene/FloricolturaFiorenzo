@@ -161,15 +161,15 @@
     <div class="eco_cenetr_wrapper padder_top_50 padder_bottom_50">
         <div class="container">
             <div class="eco_enter_content" data-scrollreveal="enter from the top over 1s">
-                <h3 class="eco_color text-uppercase padder_bottom_50">Cosa facciamo per voi</h3>
+                <h3 class="eco_color text-uppercase padder_bottom_30">Cosa facciamo per voi</h3>
                 <p class="eco_color3 text-left">Dalla vendita privata alla progettazione dei vostri giardini e terrazzi.
                     Dal nostro vivaio alla nostra esperienza nella cura degli spazi verdi.
                     Che la vostra esigenza sia un regalo mai fuori moda, arricchire il vostro giardino,
                     addobbare una festa, ma anche realizzare un impianto di irrigazione,
                     la Floricoltura Fiorenzo saprà consigliarvi la soluzione più adatta.</p>
-                <p class="eco_color3 text-left padder_bottom_60">Dal 1987 lavoriamo con passione, puntualità e creatività,
+                <p class="eco_color3 text-left padder_bottom_30">Dal 1987 lavoriamo con passione, puntualità e creatività,
                     fianco a fianco ai nostri clienti. Perchè la nostra semina raccolga il vostro sorriso.</p>
-                <img src="/images/Serra.jpg" class="eco_img_responsive" alt=""> </div>
+                <img src="/images/serra.jpg" class="eco_img_responsive" alt=""> </div>
             <!--eco_enter_content end-->
         </div>
         <!--container end-->
@@ -183,7 +183,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="row">
-                        <div class="eco_full_img"> <img src="/images/inVivaio.jpg" class="eco_img_responsive" alt=""> </div>
+                        <div class="eco_full_img"> <img src="/images/vivaio.jpg" class="eco_img_responsive" alt=""> </div>
                     </div>
                     <!--row end-->
                 </div>
