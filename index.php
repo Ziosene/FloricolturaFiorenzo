@@ -18,7 +18,7 @@
             <div id="rev_slider_476_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.3.0.2">
                 <ul>
                     <li data-index="rs-1648" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="http://placehold.it/100x50"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                        <img src="images/fotoHome.jpg"  alt="logoFloricoltura"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+                        <img src="images/nonTiScordarDiMe.jpg"  alt="logoFloricoltura"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
                         <div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
                              id="slide-2978-layer-1"
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
