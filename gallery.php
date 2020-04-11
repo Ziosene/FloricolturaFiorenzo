@@ -51,17 +51,19 @@
 					<?php
                     if(isset($fotos)){
                     foreach ($fotos as $foto){?>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
-							<div class="eco_port_recentimage garden_portfolio">
-									<div class="eco_port_recentdescription text-center">
-										<div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase"></a> </div>
-									</div>
-								<div class="eco_port_image">
-									<a href="<?php echo "/resources/".$foto->getCategoryName()."/".$foto->getFileName()?>" data-lightbox="<?php echo $foto->getNome()?>"><img style="width:100%; height:287px;" src="<?php echo "/resources/".$foto->getCategoryName()."/".$foto->getFileName()?>" alt="<?php echo $foto->getCategoryName(); ?>" class="img-responsive"></a>
-								</div>
-							</div>
-							<h5 class="eco_port_min_title padder_bottom_20 text-uppercase"><?php echo $foto->getNome()?></h5>
-						</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco_show_overlay lawn_care garden_gallery mix mix_all">
+                            <div class="eco_port_recentimage garden_portfolio">
+                                <div class="eco_port_overdefult">
+                                    <div class="eco_port_recentdescription text-center">
+                                        <div class="eco-page-portfolio-categories-3cl"> <a href="#" rel="tag" class="text-uppercase"><?php echo $foto->getNome()?></a> </div>
+                                    </div>
+                                </div>
+                                <div class="eco_port_image">
+                                    <a href="<?php echo "/resources/".$foto->getCategoryName()."/".$foto->getFileName()?>" data-lightbox="<?php echo $foto->getNome()?>">
+                                        <img src="<?php echo "/resources/".$foto->getCategoryName()."/".$foto->getFileName()?>" alt="" class="img-responsive"> </a>
+                                </div>
+                            </div>
+                        </div>
 					<?php }}else{ ?>
 
                         Non è stata caricata ancora nessuna foto per questa categoria.
