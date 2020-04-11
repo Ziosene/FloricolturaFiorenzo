@@ -338,7 +338,7 @@
     </div>
 
     <!--eco_cenetr_wrapper end-->
-    <div class="eco_new_background text-center">
+    <div class="garden_contact text-center" style="background-image: url(images/ortensia.jpg);">
         <div class="container">
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center eco_weight_bold text-uppercase eco_color6">Contattaci</h1>

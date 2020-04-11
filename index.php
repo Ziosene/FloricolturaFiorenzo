@@ -321,7 +321,7 @@
         </div>
     </div>
 	<?php } ?>
-    <div class="garden_contact text-center">
+    <div class="garden_contact text-center" style="background-image: url(images/serraSfondo.jpg);">
         <div class="container">
             <div class="eco_main_heading padder_bottom_30">
                 <h1 class="text-center text-uppercase">consegna a domicilio</h1>

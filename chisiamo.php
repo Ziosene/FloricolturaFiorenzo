@@ -214,25 +214,22 @@
         </div>
         <div class="eco_tabs_slide_section">
             <div id="eco_uneven" class="carousel slide eco_responsive_slider" data-ride="carousel">
-                <!-- Indicators -->
-                <a class="left carousel-control" href="#eco_uneven" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a>
-                <a class="right carousel-control" href="#eco_uneven" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="/images/ingresso.jpg" class="img-responsive" alt="ingresso">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="/images/serraChiSiamo2.jpg" class="img-responsive" alt="serraChiSiamo2">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"> <img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"> <img src="/images/serraChiSiamo.jpg" class="img-responsive" alt="serraChiSiamo">
                         </div>
                     </div>
                     <div class="item">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="/images/calla.jpeg" class="img-responsive" alt="calla">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="/images/vegetazione.jpeg" class="img-responsive" alt="vegetazione">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"> <img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"> <img src="/images/pianteGrasse" class="img-responsive" alt="pianteGrasse">
                         </div>
                     </div>
                 </div>
