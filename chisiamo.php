@@ -165,6 +165,82 @@
         </div>
     </div>
 
+    <div class="eco_inner_page_container padder_top_90 padder_bottom_50">
+        <div class="container">
+            <div class="eco_uneven_slider">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="eco_one_third eco_show_overlay garden_gallery">
+                                <div class="eco_port_recentimage eco_margin_bottom text-center">
+                                    <div class="eco_port_image">
+                                        <img src="/images/ingresso.jpg" alt="ingresso" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="eco_one_third_mid eco_show_overlay garden_gallery">
+                                <div class="eco_port_recentimage eco_margin_bottom text-center">
+                                    <div class="eco_port_image">
+                                        <img src="/images/gazania.jpeg" alt="gazania" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="eco_one_third_right eco_show_overlay garden_gallery">
+                                <div class="eco_port_recentimage eco_margin_bottom text-center">
+                                    <div class="eco_port_image">
+                                        <img src="/images/serraChiSiamo2.jpg" alt="serraChiSiamo2" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="eco_one_third_btm eco_show_overlay garden_gallery">
+                                <div class="eco_port_recentimage eco_margin_bottom text-center">
+                                    <div class="eco_port_image">
+                                        <img src="/images/serraChiSiamo.jpg" alt="serraChiSiamo" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="eco_one_third_btm_right eco_show_overlay garden_gallery">
+                                <div class="eco_port_recentimage eco_margin_bottom text-center">
+                                    <div class="eco_port_image">
+                                        <img src="/images/lanterna.jpg" alt="lanterna" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="eco_tabs_slide_section">
+            <div id="eco_uneven" class="carousel slide eco_responsive_slider" data-ride="carousel">
+                <!-- Indicators -->
+                <a class="left carousel-control" href="#eco_uneven" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a>
+                <a class="right carousel-control" href="#eco_uneven" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"> <img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"><img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 eco-padder-0left eco-padder-0right"> <img src="http://placehold.it/383x292" class="img-responsive" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+            </div>
+        </div>
+    </div>
+
     <!--contact slider Section End-->
     <?php include "component/footer.php"; ?>
     <!--go to top-->
